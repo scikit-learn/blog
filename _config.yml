@@ -11,7 +11,7 @@ title: scikit-learn Blog
 email: social@scikit-learn.org
 description: "Official blog for scikit-learn, an open source package for machine learning in Python."
 
-logo: assets/images/scikit-logo.png
+logo: assets/images/scikit-learn-logo.png
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://scikit-learn.github.io/blog/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: scikit_learn
@@ -31,18 +31,30 @@ date_format: "%Y-%m-%d"
 author:
   #name: ""
   #avatar: "/assets/images/"
-  bio: "Open source machine learning in python."
+  bio: "Follow:"
   #location: ""
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://scikit-learn.org"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/scikit_learn"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/scikit-learn"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/scikit_learn"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/channel/UCJosFjYm0ZYVUARxuOZqnnw"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/company/scikit-learn/"
+    - label: "Facebook"
+      icon: "fas fa-fw fa-link"
+      url: "https://facebook.com/scikitlearnofficial/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/scikitlearnofficial/"
 
 # Site Footer
 # social media logos and handles
@@ -116,5 +128,5 @@ defaults:
       read_time: false
       related: true
       comments: true
-      share: false
+      share: true
       author_profile: true
