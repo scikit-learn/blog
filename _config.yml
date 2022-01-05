@@ -14,6 +14,8 @@ twitter_username: scikit_learn
 github_username:  scikit-learn
 repository: scikit-learn/blog
 
+header:
+  image: /assets/images/scikit-header.png
 
 # Site-wide Search
 search: true
