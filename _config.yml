@@ -5,33 +5,42 @@
 title: scikit-learn Blog
 email: social@scikit-learn.org
 description: >- # this means to ignore newlines until "baseurl:"
-  scikit-learn is an open source package for machine learning in Python.
+  #scikit-learn is an open source package for machine learning in Python.
+
 logo: assets/images/scikit-logo.png
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://scikit-learn.github.io/blog/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: scikit_learn
 github_username:  scikit-learn
+repository: scikit-learn/blog
 
+
+# Site-wide Search
+search: true
+
+# Format Dates
+date_format: "%Y-%m-%d"
 
 # Site Footer
 # social media logos and handles
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/scikit_learn
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/company/scikit-learn/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://facebook.com/scikitlearnofficial/"
-    - label: "Youtube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://youtube.com/channel/UCJosFjYm0ZYVUARxuOZqnnw"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/scikitlearnofficial/"
+#footer:
+#- title: Connect
+#  links:
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/scikit_learn
+#    - label: "LinkedIn"
+#      icon: "fab fa-fw fa-linkedin"
+#      url: "https://linkedin.com/company/scikit-learn/"
+#    - label: "Facebook"
+#      icon: "fab fa-fw fa-facebook"
+#      url: "https://facebook.com/scikitlearnofficial/"
+#    - label: "Youtube"
+#      icon: "fab fa-fw fa-youtube"
+#      url: "https://youtube.com/channel/UCJosFjYm0ZYVUARxuOZqnnw"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://www.instagram.com/scikitlearnofficial/"
 
 
 # Build settings
@@ -48,16 +57,16 @@ plugins:
   - jekyll-redirect-from
 
 # SEO Related
-google_site_verification : 
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+#google_site_verification : 
+#bing_site_verification   :
+#yandex_site_verification :
+#naver_site_verification  :
 
 # Google Analytics
-analytics:
-  provider: "google" #false # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id: #UA-XXXXXXXX
+#analytics:
+#  provider: "google" #false # false (default), "google", "google-universal", "custom"
+#  google:
+#    tracking_id: #UA-XXXXXXXX
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -79,3 +88,17 @@ analytics:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Default
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: default
+      show_date: true
+      read_time: false
+      related: true
+      comments: true
+      share: false
+      author_profile: false
