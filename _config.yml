@@ -12,6 +12,7 @@ email: social@scikit-learn.org
 description: "Official blog for scikit-learn, an open source package for machine learning in Python."
 
 logo: assets/images/scikit-learn-logo.png
+favicon: assets/images/scikit-learn-logo.png
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://scikit-learn.github.io/blog/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: scikit_learn
@@ -29,9 +30,9 @@ date_format: "%Y-%m-%d"
 
 # Author
 author:
-  #name: ""
+  name: "Name"
   #avatar: "/assets/images/"
-  bio: "Follow"
+  bio: "Connect **fjnkjfnd** #kfndk"
   #location: ""
   links:
     - label: "Website"
