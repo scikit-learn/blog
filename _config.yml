@@ -1,23 +1,7 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
+# Site Settings
 title: scikit-learn Blog
 email: social@scikit-learn.org
 description: >- # this means to ignore newlines until "baseurl:"
@@ -28,13 +12,52 @@ url: "https://scikit-learn.github.io/blog/" # the base hostname & protocol for y
 twitter_username: scikit_learn
 github_username:  scikit-learn
 
+
+# Site Footer
+# social media logos and handles
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/scikit_learn
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/company/scikit-learn/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/scikitlearnofficial/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/channel/UCJosFjYm0ZYVUARxuOZqnnw"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/scikitlearnofficial/"
+
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 #theme: minimal-mistakes-jekyll
+
+# Skin: determines site color theme
+minimal_mistakes_skin: "air" 
+# "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-redirect-from
+
+# SEO Related
+google_site_verification : 
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+# Google Analytics
+analytics:
+  provider: "google" #false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id: #UA-XXXXXXXX
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -55,6 +78,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-
 
