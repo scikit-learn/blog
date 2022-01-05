@@ -1,11 +1,15 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air" # "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
 # Site Settings
 title: scikit-learn Blog
 email: social@scikit-learn.org
-description: >- # this means to ignore newlines until "baseurl:"
-  #scikit-learn is an open source package for machine learning in Python.
+description: "Official blog for scikit-learn, an open source package for machine learning in Python."
 
 logo: assets/images/scikit-logo.png
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -22,6 +26,23 @@ search: true
 
 # Format Dates
 date_format: "%Y-%m-%d"
+
+# Author
+author:
+  #name: ""
+  #avatar: "/assets/images/"
+  bio: "Open source machine learning in python."
+  #location: ""
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://scikit-learn.org"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/scikit_learn"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/scikit-learn"
 
 # Site Footer
 # social media logos and handles
@@ -70,14 +91,7 @@ plugins:
 #  google:
 #    tracking_id: #UA-XXXXXXXX
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+# Exclude from processing
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
@@ -90,17 +104,17 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Default
+# Defaults
 defaults:
   # _posts
   - scope:
       path: ""
       type: posts
     values:
-      layout: default
+      layout: single
       show_date: true
       read_time: false
       related: true
       comments: true
       share: false
-      author_profile: false
+      author_profile: true
