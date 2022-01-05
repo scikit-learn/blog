@@ -30,9 +30,9 @@ date_format: "%Y-%m-%d"
 
 # Author
 author:
-  name: "Name"
+  #name: ""
   #avatar: "/assets/images/"
-  bio: "Connect **fjnkjfnd** #kfndk"
+  bio: "Open source library for machine learning in Python."
   #location: ""
   links:
     - label: "Website"
@@ -139,6 +139,8 @@ defaults:
       type: posts
     values:
       layout: single
+      sidebar:
+        nav: "docs"
       show_date: true
       read_time: false
       related: true
@@ -152,3 +154,5 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar:
+        nav: "docs"
