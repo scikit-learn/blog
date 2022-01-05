@@ -7,7 +7,7 @@ gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mis
 gem "webrick", "~> 1.7"
 gem "jekyll-redirect-from"
 #gem "jekyll-sitemap"
-
+gem "jekyll-archives"
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

@@ -31,7 +31,7 @@ date_format: "%Y-%m-%d"
 author:
   #name: ""
   #avatar: "/assets/images/"
-  bio: "Follow:"
+  bio: "Follow"
   #location: ""
   links:
     - label: "Website"
@@ -56,26 +56,19 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/scikitlearnofficial/"
 
+
 # Site Footer
-# social media logos and handles
 #footer:
-#- title: Connect
 #  links:
 #    - label: "Twitter"
 #      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/scikit_learn
-#    - label: "LinkedIn"
-#      icon: "fab fa-fw fa-linkedin"
-#      url: "https://linkedin.com/company/scikit-learn/"
-#    - label: "Facebook"
-#      icon: "fab fa-fw fa-facebook"
-#      url: "https://facebook.com/scikitlearnofficial/"
-#    - label: "Youtube"
-#      icon: "fab fa-fw fa-youtube"
-#      url: "https://youtube.com/channel/UCJosFjYm0ZYVUARxuOZqnnw"
+#      url: "https://twitter.com/"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/"
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
-#      url: "https://www.instagram.com/scikitlearnofficial/"
+#      url: "https://instagram.com/"
 
 
 # Build settings
@@ -90,6 +83,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-redirect-from
+  - jekyll-archives
 
 # SEO Related
 #google_site_verification : 
@@ -116,6 +110,26 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+
+# Archives
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+     category: archive-taxonomy
+     tag: archive-taxonomy
+  permalinks:
+     category: /categories/:name/
+     tag: /tags/:name/
+
 # Defaults
 defaults:
   # _posts
@@ -129,4 +143,11 @@ defaults:
       related: true
       comments: true
       share: true
+      author_profile: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
       author_profile: true
