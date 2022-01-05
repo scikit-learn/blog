@@ -2,7 +2,8 @@ source "https://rubygems.org"
 
 #gem "jekyll"
 
-gem "minimal-mistakes-jekyll", "~>4.0"
+#gem "minimal-mistakes-jekyll", "~>4.0"
+gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.24.0"
 gem "webrick", "~> 1.7"
 gem "jekyll-redirect-from"
 #gem "jekyll-sitemap"
