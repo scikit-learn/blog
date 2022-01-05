@@ -59,27 +59,3 @@ plugins:
 
 
 
-#formatting post
-defaults:
-  # _posts
-  - scope:
-      path: "/blog/"
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: true
-      share: false
-      related: true
-  #pages
-  - scope:
-      path: "/blog/"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: true
-      share: false
-      related: true
