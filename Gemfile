@@ -8,6 +8,7 @@ gem "webrick", "~> 1.7"
 gem "jekyll-redirect-from"
 #gem "jekyll-sitemap"
 gem "jekyll-archives"
+gem "jekyll-target-blank"
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

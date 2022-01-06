@@ -7,14 +7,13 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "air" # "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Site Settings
-title: scikit-learn Blog
+title: "scikit-learn Blog"
 email: social@scikit-learn.org
-description: "Official blog for scikit-learn, an open source package for machine learning in Python."
-
+description: "The official blog of scikit-learn, an open source library for machine learning in Python."
 logo: assets/images/scikit-learn-logo.png
 favicon: assets/images/scikit-learn-logo.png
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://scikit-learn.github.io/blog/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/"
+url: "https://scikit-learn.github.io/blog/" # the base hostname 
 twitter_username: scikit_learn
 github_username:  scikit-learn
 repository: scikit-learn/blog
@@ -77,7 +76,6 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/scikitlearnofficial/"
 
-
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 #theme: minimal-mistakes-jekyll
@@ -91,6 +89,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-redirect-from
   - jekyll-archives
+  - jekyll-target-blank
 
 # SEO Related
 #google_site_verification : 
@@ -116,6 +115,19 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - _sass
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 
 # Archives
