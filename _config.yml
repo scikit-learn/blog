@@ -12,8 +12,8 @@ email: social@scikit-learn.org
 description: "The official blog of scikit-learn, an open source library for machine learning in Python."
 logo: assets/images/scikit-learn-logo.png
 favicon: assets/images/scikit-learn-logo.png
-baseurl: ""
-url: "https://scikit-learn.github.io/blog/" # the base hostname 
+baseurl: "/blog/"
+url: "https://scikit-learn.org" # the base hostname 
 twitter_username: scikit_learn
 github_username:  scikit-learn
 repository: scikit-learn/blog
