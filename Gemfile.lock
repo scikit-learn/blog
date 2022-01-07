@@ -302,6 +302,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-include-cache
   jekyll-redirect-from
+  jekyll-sitemap
   jekyll-target-blank
   minimal-mistakes-jekyll!
   tzinfo (~> 1.2)

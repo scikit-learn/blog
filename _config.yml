@@ -90,6 +90,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-archives
   - jekyll-target-blank
+  - jekyll-sitemap
 
 # SEO Related
 #google_site_verification : 

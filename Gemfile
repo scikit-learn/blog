@@ -6,7 +6,7 @@ source "https://rubygems.org"
 gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.24.0"
 gem "webrick", "~> 1.7"
 gem "jekyll-redirect-from"
-#gem "jekyll-sitemap"
+gem "jekyll-sitemap"
 gem "jekyll-archives"
 gem "jekyll-target-blank"
 
