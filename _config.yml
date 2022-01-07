@@ -170,7 +170,7 @@ incremental: false
 collections:
   archives:
     output: true
-    permalink: /archives/:path
+    permalink: /archives/:path/
 
 # Defaults
 defaults:
