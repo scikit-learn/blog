@@ -11,6 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
+      - name: Create required folders
+        run: |
+          mkdir -p _archives/categories
+          mkdir -p _archives/tags
+          mkdir -p _archives/years
 
       - name: Generate Jekyll Archives
         uses: kannansuresh/jekyll-blog-archive-workflow@master
