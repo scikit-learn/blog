@@ -19,10 +19,8 @@ Hosting the scikit-learn.org blog.
 Categories are broad groupings of posts. A post should have one category. If the post could potentially fall under multiple categories, please select the one that best describes it.
 
 Current Categories
-	- scikit-learn Updates
-	- Community Post
+- scikit-learn Updates
+- Community Post
 
 ### Tags
 Tags describe specific details of a post. They help to link related posts together and aid in user search. A post can have multiple tags or no tags. While there is no strict limit, we recommend using no more than 10 tags.
-![image](https://user-images.githubusercontent.com/35973528/148584232-87234f55-6cb0-4b60-bb9f-f24599f7dbc3.png)
-
