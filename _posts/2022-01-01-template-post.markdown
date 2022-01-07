@@ -4,16 +4,11 @@
 title: "Blog Post Template"
 date: January 4, 2022
 categories:
-  - New Member
-  - Updates
+  - scikit-learn Updates
 tags:
   - Test Post
   - scikit-learn
   - Blogging
-
-share: true
-sidebar:
-  nav: "docs"
 ---
 
 Enter blog content here.
