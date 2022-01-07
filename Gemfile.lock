@@ -301,6 +301,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-feed (~> 0.12)
   jekyll-include-cache
+  jekyll-paginate
   jekyll-redirect-from
   jekyll-sitemap
   jekyll-target-blank

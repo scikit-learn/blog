@@ -91,6 +91,7 @@ plugins:
   - jekyll-archives
   - jekyll-target-blank
   - jekyll-sitemap
+  - jekyll-paginate
 
 # SEO Related
 #google_site_verification : 
@@ -132,23 +133,28 @@ incremental: false
 
 
 # Archives
-category_archive:
-  type: jekyll-archives
-  path: /categories/
-tag_archive:
-  type: jekyll-archives
-  path: /tags/
+#category_archive:
+#  type: jekyll-archives
+#  path: /categories/
+#tag_archive:
+#  type: jekyll-archives
+#  path: /tags/
 
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-     category: archive-taxonomy
-     tag: archive-taxonomy
-  permalinks:
-     category: '/categories/:name/'
-     tag: '/tags/:name/'
+#jekyll-archives:
+#  enabled:
+#    - categories
+#    - tags
+#  layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#  permalinks:
+#     category: '/categories/:name/'
+#     tag: '/tags/:name/'
+
+collections:
+  archives:
+    output: true
+    permalink: /archives/:path
 
 # Defaults
 defaults:

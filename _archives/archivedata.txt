@@ -1,0 +1,19 @@
+---
+---
+{
+"categories": [
+    {%- for category in site.categories -%}
+    "{{ category[0]}}"{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+],
+"tags": [
+    {%- for tag in site.tags -%}
+    "{{ tag[0] }}"{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+],
+"years": [
+    {%- for post in site.posts -%}
+    "{{ post.date | date: "%Y" }}"{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+]
+}
