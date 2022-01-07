@@ -4,7 +4,7 @@ main:
   - title: "About"
     url: /page2/
   - title: "Events"
-    url: /page2/
+    url: /category/events/
   - title: "Release Updates"
     url: /page2/
 
