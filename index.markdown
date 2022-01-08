@@ -1,7 +1,7 @@
 ---
 layout: home
 author_profile: true
-title: "Home"
+title: "scikit-learn Blog"
 header:
   #og_image: /assets/images/scikit-header.png
   overlay_image: /assets/images/scikit-header.png
