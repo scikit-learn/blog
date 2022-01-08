@@ -1,8 +1,6 @@
 main:
   - title: "scikit-learn.org"
     url: "https://scikit-learn.org/stable/"
-  - title: "About"
-    url: /page2/
   - title: "Events"
     url: /category/events
   - title: "Release Updates"
@@ -39,3 +37,5 @@ docs:
         url: https://scikit-learn.org/stable/install
       - title: "Examples"
         url: https://scikit-learn.org/stable/examples
+      - title: "About Us"
+        url: https://scikit-learn.org/stable/about
