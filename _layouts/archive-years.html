@@ -1,16 +1,21 @@
 ---
-layout: default
+layout: archive
 title: Archive
+author_profile: true
+sidebar:
+  nav: "docs"
 ---
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
 <section class="recent-posts">
   <div class="section-title mt-2">
     <h2>Archive of posts from <span>{{ page.type }} '{{ page.title }}'</span></h2>
   </div>
-  <div class="row listrecent">
+  <div class="entries-{{ entries_layout }}">
     {% for post in site.posts %}
       {% assign postyear = post.date | date: "%Y" %}
       {% if postyear == page.year %}
-        {% include post.html %}
+        {% include archive-single.html type=entries_layout %}
       {% endif %}
     {% endfor %}
   </div>
