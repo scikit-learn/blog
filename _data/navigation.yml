@@ -4,7 +4,7 @@ main:
   - title: "Events"
     url: /category/events
   - title: "Calendar"
-    url: /category/calendar
+    url: /calendar
   - title: "Release Updates"
     url: /page2/
 
