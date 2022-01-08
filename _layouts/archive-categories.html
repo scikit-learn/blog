@@ -5,20 +5,23 @@ title: Archive
 sidebar:
   nav: "docs"
 ---
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
 <section class="recent-posts">
   <div class="section-title mt-2">
     <h2>{{ page.title }}</h2>
   </div>
-  <div class="row listrecent">
+  <div class="entries-{{ entries_layout }}">
     {% for post in site.posts %}
       {% if post.categories contains page.category or post.category == page.category %}
         {% include post.html %}
+        {% include archive-single.html type=entries_layout %}
       {% endif %}    
     {% endfor %}
   </div>
 </section>
 
-
+<!--
 {{  content  }}
 <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
   <h2 class="archive__subtitle">{{ category[0] }}</h2>
@@ -31,25 +34,5 @@ sidebar:
     {% endfor %}
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </div>
-</section>
-
-<!--
-{{ content }}
-<h2 class="archive__subtitle">{{ category[0] }}</h2>
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-  {% for post in site.posts %}
-    {% if post.categories contains page.category or post.category == page.category %}
-      {% include post.html %}
-    {% endif %}    
-  {% endfor %}
-{% endfor %}
-
-<h2 class="archive__subtitle">{{ category[0] }}</h2>
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-  {% for post in site.posts %}
-    {% if post.categories contains page.category or post.category == page.category %}
-      {% include archive-single.html type=entries_layout %}
-    {% endif %}    
-  {% endfor %}
-{% endfor %}
+</section> 
 -->
