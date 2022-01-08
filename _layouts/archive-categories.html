@@ -23,15 +23,14 @@ sidebar:
 <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
   <h2 class="archive__subtitle">{{ category[0] }}</h2>
   {% assign entries_layout = page.entries_layout | default: 'list' %}
-    <div class="entries-{{ entries_layout }}">
-      {% for post in site.posts %}
-        {% if post.categories contains page.category or post.category == page.category %}
-            {% include archive-single.html type=entries_layout %}
-        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-        {% endif %}
-      {% endfor %}
-    </div>
-  {% endfor %}
+  <div class="entries-{{ entries_layout }}">
+    {% for post in site.posts %}
+      {% if post.categories contains page.category or post.category == page.category %}
+        {% include archive-single.html type=entries_layout %}
+      {% endif %}
+    {% endfor %}
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </div>
 </section>
 
 <!--
