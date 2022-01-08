@@ -10,15 +10,17 @@ sidebar:
     <h2>{{ page.title }}</h2>
   </div>
   <div class="row listrecent">
+   {% assign entries_layout = page.entries_layout | default: 'list' %}
     {% for post in site.posts %}
       {% if post.categories contains page.category or post.category == page.category %}
         {% include post.html %}
       {% endif %}    
     {% endfor %}
+    {% endfor %}
   </div>
 </section>
 
-
+<!--
 {{ content }}
 <h2 class="archive__subtitle">{{ category[0] }}</h2>
 {% assign entries_layout = page.entries_layout | default: 'list' %}
@@ -37,31 +39,4 @@ sidebar:
     {% endif %}    
   {% endfor %}
 {% endfor %}
-
-
-{% assign post_max = 0 %}
-{% for post in site.posts %}
-  {% if post[1].size > post_max %}
-    {% assign post_max = post[1].size %}
-  {% endif %}
-{% endfor %}
-
-
-
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-{% for i in (1..categories_max) reversed %}
-  {% for category in site.categories %}
-    {% if category[1].size == i %}
-      <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ category[0] }}</h2>
-        <div class="entries-{{ entries_layout }}">
-          {% for post in category.last %}
-            {% include archive-single.html type=entries_layout %}
-          {% endfor %}
-        </div>
-        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-      </section>
-    {% endif %}
-  {% endfor %}
-{% endfor %}
+-->
