@@ -20,13 +20,33 @@ sidebar:
 
 
 {{ content }}
+<h2 class="archive__subtitle">{{ category[0] }}</h2>
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+  {% for post in site.posts %}
+    {% if post.categories contains page.category or post.category == page.category %}
+      {% include post.html %}
+    {% endif %}    
+  {% endfor %}
+{% endfor %}
 
-{% assign categories_max = 0 %}
-{% for category in site.categories %}
-  {% if category[1].size > categories_max %}
-    {% assign categories_max = category[1].size %}
+<h2 class="archive__subtitle">{{ category[0] }}</h2>
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+  {% for post in site.posts %}
+    {% if post.categories contains page.category or post.category == page.category %}
+      {% include archive-single.html type=entries_layout %}
+    {% endif %}    
+  {% endfor %}
+{% endfor %}
+
+
+{% assign post_max = 0 %}
+{% for post in site.posts %}
+  {% if post[1].size > post_max %}
+    {% assign post_max = post[1].size %}
   {% endif %}
 {% endfor %}
+
+
 
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
@@ -45,11 +65,3 @@ sidebar:
     {% endif %}
   {% endfor %}
 {% endfor %}
-
-
-{{ content }}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% include posts-category.html taxonomy=page.taxonomy type=entries_layout %}
-</div>
