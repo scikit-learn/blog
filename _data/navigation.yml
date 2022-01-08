@@ -3,6 +3,8 @@ main:
     url: "https://scikit-learn.org/stable/"
   - title: "Events"
     url: /category/events
+  - title: "Calendar"
+    url: /calendar
   - title: "Release Updates"
     url: /page2/
 
