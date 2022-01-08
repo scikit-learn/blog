@@ -24,6 +24,7 @@
             </h2>
             <small class="text-muted">{{ post.date | date_to_string }}</small>
             <h4 class="card-text mt-2">{{ post.excerpt | strip_html | truncatewords:35 }}</h4>
+            {% include archive.html %}
         </div>
     </div>
 </div>
