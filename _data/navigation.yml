@@ -35,6 +35,8 @@ docs:
         url: https://scikit-learn.org/stable/getting_started
       - title: "Install"
         url: https://scikit-learn.org/stable/install
+      - title: "User Guide"
+        url: https://scikit-learn.org/stable/user_guide
       - title: "Examples"
         url: https://scikit-learn.org/stable/examples
       - title: "About Us"
