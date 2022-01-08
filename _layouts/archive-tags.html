@@ -1,15 +1,20 @@
 ---
-layout: default
+layout: archive
 title: Archive
+author_profile: true
+sidebar:
+  nav: "docs"
 ---
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
 <section class="recent-posts">
   <div class="section-title mt-2">
-    <h2>{{ page.title }}</h2>
+    <!-- <h2>{{ page.title }}</h2> -->
   </div>
-  <div class="row listrecent">
+  <div class="entries-{{ entries_layout }}">
     {% for post in site.posts %}
       {% if post.tags contains page.tag or post.tag == page.tag %}
-        {% include post.html %}
+        {% include archive-single.html type=entries_layout %}
       {% endif %}
     {% endfor %}
   </div>
