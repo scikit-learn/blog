@@ -10,7 +10,7 @@ main:
   - title: "User Guide"
     url: "https://scikit-learn.org/stable/auto_examples/index"
 
-   DROP DOWN BUTTON EXAMPLE
+   # DROP DOWN Menu
    - title: More
      sublinks:
        - title: "Getting Started"
