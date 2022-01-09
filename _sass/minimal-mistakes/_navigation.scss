@@ -220,9 +220,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
+    -webkit-box-pack: start; //#end;
     -ms-flex-pack: end;
-    justify-content: flex-end;
+    justify-content: flex-start; //flex-end;
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
