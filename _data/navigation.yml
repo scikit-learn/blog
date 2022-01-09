@@ -43,3 +43,7 @@ docs:
         url: https://scikit-learn.org/stable/examples
       - title: "About Us"
         url: https://scikit-learn.org/stable/about
+      - title: "Mailing List Archives"
+        url: https://mail.python.org/pipermail/scikit-learn/
+      - title: "Code of Conduct"
+        url: https://www.python.org/psf/conduct/
