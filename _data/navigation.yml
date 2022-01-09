@@ -5,7 +5,7 @@ main:
     url: "https://scikit-learn.org/stable/install"
   - title: "User Guide"
     url: "https://scikit-learn.org/stable/user_guide"
-    - title: "Install"
+  - title: "Install"
     url: "https://scikit-learn.org/stable/modules/classes"
   - title: "User Guide"
     url: "https://scikit-learn.org/stable/auto_examples/index"
@@ -15,26 +15,26 @@ main:
      sublinks:
        - title: "Getting Started"
          url: "https://scikit-learn.org/stable/getting_started"
-       - title: "Tutorial"
-         url: /Documentation/
-       - title: "What's New"
-         url: /Support/
-       - title: "Glossary"
-         url: "https://scikit-learn.org/stable/getting_started"
-       - title: "Development"
-         url: /Documentation/
-       - title: "FAQ"
-         url: /Support/
-       - title: "Support"
-         url: /Support/
-       - title: "Related Packages"
-         url: "https://scikit-learn.org/stable/getting_started"
-       - title: "Roadmap"
-         url: /Documentation/
-       - title: "About Us"
-         url: /Support/
-       - title: "Other Versions and Download"
-         url: /Support/
+      # - title: "Tutorial"
+      #   url: /Documentation/
+      # - title: "What's New"
+      #   url: /Support/
+      # - title: "Glossary"
+      #   url: "https://scikit-learn.org/stable/getting_started"
+      # - title: "Development"
+      #   url: /Documentation/
+      # - title: "FAQ"
+      #   url: /Support/
+      # - title: "Support"
+      #   url: /Support/
+      # - title: "Related Packages"
+      #   url: "https://scikit-learn.org/stable/getting_started"
+      # - title: "Roadmap"
+      #   url: /Documentation/
+      # - title: "About Us"
+      #   url: /Support/
+      # - title: "Other Versions and Download"
+      #   url: /Support/
 
 # Sidebar
 docs:
