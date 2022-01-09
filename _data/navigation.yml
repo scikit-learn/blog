@@ -1,40 +1,38 @@
 main:
-  - title: "scikit-learn.org"
+  - title: "Home"
     url: "https://scikit-learn.org/stable/"
   - title: "Install"
     url: "https://scikit-learn.org/stable/install"
   - title: "User Guide"
     url: "https://scikit-learn.org/stable/user_guide"
-  - title: "Install"
+  - title: "API"
     url: "https://scikit-learn.org/stable/modules/classes"
-  - title: "User Guide"
+  - title: "Examples"
     url: "https://scikit-learn.org/stable/auto_examples/index"
-
-   # DROP DOWN Menu
-   - title: More
-     sublinks:
-       - title: "Getting Started"
-         url: "https://scikit-learn.org/stable/getting_started"
-      # - title: "Tutorial"
-      #   url: /Documentation/
-      # - title: "What's New"
-      #   url: /Support/
-      # - title: "Glossary"
-      #   url: "https://scikit-learn.org/stable/getting_started"
-      # - title: "Development"
-      #   url: /Documentation/
-      # - title: "FAQ"
-      #   url: /Support/
-      # - title: "Support"
-      #   url: /Support/
-      # - title: "Related Packages"
-      #   url: "https://scikit-learn.org/stable/getting_started"
-      # - title: "Roadmap"
-      #   url: /Documentation/
-      # - title: "About Us"
-      #   url: /Support/
-      # - title: "Other Versions and Download"
-      #   url: /Support/
+  - title: More
+    sublinks:
+      - title: Getting Started
+        url: "https://scikit-learn.org/stable/getting_started"
+      - title: Tutorial
+        url: "https://scikit-learn.org/stable/tutorial/index"
+     # - title: "What's New"
+     #   url: /Support/
+     # - title: "Glossary"
+     #   url: "https://scikit-learn.org/stable/getting_started"
+     # - title: "Development"
+     #   url: /Documentation/
+     # - title: "FAQ"
+     #   url: /Support/
+     # - title: "Support"
+     #   url: /Support/
+     # - title: "Related Packages"
+     #   url: "https://scikit-learn.org/stable/getting_started"
+     # - title: "Roadmap"
+     #   url: /Documentation/
+     # - title: "About Us"
+     #   url: /Support/
+     # - title: "Other Versions and Download"
+     #   url: /Support/
 
 # Sidebar
 docs:
