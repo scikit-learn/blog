@@ -23,14 +23,14 @@
                         <ul class="dropdown-content">
                             {% for sublink in link.sublinks %}
                                 <li>
-                                    <a href="{{ site.baseurl }}{{ sublink.url }}">    {{ sublink.title }}</a>
+                                    <a href="{{ sublink.url }}">    {{ sublink.title }}</a>
                                 </li>
                             {% endfor %}
                         </ul>
                     </li>
                 {% else %}
                     <li class="masthead__menu-item">
-                        <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                        <a href="{{ link.url }}">{{ link.title }}</a>
                     </li>
                 {% endif %}
             {% endfor %}
