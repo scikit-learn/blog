@@ -39,7 +39,7 @@ docs:
       - title: "Calendar"
         url: /calendar
       - title: "Events"
-        url: /categories/events
+        url: /category/events
 
   - title: Archives
     children:
