@@ -63,7 +63,7 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/scikit_learn"
-    - label: "Youtube"
+    - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://youtube.com/channel/UCJosFjYm0ZYVUARxuOZqnnw"
     - label: "LinkedIn"
