@@ -14,28 +14,33 @@ main:
       - title: Getting Started
         url: "https://scikit-learn.org/stable/getting_started"
       - title: Tutorial
-        url: "https://scikit-learn.org/stable/tutorial/index"
-     # - title: "What's New"
-     #   url: /Support/
-     # - title: "Glossary"
-     #   url: "https://scikit-learn.org/stable/getting_started"
-     # - title: "Development"
-     #   url: /Documentation/
-     # - title: "FAQ"
-     #   url: /Support/
-     # - title: "Support"
-     #   url: /Support/
-     # - title: "Related Packages"
-     #   url: "https://scikit-learn.org/stable/getting_started"
-     # - title: "Roadmap"
-     #   url: /Documentation/
-     # - title: "About Us"
-     #   url: /Support/
-     # - title: "Other Versions and Download"
-     #   url: /Support/
+        url: "https://scikit-learn.org/stable/tutorial"
+      - title: Glossary
+        url: "https://scikit-learn.org/stable/glossary"
+      - title: Development
+        url: "https://scikit-learn.org/stable/developers"
+      - title: FAQ
+        url: "https://scikit-learn.org/stable/faq"
+      - title: Support
+        url: "https://scikit-learn.org/stable/support"
+      - title: Related Packages
+        url: "https://scikit-learn.org/stable/related_projects"
+      - title: Roadmap
+        url: "https://scikit-learn.org/stable/roadmap"
+      - title: About Us
+        url: "https://scikit-learn.org/stable/about"
+      - title: Other Versions and Download
+        url: "https://scikit-learn.org/dev/versions"
 
 # Sidebar
 docs:
+  - title: Events
+    children:
+      - title: "Calendar"
+        url: /calendar
+      - title: "Events"
+        url: /categories/events
+
   - title: Archives
     children:
       - title: "Category"
