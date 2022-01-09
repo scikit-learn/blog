@@ -1,6 +1,6 @@
 main:
   - title: "Home"
-    url: "https://scikit-learn.org/stable/"
+    url: https://scikit-learn.org/stable/
   - title: "Install"
     url: "https://scikit-learn.org/stable/install"
   - title: "User Guide"
