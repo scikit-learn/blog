@@ -92,6 +92,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-twitter-plugin
 
 whitelist:
   - jekyll-paginate
