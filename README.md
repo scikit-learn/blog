@@ -1,6 +1,8 @@
 # scikit-learn Blog
 Hosting the scikit-learn.org blog.
 
+***
+
 ## Brand Standards
 
 ### scikit-learn Color Palette
