@@ -1,5 +1,5 @@
 ---
-title: "December Sprint"
+title: "Data Umbrella AFME2 Sprint Report"
 date: January 7, 2022
 categories:
   - Events
