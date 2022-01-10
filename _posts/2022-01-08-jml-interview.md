@@ -11,7 +11,7 @@ tags:
 
 <p float="left">
 <a href="https://blog.dataumbrella.org/jmloyola-opensource-experience">
-  <img src="../assets/images/posts-images/jml.png" width="99%" height="99%"/> 
+  <img src="../assets/images/posts_images/jml.png" width="99%" height="99%"/> 
 </a>
 </p>
 
