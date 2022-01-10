@@ -76,14 +76,6 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/scikitlearnofficial/"
 
-# Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-#theme: minimal-mistakes-jekyll
-
-# Skin: determines site color theme
-minimal_mistakes_skin: "air" 
-# "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-
 plugins:
   - jekyll-feed
   - jekyll-include-cache
