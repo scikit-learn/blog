@@ -11,3 +11,5 @@ sidebar:
   nav: "docs"
 ---
 
+
+{% include paginator.html %}
