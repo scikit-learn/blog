@@ -12,4 +12,4 @@ sidebar:
 ---
 
 
-{% include paginator.html %}
+{% include twitter.html %}
