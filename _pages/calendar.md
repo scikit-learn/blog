@@ -16,6 +16,5 @@ The community calendar below can be manually added to your personal calendar by 
 <iframe src="https://calendar.google.com/calendar/embed?src=social.scikitlearn%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 
-<div class='jekyll-twitter-plugin' align="center">
-    {% twitter https://twitter.com/anaik96 maxwidth=500 limit=5 %}
-</div>
+{% twitter https://twitter.com/scikit-learn maxwidth=500 limit=5 %}
+
