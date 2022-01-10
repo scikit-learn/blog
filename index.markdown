@@ -11,5 +11,6 @@ sidebar:
   nav: "docs"
 ---
 
-
-{% include twitter.html %}
+<aside id="twitter-holder" class="sidebar__right sticky">
+    {% include twitter.html %}
+</aside>
