@@ -2,7 +2,7 @@ main:
   - title: "scikit-learn.org"
     url: https://scikit-learn.org/stable/
   - title: "Calendar"
-    url: /calendar
+    url: /blog/calendar
   - title: More
     sublinks:
       - title: Install
