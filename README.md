@@ -20,26 +20,33 @@ Hosting the [scikit-learn.org](https://scikit-learn.org/stable/) blog.
 ### Categories
 Categories are broad groupings of posts. A post should have only one category. If the post could potentially fall under multiple categories, please select the one that best describes it.
 
-#### Current Categories
-- scikit-learn Updates
-- Community Post
+#### Example Categories
+- Updates
+- Events
+- Team
 
 ### Tags
 Tags describe specific details of a post. They help to link related posts together and aid in user search. A post can have multiple tags or no tags. While there is no strict limit, we recommend using no more than 10 tags per post.
 
+**Example Tags:** Sprints, Community, Open Source, New Member
 
 
 ## Installation
+
+Instructions to build and test the [scikit-learn.org/blog](https://scikit-learn.org/blog) site locally.
 
 #### Installing Ruby & Jekyll
 
 If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
 
-### Deployment
+#### Deployment
 
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies (if you get errors, delete Gemfile.lock and try again), then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
+To run the theme locally:
+1. Navigate to the theme directory and run `bundle install` to install the dependencies (if you get errors, delete Gemfile.lock and try again). 
+2. Next, run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
+3. Visit the site in your browser via (http://localhost:4000)[http://localhost:4000].
 
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+For more information, check the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on the Jekyll website.
 
 
 ### Theme Documentation
