@@ -116,6 +116,7 @@ timezone:
 # Exclude from processing
 exclude:
   - README
+  - _posts/template
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

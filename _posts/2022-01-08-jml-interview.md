@@ -1,12 +1,10 @@
 ---
-# Blog Post Template
-
 title: "Interview with Juan Martín Loyola, Triage Team Member"
 date: January 8, 2022
 categories:
-  - new-member
+  - Team
 tags:
-  - open-source
+  - Open Source
 ---
 
 <p float="left">
