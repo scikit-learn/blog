@@ -27,6 +27,7 @@ authors:
   - name: Event Author 2
     email: eventauthor2@gmail.com
 ---
+{% include postauthor.html %}
 
 Authors:
 <div>
