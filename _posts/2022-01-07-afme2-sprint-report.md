@@ -6,6 +6,10 @@ categories:
 tags:
   - Sprints
   - Community
+image:
+  feature: posts_images/AFME2-photo.png
+  thumb: posts_images/AFME2-photo.png
+  
 ---
 
 
