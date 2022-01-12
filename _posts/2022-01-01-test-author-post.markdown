@@ -9,6 +9,8 @@ image:
   feature: posts_images/AFME2-photo.png
   thumb: posts_images/AFME2-photo.png
 
+postauthor: Test Author
+
 post-author:
  - name: Test Author
    website: https://github.io
