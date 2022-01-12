@@ -20,6 +20,8 @@ post-author:
    website: https://github.io
 
 ---
-{% include postauthor.html %}
+<div>
+{% include postauthor2.html %}
+</div>
 
 Enter blog content here.
