@@ -18,8 +18,10 @@ post-author:
    website: https://github.io
  - name: Test Author 2
    website: https://github.io
-   
+  
+author: &id000
 authors:
+  - *id000
   - name: Event Author 1
     email: eventauthor1@gmail.com
   - name: Event Author 2
@@ -28,12 +30,17 @@ authors:
 
 Authors:
 <div>
+  {% include postauthor.html %}
+</div>
+
+
+<div>
   {% include postauthor.html event=page %}
 </div>
 
 
 
-<div id="html" markdown="0">
+<div">
   {% include post-authors.html event=page %}
 </div>
 
