@@ -14,11 +14,11 @@ post-author:
 ---
 
 
-<div>
-   {% include postauthortemp.html event=page %}
+<div id="html" markdown="0">
+   {% include post-authors.html event=page %}
 </div>
 
 Enter blog content here.
-<div>
+<div id="html" markdown="0">
    {% include postauthortemp.html %}
 </div>
