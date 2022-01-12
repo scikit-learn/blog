@@ -7,17 +7,7 @@ tags:
   - Open Source
 featured-image: jml.png
 ---
-![alt](/blog/assets/images/posts_images/ {{ page.featured-image }})
-
 <img src="/blog/assets/images/posts_images/{{ page.featured-image }}" alt="">
-
-
-
-<p float="left">
-<a href="https://blog.dataumbrella.org/jmloyola-opensource-experience">
-  <img src="/blog/assets/images/posts_images/jml.png" width="99%" height="99%"/> 
-</a>
-</p>
 
 Authors:  [Reshama Shaikh](https://reshamas.github.io) & [Juan Martín Loyola](https://jmloyola.github.io/)
 
