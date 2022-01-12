@@ -4,10 +4,10 @@
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "air" # "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "scikit" #air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Site Settings
-title: "" #scikit-learn Blog
+title: "scikit-learn Blog"
 email: social@scikit-learn.org
 description: "The official blog of scikit-learn, an open source library for machine learning in Python."
 logo: assets/images/scikit-learn-logo.png
@@ -76,14 +76,6 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/scikitlearnofficial/"
 
-# Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-#theme: minimal-mistakes-jekyll
-
-# Skin: determines site color theme
-minimal_mistakes_skin: "air" 
-# "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -92,6 +84,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-twitter-plugin
 
 whitelist:
   - jekyll-paginate
@@ -123,6 +116,7 @@ timezone:
 # Exclude from processing
 exclude:
   - README
+  - _posts/template
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -166,6 +160,13 @@ incremental: false
 #  permalinks:
 #     category: '/categories/:name/'
 #     tag: '/tags/:name/'
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 collections:
   archives:

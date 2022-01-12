@@ -1,46 +1,21 @@
 main:
-  - title: "Home"
+  - title: "scikit-learn.org"
     url: https://scikit-learn.org/stable/
-  - title: "Install"
-    url: "https://scikit-learn.org/stable/install"
-  - title: "User Guide"
-    url: "https://scikit-learn.org/stable/user_guide"
-  - title: "API"
-    url: "https://scikit-learn.org/stable/modules/classes"
-  - title: "Examples"
-    url: "https://scikit-learn.org/stable/auto_examples/index"
+  - title: "Calendar"
+    url: /blog/calendar
   - title: More
     sublinks:
-      - title: Getting Started
-        url: "https://scikit-learn.org/stable/getting_started"
-      - title: Tutorial
-        url: "https://scikit-learn.org/stable/tutorial"
-      - title: Glossary
-        url: "https://scikit-learn.org/stable/glossary"
-      - title: Development
-        url: "https://scikit-learn.org/stable/developers"
-      - title: FAQ
-        url: "https://scikit-learn.org/stable/faq"
-      - title: Support
-        url: "https://scikit-learn.org/stable/support"
-      - title: Related Packages
-        url: "https://scikit-learn.org/stable/related_projects"
-      - title: Roadmap
-        url: "https://scikit-learn.org/stable/roadmap"
-      - title: About Us
-        url: "https://scikit-learn.org/stable/about"
-      - title: Other Versions and Download
-        url: "https://scikit-learn.org/dev/versions"
+      - title: Install
+        url: "https://scikit-learn.org/stable/install"
+      - title: "User Guide"
+        url: "https://scikit-learn.org/stable/user_guide"
+      - title: "API"
+        url: "https://scikit-learn.org/stable/modules/classes"
+      - title: "Examples"
+        url: "https://scikit-learn.org/stable/auto_examples/index"
 
 # Sidebar
 docs:
-  - title: Events
-    children:
-      - title: "Calendar"
-        url: /calendar
-      - title: "Events"
-        url: /category/events
-
   - title: Archives
     children:
       - title: "Category"
@@ -52,17 +27,11 @@ docs:
 
   - title: scikit-learn
     children:
-      - title: "Getting Started"
-        url: https://scikit-learn.org/stable/getting_started
-      - title: "Install"
-        url: https://scikit-learn.org/stable/install
-      - title: "User Guide"
-        url: https://scikit-learn.org/stable/user_guide
-      - title: "Examples"
-        url: https://scikit-learn.org/stable/examples
       - title: "About Us"
         url: https://scikit-learn.org/stable/about
+      - title: "FAQ"
+        url: https://scikit-learn.org/stable/faq
       - title: "Mailing List Archives"
         url: https://mail.python.org/pipermail/scikit-learn/
       - title: "Code of Conduct"
-        url: https://www.python.org/psf/conduct/
+        url: https://python.org/psf/conduct/

@@ -10,6 +10,7 @@ gem "jekyll-sitemap"
 gem "jekyll-archives"
 gem "jekyll-target-blank"
 gem "jekyll-paginate"
+gem "jekyll-twitter-plugin"
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

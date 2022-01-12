@@ -1,0 +1,18 @@
+
+Reshama Shaikh:
+  name        : "Reshama Shaikh"
+  bio         : "scikit-learn Communication Team"
+  avatar      : #"/assets/images/bio-photo-2.jpg"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://reshamas.github.io/"
+
+Lauren Burke:
+  name        : "Lauren Burke"
+  bio         : "scikit-learn Communication Team"
+  avatar      : #"/assets/images/bio-photo-2.jpg"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://laurburke.github.io/"
