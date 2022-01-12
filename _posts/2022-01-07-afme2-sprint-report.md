@@ -12,13 +12,6 @@ image:
   
 ---
 
-
-<p float="left">
-<a href="https://blog.dataumbrella.org/jmloyola-opensource-experience">
-  <img src="/blog/assets/images/posts_images/AFME2-photo.png" width="99%" height="99%"/> 
-</a>
-</p>
-
 Author: [Reshama Shaikh](https://reshamas.github.io)
 
 ## Sprint Background
