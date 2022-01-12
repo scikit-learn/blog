@@ -19,16 +19,13 @@ authors:
     email: eventauthor2@gmail.com
 ---
 
-<div>
-  {% include event-authors.html event=page %}
-</div>
-
-
+Authors:
 <div id="html" markdown="0">
   {% include post-authors.html event=page %}
 </div>
 
 Enter blog content here.
-<div id="html" markdown="0">
-  {% include postauthortemp.html %}
+
+<div>
+  {% include event-authors.html event=page %}
 </div>
