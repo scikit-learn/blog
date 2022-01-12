@@ -6,11 +6,10 @@ categories:
 tags:
   - Sprints
   - Community
-image:
-  feature: posts_images/AFME2-photo.png
-  thumb: posts_images/AFME2-photo.png
-  
+post-image: AFME2-photo.png
 ---
+<img src="/blog/assets/images/posts_images/{{ page.featured-image }}" alt="">
+
 
 Author: [Reshama Shaikh](https://reshamas.github.io)
 
