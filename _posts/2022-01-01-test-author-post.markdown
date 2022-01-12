@@ -19,3 +19,6 @@ post-author:
 </div>
 
 Enter blog content here.
+<div>
+   {% include postauthortemp.html %}
+</div>
