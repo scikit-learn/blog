@@ -6,7 +6,7 @@ categories:
 tags:
   - Sprints
   - Community
-post-image: AFME2-photo.png
+featured-image: AFME2-photo.png
 ---
 <img src="/blog/assets/images/posts_images/{{ page.featured-image }}" alt="">
 
