@@ -15,7 +15,7 @@ post-author:
 
 
 <div>
-   {% include post-authors.html event=page %}
+   {% include postauthortemp.html event=page %}
 </div>
 
 Enter blog content here.
