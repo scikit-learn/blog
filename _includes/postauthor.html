@@ -1,6 +1,7 @@
 {% for postauthor in page.postauthor %}
+  {% capture name %}{{ postauthor.name }}{% endcapture %}
   <div>
-    Author: {{ postauthor.name }}
+    Author: name {{ postauthor.name }}
   </div>
   {{ postauthor.name }}
   {{ postauthor.email }}
