@@ -19,9 +19,9 @@ post-author:
  - name: Test Author 2
    website: https://github.io
   
-author: &id000
+author: &id001
 authors:
-  - *id000
+  - *id001
   - name: Event Author 1
     email: eventauthor1@gmail.com
   - name: Event Author 2
