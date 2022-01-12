@@ -5,15 +5,19 @@
     
   {% if name %}
     {% capture author_name %}<a itemprop="sameAs" content="{{ author.email }}" href="{{ author.email }}" rel="me noopener noreferrer" style="vertical-align:top;"><img src="{{ '/assets/images/scikit-logo.png' | relative_url }}" style="width:1em;margin-right:.5em;" alt="ORCID iD icon" class="orcid-icon">{{ postauthor.name }}</a>{% endcapture %}
+    {% break %}
   {% else %}
-      {% assign author_name = postauthor.name %}
+    {% assign author_name = postauthor.name %}
+    {% break %}
   {% endif %}
   {{ author_name }}
   {% if email %}
     {% assign email = email | remove: "mailto:" %}
       {% capture email_link %} <a href="mailto:{{ email }}" title='{{ email }}'><span><i class="elastic-fai fas fa-envelope"></i></span></a>{% endcapture %}
+      {% break %}
   {% else %}
     {% assign email_link = '' %}
+    {% break %}
   {% endif %}
 
 {{ author_name }}{{ email_link }}{% unless forloop.last %}, {% endunless %}
