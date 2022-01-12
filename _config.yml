@@ -108,10 +108,10 @@ timezone:
 #naver_site_verification  :
 
 # Google Analytics
-#analytics:
-#  provider: "google" #false # false (default), "google", "google-universal", "custom"
-#  google:
-#    tracking_id: #UA-XXXXXXXX
+analytics:
+  provider: "google" #false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id: UA-22606712-3
 
 # Exclude from processing
 exclude:
