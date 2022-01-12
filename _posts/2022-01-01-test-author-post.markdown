@@ -18,16 +18,7 @@ post-author:
    website: https://github.io
  - name: Test Author 2
    website: https://github.io
-  
-author: &id001
-  name: Event Author 1
-  email: eventauthor1@gmail.com
-authors:
-  - *id001
-  - name: Event Author 2
-    email: eventauthor1@gmail.com
-  - name: Event Author 3
-    email: eventauthor2@gmail.com
+
 ---
 {% include postauthor.html %}
 
@@ -48,7 +39,3 @@ Authors:
 </div>
 
 Enter blog content here.
-
-<div>
-  {% include event-authors.html event=page %}
-</div>
