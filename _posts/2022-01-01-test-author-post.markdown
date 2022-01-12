@@ -22,20 +22,4 @@ post-author:
 ---
 {% include postauthor.html %}
 
-Authors:
-<div>
-  {% include postauthor.html %}
-</div>
-
-
-<div>
-  {% include postauthor.html event=page %}
-</div>
-
-
-
-<div>
-  {% include post-authors.html event=page %}
-</div>
-
 Enter blog content here.
