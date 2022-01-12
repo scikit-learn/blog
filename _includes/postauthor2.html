@@ -11,14 +11,5 @@
     {% assign author_name = postauthor.name %}
   {% endif %}
 
- <!- {% if email %}
-    {% assign email = email | remove: "mailto:" %}
-      {% capture email_link %}
-        <a href="mailto:{{ email }}" title='{{ email }}'><span><i class="elastic-fai fas fa-envelope"></i></span></a>
-      {% endcapture %}
-  {% else %}
-    {% assign email_link = '' %}
-  {% endif %} ->
-
   {{ author_name }}{{ email_link }}{% unless forloop.last %}, {% endunless %}
 {% endfor %}
