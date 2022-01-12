@@ -25,6 +25,12 @@ authors:
 ---
 
 Authors:
+<div>
+  {% include postauthor.html event=page %}
+</div>
+
+
+
 <div id="html" markdown="0">
   {% include post-authors.html event=page %}
 </div>
