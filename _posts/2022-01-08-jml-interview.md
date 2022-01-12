@@ -5,7 +5,13 @@ categories:
   - Team
 tags:
   - Open Source
+featured-image: jml.png
 ---
+![alt](/blog/assets/images/posts_images/ {{ page.featured-image }})
+
+<img src="/blog/assets/images/posts_images/{{ page.featured-image }}" alt="">
+
+
 
 <p float="left">
 <a href="https://blog.dataumbrella.org/jmloyola-opensource-experience">
