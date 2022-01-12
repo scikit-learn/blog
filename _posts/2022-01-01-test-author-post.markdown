@@ -5,6 +5,9 @@ categories:
   - Updates
 tags:
   - Open Source
+image:
+  feature: posts_images/AFME2-photo.png
+  thumb: posts_images/AFME2-photo.png
 
 post-author:
  - name: Test Author
