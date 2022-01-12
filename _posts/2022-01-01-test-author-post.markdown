@@ -9,7 +9,9 @@ image:
   feature: posts_images/AFME2-photo.png
   thumb: posts_images/AFME2-photo.png
 
-postauthor: Test Author
+postauthor:
+  name: Test Author
+  email: postauthor@gmail.com
 
 post-author:
  - name: Test Author
