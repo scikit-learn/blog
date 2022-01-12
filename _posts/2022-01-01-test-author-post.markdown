@@ -15,10 +15,10 @@ post-author:
 
 
 <div id="html" markdown="0">
-   {% include post-authors.html event=page %}
+  {% include post-authors.html event=page %}
 </div>
 
 Enter blog content here.
 <div id="html" markdown="0">
-   {% include postauthortemp.html %}
+  {% include postauthortemp.html %}
 </div>
