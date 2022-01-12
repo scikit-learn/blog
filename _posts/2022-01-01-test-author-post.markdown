@@ -40,7 +40,7 @@ Authors:
 
 
 
-<div">
+<div>
   {% include post-authors.html event=page %}
 </div>
 
