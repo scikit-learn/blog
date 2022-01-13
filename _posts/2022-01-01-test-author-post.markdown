@@ -9,11 +9,11 @@ image:
   feature: posts_images/AFME2-photo.png
   thumb: posts_images/AFME2-photo.png
 
-postauthor:
+postauthors:
   name: Test Author
   email: postauthor@gmail.com
 
-post-author:
+post-authors:
  - name: Test Author
    website: https://github.io
  - name: Test Author 2
