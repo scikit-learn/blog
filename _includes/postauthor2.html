@@ -1,10 +1,8 @@
-{% if page.postauthor %}
-  {% for postauthor in page.postauthor %}
+{% for postauthor in page.postauthor %}
     {% assign postauthor = site.data.postauthors[postauthor] | default: postauthor %}
     {% assign name = postauthor.name}
     {% assign email = postauthor.email}
 
     {{ name }}
     {{ author_name }}
-  {% endfor %}
-{% endif %}
+{%- endfor -%}
