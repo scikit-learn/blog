@@ -13,11 +13,11 @@ postauthors:
   - name: Test Author
     email: postauthor@gmail.com
     website: https://github.io
-    image: reshama_shaikh.jpeg
+    image: "reshama_shaikh.jpeg"
   - name: Test Author 2
     email: postauthor2@gmail.com
     website: https://github.io
-    image: reshama_shaikh.jpeg
+    image: /assets/images/author_images/reshama_shaikh.jpeg
 ---
 
 
@@ -33,7 +33,7 @@ postauthors:
 
   {% if name %}
     {% capture author_name %}
-      <a itemprop="sameAs" content="{{ postauthor.website }}" href="{{ postauthor.website }}" rel="me noopener noreferrer" style="vertical-align:top;"><img src="{{ '/assets/images/author_images/ {{ postauthor.image }}' | relative_url }}" style="width:1em;margin-right:.5em;" alt="Author Icon" class="orcid-icon">{{ postauthor.name }}</a>
+      <a itemprop="sameAs" content="{{ postauthor.website }}" href="{{ postauthor.website }}" rel="me noopener noreferrer" style="vertical-align:top;"><img src="{{ '{{ postauthor.image }}' | relative_url }}" style="width:1em;margin-right:.5em;" alt="Author Icon" class="orcid-icon">{{ postauthor.name }}</a>
     {% endcapture %}
   {% else %}
     {% assign author_name = postauthor.name %}
