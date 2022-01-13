@@ -6,10 +6,20 @@ categories:
 tags:
   - Open Source
 featured-image: jml.png
----
-<img src="/blog/assets/images/posts_images/{{ page.featured-image }}" alt="">
 
-Authors:  [Reshama Shaikh](https://reshamas.github.io) & [Juan Martín Loyola](https://jmloyola.github.io/)
+postauthors:
+  - name: Reshama Shaikh
+    website: https://reshamas.github.io
+    image: reshama_shaikh.jpeg 
+  - name: Juan Martín Loyola
+    website: https://jmloyola.github.io/
+---
+
+<div>
+  <img src="/blog/assets/images/posts_images/{{ page.featured-image }}" alt="">
+  <p> Author: </p> 
+  {% include postauthor.html %}
+</div>
 
 We are happy to welcome Juan Martín Loyola to the scikit-learn Triage Team in December 2021.
 
