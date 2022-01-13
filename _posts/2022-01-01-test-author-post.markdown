@@ -20,6 +20,18 @@ post-authors:
    website: https://github.io
 
 ---
+<p> Test 1 </p>
+
+<h4> Author </h4>
+<div>
+  {% for postauthor in page.postauthors %}
+    <p> {{ postauthor.name }} </p>
+  {% endfor %}
+</div>
+
+
+<p> Test 2 </p>
+
 <div>
 {% include postauthor2.html %}
 </div>
