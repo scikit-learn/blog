@@ -25,7 +25,7 @@ postauthors:
 ---
 <div>
   <img src="/blog/assets/images/posts_images/{{ page.featured-image }}" alt="">
-  <p> Author: {% include postauthor.html %} </p> 
+  {% include postauthor.html %}
 </div>
 
 Enter blog content here.
