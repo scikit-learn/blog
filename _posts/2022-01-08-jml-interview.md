@@ -13,6 +13,7 @@ postauthors:
     image: reshama_shaikh.jpeg 
   - name: Juan Martín Loyola
     website: https://jmloyola.github.io/
+    image: juan-martin-loyola.jpeg
 ---
 
 <div>
