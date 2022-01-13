@@ -10,8 +10,10 @@ image:
   thumb: posts_images/AFME2-photo.png
 
 postauthors:
-  name: Test Author
-  email: postauthor@gmail.com
+  - name: Test Author
+    email: postauthor@gmail.com
+  - name: Test Author 2
+    email: postauthor2@gmail.com
 
 post-authors:
  - name: Test Author
