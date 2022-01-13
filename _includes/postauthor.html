@@ -22,6 +22,6 @@
     {% assign email_link = '' %}
   {% endif %}
 
-{{ author_name }} {{ email_link }}{% unless forloop.last %}, {% endunless %}
+{% if forloop.first %}Author: {% endif %}{{ author_name }} {{ email_link }}{% unless forloop.last %}, {% endunless %}
 {% endfor %}
 <br><br>
