@@ -1,13 +1,10 @@
 {% if page.postauthor %}
-{% for postauthor in page.postauthor %}
-  {% assign postauthor = site.data.postauthors[postauthor] | default: postauthor %}
-  {% assign name = postauthor.name}
-  {% assign email = postauthor.email}
-    
-  {% capture author_name %}
-    <a itemprop="sameAs" content="{{ postauthor.email }}" href="{{ postauthor.email }}" rel="me noopener noreferrer" style="vertical-align:top;"><img src="{{ '/assets/images/scikit-logo.png' | relative_url }}" style="width:1em;margin-right:.5em;" alt="ORCID iD icon" class="orcid-icon">{{ postauthor.name }}</a>
-  {% endcapture %}
+  {% for postauthor in page.postauthor %}
+    {% assign postauthor = site.data.postauthors[postauthor] | default: postauthor %}
+    {% assign name = postauthor.name}
+    {% assign email = postauthor.email}
 
-  {{ author_name }}{% unless forloop.last %}, {% endunless %}
-{% endfor %}
+    {{ name }}
+    {{ author_name }}{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
 {% endif %}
