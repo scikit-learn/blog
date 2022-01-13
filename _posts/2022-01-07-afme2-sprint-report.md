@@ -28,4 +28,6 @@ The Data Umbrella Africa & Middle East (AFME2) scikit-learn online sprint was he
 Check out the report for informative plots, created using Jupyter, python and plotly.  
 
 Read the full report here:  
+<span style="background-color: #CAE9F5;"> 
 [Data Umbrella AFME2 Sprint Report](https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report)
+</span>
