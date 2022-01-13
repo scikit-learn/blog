@@ -7,11 +7,16 @@ tags:
   - Sprints
   - Community
 featured-image: AFME2-photo.png
+postauthors:
+  - name: Reshama Shaikh
+  #- email:
+  - website: https://reshamas.github.io
+  - image: reshama_shaikh.jpeg 
 ---
-<img src="/blog/assets/images/posts_images/{{ page.featured-image }}" alt="">
-
-
-Author: [Reshama Shaikh](https://reshamas.github.io)
+<div>
+  <img src="/blog/assets/images/posts_images/{{ page.featured-image }}" alt="">
+  {% include postauthor.html %}
+</div>
 
 ## Sprint Background
 
