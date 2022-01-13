@@ -3,10 +3,11 @@
   {% assign name = postauthor.name %}
   {% assign email = postauthor.email %}
   {% assign website = postauthor.website %}
-    
+  {% assign image = postauthor.image %}
+
   {% if name %}
     {% capture author_name %}
-      <a itemprop="sameAs" content="{{ postauthor.website }}" href="{{ postauthor.website }}" rel="me noopener noreferrer" style="vertical-align:top;"><img src="{{ '/assets/images/author_images/ {{ postauthor.image }}' | relative_url }}" style="width:1em;margin-right:.5em;" alt="ORCID iD icon" class="orcid-icon">{{ postauthor.name }}</a>
+      <a itemprop="sameAs" content="{{ postauthor.website }}" href="{{ postauthor.website }}" rel="me noopener noreferrer" style="vertical-align:top;"><img src="{{ '/assets/images/author_images/ {{ postauthor.image }}' | relative_url }}" style="width:1em;margin-right:.5em;" alt="Author Icon" class="orcid-icon">{{ postauthor.name }}</a>
     {% endcapture %}
   {% else %}
     {% assign author_name = postauthor.name %}
