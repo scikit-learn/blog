@@ -1,3 +1,5 @@
-{% for postauthor in page.postauthors %}
-    <p> {{ postauthor.name }} </p>
-{%- endfor -%}
+<html>
+    {% for postauthor in page.postauthors %}
+        <p> {{ postauthor.name }} </p>
+    {% endfor %}
+</html>
