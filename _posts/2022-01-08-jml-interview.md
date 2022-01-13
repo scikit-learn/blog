@@ -29,4 +29,6 @@ In this interview, learn more about Juan Martín's journey to open source. From 
 
 	My name is Juan Martín Loyola, I'm a computer science Ph.D. student from San Luis, a province in the middle of Argentina, working on early classification models for text. This is related to the problem of document categorization where we are also interested in the classification speed (there is a cost associated with the classification delay).
 
-Read the full interview on Data Umbrella's blog:  [Data Umbrella Interview: Juan Martín Loyola](https://blog.dataumbrella.org/jmloyola-opensource-experience)
+
+Read the full interview on Data Umbrella's blog:  
+<span style="background-color: #CAE9F5;">  [Data Umbrella Interview: Juan Martín Loyola](https://blog.dataumbrella.org/jmloyola-opensource-experience) </span>
