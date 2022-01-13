@@ -20,9 +20,10 @@ postauthors:
     image: reshama_shaikh.jpeg
 ---
 <div>
-{% include postauthor.html %}
+  <img src="/blog/assets/images/posts_images/{{ page.featured-image }}" alt="">
+  <p> Author: </p> 
+  {% include postauthor.html %}
 </div>
-
 
 
 Enter blog content here.
