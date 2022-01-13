@@ -13,16 +13,11 @@ postauthors:
   - name: Test Author
     email: postauthor@gmail.com
     website: https://github.io
+    image: reshama_shaikh.jpeg
   - name: Test Author 2
     email: postauthor2@gmail.com
     website: https://github.io
-
-post-authors:
- - name: Test Author
-   website: https://github.io
- - name: Test Author 2
-   website: https://github.io
-
+    image: reshama_shaikh.jpeg
 ---
 
 
