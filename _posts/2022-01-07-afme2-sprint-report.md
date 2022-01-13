@@ -9,12 +9,12 @@ tags:
 featured-image: AFME2-photo.png
 postauthors:
   - name: Reshama Shaikh
-  #- email:
-  - website: https://reshamas.github.io
-  - image: reshama_shaikh.jpeg 
+    website: https://reshamas.github.io
+    image: reshama_shaikh.jpeg 
 ---
 <div>
   <img src="/blog/assets/images/posts_images/{{ page.featured-image }}" alt="">
+  <p> Author: </p> 
   {% include postauthor.html %}
 </div>
 
