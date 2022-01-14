@@ -31,15 +31,12 @@ Categories and Tags help us organize our blog by grouping related content to mak
 ### Categories
 Categories are broad groupings of posts. A post should have only one category. If the post could potentially fall under multiple categories, please select the one that best describes it.
 
-#### Example Categories
-- Updates
-- Events
-- Team
+**Example Categories:** Updates, Events, Team
 
 ### Tags
 Tags describe specific details of a post. They help to link related posts together and aid in user search. A post can have multiple tags or no tags. While there is no strict limit, we recommend using no more than 10 tags per post.
 
-**Example Tags:** Sprints, Community, Open Source, New Member
+**Example Tags:** Sprints, Community, Open Source, New Member, Machine Learning, New Feature
 
 ***
 
@@ -70,19 +67,25 @@ This blog is uses the [Minimal Mistakes Jekyll Theme](https://github.com/mmistak
 
 Instructions to add a new blog post. Refer to the [blog post template](https://github.com/scikit-learn/blog/blob/main/_posts/templates/2022-01-01-template-post.markdown).
 
-1. Make a copy of the [Blog Post Template](https://github.com/scikit-learn/blog/blob/main/_posts/templates/2022-01-01-template-post.markdown). Save the post in the ["_posts/"](https://github.com/scikit-learn/blog/blob/main/_posts/) folder, formatted as `YYYY-MM-DD-post-title.md`.
-2. Update the Post's front matter. The purpose of front matter is to set variables and metadata on the site's pages.
+1. Fork 
+2. Make a copy of the [Blog Post Template](https://github.com/scikit-learn/blog/blob/main/_posts/templates/2022-01-01-template-post.markdown). Save the post in the ["_posts/"](https://github.com/scikit-learn/blog/blob/main/_posts/) folder, formatted as `YYYY-MM-DD-post-title.md`.
+3. Update the post's front matter. The purpose of front matter is to set variables and metadata on the site's pages.
     - **Add Post Information**
         - *title:* Add the title of your blog post in double quotes, 
-            - `title: "Example Post Title"`
+            - `title: "Example Post Title"` (with quotes)
         - *date:* Add the date of posting. This helps to ensure our blog displays posts are sorted correctly and are displayed in a sequential order.
-            - Format as `date: Month Name, Day, Year` (without quotes) 
+            - Format as `date: Month Name, Day, Year` (no quotes) 
     - **Add Post Category and Tags:** Categories and tags help us organize our blog by grouping related content to make it easier to discover. Check the [Blog Standards](https://github.com/scikit-learn/blog#blog-standards) section for more information.
         - *categories:* A post should have only one category. Format categories in titlecase without dashes (Ex. "Open Source" instead of "open-source")
-        - ![categories_tags](/assets/images/brand_images/categories_tags.png)
-            
-
-
-
-
-
+        - *tags:* Tags describe specific details of a post. They help to link related posts together and aid in user search.
+            - ![categories_tags](/assets/images/brand_images/category_tag.png)
+    - **Add Featured Image**
+        - *featured-image:* First, place the image in the [assets/images/posts_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/posts_images) folder. Set the featured-image variable to the base image name, omiting the full path. 
+            - `featured-image: image-name.png` (no quotes)
+    - **Add Author Information**
+        - The postauthors field can accomodate multiple authors. Each postauthor can use the following four variables, but only the `name` field is required.
+            -  *name:* (required) `name: Author Name` (no quotes)
+            -  *website:* (optional) Link attached to author name. Can be any relevant link, formatted as `website: https://github.com` (no quotes)
+            -  *email:* (optional) Appears as an email icon after author name. Format as `email: author@email.com` (no quotes)
+            -  *image:* (optional) Author headshot, appears before author name. First, place the image in the [assets/images/author_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/author_images) folder. Set the image variable to the base image name, omiting the full path. 
+                -  `image: image-name.png` (no quotes)
