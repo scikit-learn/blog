@@ -83,7 +83,7 @@ Instructions to add a new blog post. Refer to the [blog post template](https://g
         - *featured-image:* First, place the image in the [assets/images/posts_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/posts_images) folder. Set the featured-image variable to the base image name, omiting the full path. 
             - `featured-image: image-name.png` (no quotes)
     - **Add Author Information**
-        - The postauthors field can accomodate multiple authors. Each postauthor can use the following four variables, but only the `name` field is required.
+        - The *postauthors* field can accomodate multiple authors. Each postauthor can use the following four variables, but only the `name` field is required.
             -  *name:* (required) `name: Author Name` (no quotes)
             -  *website:* (optional) Link attached to author name. Can be any relevant link, formatted as `website: https://github.com` (no quotes)
             -  *email:* (optional) Appears as an email icon after author name. Format as `email: author@email.com` (no quotes)
