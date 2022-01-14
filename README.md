@@ -5,7 +5,7 @@ Hosting the [scikit-learn.org](https://scikit-learn.org/stable/) blog.
 [Brand Standards](https://github.com/scikit-learn/blog#brand-standards)     
 [Blog Standards](https://github.com/scikit-learn/blog#blog-standards)     
 
-
+***
 
 ## Brand Standards
 
