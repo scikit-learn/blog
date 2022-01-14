@@ -57,7 +57,7 @@ If this is your first time using Jekyll, please follow the [Jekyll docs](https:/
 To run the theme locally:
 1. Navigate to the theme directory and run `bundle install` to install the dependencies (if you get errors, delete Gemfile.lock and try again). 
 2. Next, run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
-3. Visit the site in your browser via (http://localhost:4000)[http://localhost:4000].
+3. Visit the site in your browser via [http://localhost:4000](http://localhost:4000).
 
 For more information, check the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on the Jekyll website.
 
@@ -79,7 +79,8 @@ Instructions to add a new blog post. Refer to the [blog post template](https://g
             - Format as `date: Month Name, Day, Year` (without quotes) 
     - **Add Post Category and Tags:** Categories and tags help us organize our blog by grouping related content to make it easier to discover. Check the [Blog Standards](https://github.com/scikit-learn/blog#blog-standards) section for more information.
         - *categories:* A post should have only one category. Format categories in titlecase without dashes (Ex. "Open Source" instead of "open-source")
-            -  
+        - ![categories_tags](/assets/images/brand_images/categories_tags.png)
+            
 
 
 
