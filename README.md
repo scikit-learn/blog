@@ -86,7 +86,7 @@ Instructions to add a new blog post. Refer to the [blog post template](https://g
     - **Add Post Category and Tags:** Categories and tags help us organize our blog by grouping related content to make it easier to discover. Check the [Blog Standards](https://github.com/scikit-learn/blog#blog-standards) section for more information.
         - *categories:* A post should have only one category. Format categories in titlecase without dashes (Ex. "Open Source" instead of "open-source")
         - *tags:* Tags describe specific details of a post. They help to link related posts together and aid in user search.
-            - ![categories_tags](/assets/images/brand_images/category_tag.png)
+        - ![categories_tags](/assets/images/brand_images/category_tag.png)
     - **Add Featured Image**
         - *featured-image:* First, place the image in the [assets/images/posts_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/posts_images) folder. Set the featured-image variable to the base image name, omiting the full path. 
             - `featured-image: image-name.png` (no quotes)
