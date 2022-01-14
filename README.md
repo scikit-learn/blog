@@ -74,7 +74,7 @@ Instructions to add a new blog post. Refer to the [blog post template](https://g
         - *title:* Add the title of your blog post in double quotes, 
             - `title: "Example Post Title"` (with quotes)
         - *date:* Add the date of posting. This helps to ensure our blog displays posts are sorted correctly and are displayed in a sequential order.
-            - Format as `date: Month Name, Day, Year` (no quotes) 
+            - `date: Month Name, Day, Year` (no quotes) 
     - **Add Post Category and Tags:** Categories and tags help us organize our blog by grouping related content to make it easier to discover. Check the [Blog Standards](https://github.com/scikit-learn/blog#blog-standards) section for more information.
         - *categories:* A post should have only one category. Format categories in titlecase without dashes (Ex. "Open Source" instead of "open-source")
         - *tags:* Tags describe specific details of a post. They help to link related posts together and aid in user search.
@@ -84,8 +84,14 @@ Instructions to add a new blog post. Refer to the [blog post template](https://g
             - `featured-image: image-name.png` (no quotes)
     - **Add Author Information**
         - The *postauthors* field can accomodate multiple authors. Each postauthor can use the following four variables, but only the `name` field is required.
-            -  *name:* (required) `name: Author Name` (no quotes)
-            -  *website:* (optional) Link attached to author name. Can be any relevant link, formatted as `website: https://github.com` (no quotes)
-            -  *email:* (optional) Appears as an email icon after author name. Format as `email: author@email.com` (no quotes)
+            -  *name:* (required) 
+                -  `name: Author Name` (no quotes)
+            -  *website:* (optional) Link attached to author name. Can be any relevant link.
+                -  `website: https://github.com` (no quotes)
+            -  *email:* (optional) Appears as an email icon after author name.
+                -  `email: author@email.com` (no quotes)
             -  *image:* (optional) Author headshot, appears before author name. First, place the image in the [assets/images/author_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/author_images) folder. Set the image variable to the base image name, omiting the full path. 
                 -  `image: image-name.png` (no quotes)
+            - Single Author Post          |  Multiple Author Post
+              :-------------------------:|:-------------------------:
+              ![](/assets/images/brand_images/single-author-post.png)  |  ![](/assets/images/brand_images/multiple-author-post.png)
