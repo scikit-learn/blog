@@ -9,7 +9,7 @@ Hosting the [scikit-learn.org](https://scikit-learn.org/stable/) blog.
   - [Blog Standards](https://github.com/scikit-learn/blog#blog-standards)     
 - [Contributing](https://github.com/scikit-learn/blog#contributing)     
   - [Installation](https://github.com/scikit-learn/blog#installation)
-  - [Adding New Posts](https://github.com/scikit-learn/blog#adding-new-posts) 
+  - [Adding a New Post](https://github.com/scikit-learn/blog#adding-a-new-post) 
 ***   
 
 
@@ -53,11 +53,11 @@ Tags describe specific details of a post. They help to link related posts togeth
 
 Instructions to build and test the [scikit-learn.org/blog](https://scikit-learn.org/blog) site locally.
 
-#### Installing Ruby & Jekyll
+### Installing Ruby & Jekyll
 
 If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
 
-#### Deployment
+### Deployment
 
 To run the theme locally:
 1. Navigate to the theme directory and run `bundle install` to install the dependencies (if you get errors, delete Gemfile.lock and try again). 
@@ -71,11 +71,19 @@ For more information, check the [Deployment Methods](https://jekyllrb.com/docs/d
 This blog is uses the [Minimal Mistakes Jekyll Theme](https://github.com/mmistakes/minimal-mistakes). For more information on configuration/customization, please reference the [theme documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
 
 &nbsp;
-## Adding New Posts
+## Adding a New Post
 
-Instructions to add a new blog post. Refer to the [blog post template](https://github.com/scikit-learn/blog/blob/main/_posts/templates/2022-01-01-template-post.markdown).
+### Setup
+This sections contains instructions to add a new blog post to the scikit-learn blog.
 
-1. Fork 
+Before adding a post, you must have:
+- A Github account
+- Installed the required packages (see [Installation](https://github.com/scikit-learn/blog#installation))
+
+### Instructions
+Refer to the [blog post template](https://github.com/scikit-learn/blog/blob/main/_posts/templates/2022-01-01-template-post.markdown).
+
+1. Fork the 
 2. Make a copy of the [Blog Post Template](https://github.com/scikit-learn/blog/blob/main/_posts/templates/2022-01-01-template-post.markdown). Save the post in the ["_posts/"](https://github.com/scikit-learn/blog/blob/main/_posts/) folder, formatted as `YYYY-MM-DD-post-title.md`.
 3. Update the post's front matter. The purpose of front matter is to set variables and metadata on the site's pages.
     - **Add Post Information**
