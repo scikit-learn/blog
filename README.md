@@ -10,9 +10,9 @@ Hosting the [scikit-learn.org](https://scikit-learn.org/stable/) blog.
 - [Contributing](https://github.com/scikit-learn/blog#contributing)     
   - [Installation](https://github.com/scikit-learn/blog#installation)
   - [Adding a New Post](https://github.com/scikit-learn/blog#adding-a-new-post) 
-    - Setup
-    - Submitting Your Blog Post
-    - Formatting Your Blog Post 
+    - [Setup](https://github.com/scikit-learn/blog#setup)
+    - [Submitting Your Blog Post](https://github.com/scikit-learn/blog#submitting-your-blog-post)
+    - [Formatting Your Blog Post](https://github.com/scikit-learn/blog#formatting-your-blog-post)
 
 &nbsp;
 # Standards
