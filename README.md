@@ -6,7 +6,7 @@ Hosting the [scikit-learn.org](https://scikit-learn.org/stable/) blog.
 - [Standards](https://github.com/scikit-learn/blog#standards)     
   - [Brand Standards](https://github.com/scikit-learn/blog#brand-standards)     
   - [Blog Standards](https://github.com/scikit-learn/blog#blog-standards)
-    - [Categories & Tags](https://github.com/scikit-learn/blog#categories-&-tags)    
+    - [Categories & Tags](https://github.com/scikit-learn/blog#categories--tags)   
 - [Contributing](https://github.com/scikit-learn/blog#contributing)     
   - [Installation](https://github.com/scikit-learn/blog#installation)
   - [Adding a New Post](https://github.com/scikit-learn/blog#adding-a-new-post) 
