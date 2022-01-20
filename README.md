@@ -83,7 +83,7 @@ Refer to the [blog post template](https://github.com/scikit-learn/blog/blob/main
 1. First, fork the [scikit-learn/blog](https://github.com/scikit-learn/blog) repository.
 2. Within your forked repository, make a copy of the [Blog Post Template](https://github.com/scikit-learn/blog/blob/main/_posts/templates/2022-01-01-template-post.markdown). 
     - Save the post in the ["_posts/"](https://github.com/scikit-learn/blog/blob/main/_posts/) folder, formatted as `YYYY-MM-DD-post-title.md`. 
-    - Format your blog post using the instructions in the Format Blog Post section.
+    - Format your blog post using the instructions in the [Formatting Your Blog Post](https://github.com/scikit-learn/blog/blob/main/README.md#formatting-your-blog-post) section.
 4. Go to Pull Requests and do a New Pull request.
 5. Create a pull request.
 <br>
