@@ -5,6 +5,8 @@ Hosting the [scikit-learn.org](https://scikit-learn.org/stable/) blog.
 **Table of Contents**
 - [Standards](https://github.com/scikit-learn/blog#standards)     
   - [Brand Standards](https://github.com/scikit-learn/blog#brand-standards)
+- [Guide to Contributing]
+- [Code of Conduct]
 
 &nbsp;
 # Standards
