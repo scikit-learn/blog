@@ -184,7 +184,7 @@ defaults:
       sidebar:
         nav: "docs"
       show_date: true
-      read_time: false
+      read_time: true
       related: true
       comments: true
       share: true
