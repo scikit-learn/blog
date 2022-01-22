@@ -12,7 +12,7 @@ postauthors:
     website: https://reshamas.github.io
     image: reshama_shaikh.jpeg 
   - name: Chiara Marmo
-    website: https://twitter.com/marmochia
+    website: https://cmarmo.github.io
     image: chiara_marmo.png
 ---
 
@@ -38,7 +38,7 @@ I finished my PhD (quite some time ago) thinking that everyone was better than m
 4. __How did you get involved with scikit-learn?__
 
 I applied to a position offered by Inria (the French National Institute for Research in Digital Science and Technology). After so many years as an Open Source Software user, with some sparse contributions, I was interested in improving my understanding of the Open Source world.
-Inria is a French public institution, where the first public release of scikit-learn was prepared. As Community and Operation Officer I have performed a mix of technical and non-technical tasks for the scikit-learn Consortium, a project of the “Fondation Inria”. I learned a lot, but I must confess that coming from nowhere, or, let’s say, elsewhere, into the Python Open Source community is not comfortable. But I guess changing one’s perspectives is never comfortable.
+Inria is a French public institution, where the first public release of scikit-learn was prepared. As Community and Operation Officer I have performed a mix of technical and non-technical tasks for the [scikit-learn Consortium](https://scikit-learn.fondation-inria.fr/home/), a project of the “Fondation Inria”. I learned a lot, but I must confess that coming from nowhere, or, let’s say, elsewhere, into the Python Open Source community is not comfortable. But I guess changing one’s perspectives is never comfortable.
 
 5. __To which OSS projects do you contribute?__
 
