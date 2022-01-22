@@ -3,10 +3,9 @@
 Contributing to the [scikit-learn.org](https://scikit-learn.org/stable/) blog.
 ***
 
-**Table of Contents**
-- [Standards](https://github.com/scikit-learn/CONTRIBUTING.md#standards)     
-  - [Blog Standards](https://github.com/scikit-learn/CONTRIBUTING.md#blog-standards)
-    - [Categories & Tags](https://github.com/scikit-learn/CONTRIBUTING.md#categories--tags)   
+**Table of Contents**  
+- [Blog Standards](https://github.com/scikit-learn/CONTRIBUTING.md#blog-standards)
+  - [Categories & Tags](https://github.com/scikit-learn/CONTRIBUTING.md#categories--tags)   
 - [Contributing](https://github.com/scikit-learn/CONTRIBUTING.md#contributing)     
   - [Installation](https://github.com/scikit-learn/CONTRIBUTING.md#installation)
   - [Adding a New Post](https://github.com/scikit-learn/CONTRIBUTING.md#adding-a-new-post) 
