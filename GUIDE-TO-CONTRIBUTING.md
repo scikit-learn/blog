@@ -1,5 +1,5 @@
 
-# scikit-learn Blog
+# Guide to Contributing
 Contributing to the [scikit-learn.org](https://scikit-learn.org/stable/) blog.
 ***
 
