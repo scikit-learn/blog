@@ -4,8 +4,8 @@ How to contribute to the [scikit-learn.org blog](https://scikit-learn.org/blog).
 ***
 
 **Table of Contents**  
-- [Blog Standards](https://github.com/scikit-learn/GUIDE-TO-CONTRIBUTING.md#blog-standards)
-  - [Categories & Tags](https://github.com/scikit-learn/GUIDE-TO-CONTRIBUTING.md#categories--tags)   
+- [Blog Standards](https://github.com/scikit-learn/blog/main/GUIDE-TO-CONTRIBUTING.md#blog-standards)
+  - [Categories & Tags](https://github.com/scikit-learn/blog/main/GUIDE-TO-CONTRIBUTING.md#categories--tags)   
 - [Contributing](https://github.com/scikit-learn/GUIDE-TO-CONTRIBUTING.md#contributing)     
   - [Installation](https://github.com/scikit-learn/GUIDE-TO-CONTRIBUTING.md#installation)
   - [Adding a New Post](https://github.com/scikit-learn/GUIDE-TO-CONTRIBUTING.md#adding-a-new-post) 
