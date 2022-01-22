@@ -13,7 +13,7 @@ postauthors:
     image: reshama_shaikh.jpeg 
   - name: Chiara Marmo
     website: https://twitter.com/marmochia
-    image: chiara.png
+    image: chiara_marmo.png
 ---
 
 <div>
