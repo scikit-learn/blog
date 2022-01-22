@@ -1,4 +1,6 @@
-## Our community, our values
+# scikit-learn Code of Conduct
+
+### Our community, Our Values
 
 The project is hosted on [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn).
 
