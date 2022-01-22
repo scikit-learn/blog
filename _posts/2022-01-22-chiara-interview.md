@@ -5,7 +5,7 @@ categories:
   - Team
 tags:
   - Open Source
-featured-image: jml.png
+featured-image: chiara.png
 
 postauthors:
   - name: Reshama Shaikh
