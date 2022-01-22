@@ -73,7 +73,8 @@ Refer to the [blog post template](https://github.com/scikit-learn/blog/blob/main
 <br>
 
 ### Formatting Your Blog Post
-#### Update the Post's Front Matter
+
+#### 1) Update the Post's Front Matter
 The purpose of front matter is to set variables and metadata on the site's pages.
 
 1. **Add Post Information**
@@ -84,7 +85,7 @@ The purpose of front matter is to set variables and metadata on the site's pages
 2. **Add Post Category and Tags:** Categories and tags help us organize our blog by grouping related content to make it easier to discover. Check the [Blog Standards](https://github.com/scikit-learn/blog#blog-standards) section for more information.
     - *categories:* A post should have only one category. Format categories in titlecase without dashes (Ex. "Open Source" instead of "open-source")
     - *tags:* Tags describe specific details of a post. They help to link related posts together and aid in user search.
-      ![categories_tags](/assets/images/brand_images/category_tag.png)
+    ![categories_tags](/assets/images/brand_images/category_tag.png)
 3. **Add Featured Image**
     - *featured-image:* First, place the image in the [assets/images/posts_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/posts_images) folder. Set the featured-image variable to the base image name, omiting the full path. 
         - `featured-image: image-name.png` (no quotes)
@@ -101,6 +102,7 @@ The purpose of front matter is to set variables and metadata on the site's pages
         -  Single Author Post          |  Multiple Author Post
            :-------------------------:|:-------------------------:
            ![](/assets/images/brand_images/single-author-post.png)  |  ![](/assets/images/brand_images/multiple-author-post.png)
-           
-#### Add post content.
+        
+        
+#### 2) Add post content.
 Format using [Markdown](https://www.markdownguide.org/).
