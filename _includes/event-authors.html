@@ -1,44 +1,24 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1894.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
-    span.s1 {font-kerning: none}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">{% assign event = include.event %}</span></p>
-<p class="p1"><span class="s1">{% assign any_presenter = 0 %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% for author in event.authors %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% assign author = site.data.authors[author] | default: author %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% assign email = author.email %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% unless email %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% for link in author.links %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{% if link.label == "Email" %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% assign email = link.url %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{% endif %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% endfor %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endunless %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if email %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% assign email = email | remove: "mailto:" %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% capture email_link %} &lt;a href="mailto:{{ email }}" title='{{ email }}'&gt;&lt;span&gt;&lt;i class="elastic-fai fas fa-envelope"&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;{% endcapture %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% else %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% assign email_link = '' %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if author.image %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% capture author_name %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a itemprop="sameAs" content="{{ author.website }}" href="{{ author.website }}" rel="me noopener noreferrer" style="vertical-align:top;"&gt;&lt;img src="{{ '/assets/images/author_images/{{ image }} | relative_url }}" style="width:1em;margin-right:.5em;" alt="ORCID iD icon" class="orcid-icon"&gt;{{ author.name }}&lt;/a&gt;{% endcapture %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% else %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% assign author_name = author.name %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{ author_name }}{{ email_link}}{% unless forloop.last %}, {% endunless %}</span></p>
-<p class="p1"><span class="s1">{% endfor %}</span></p>
-</body>
-</html>
+{% for author in event.authors %}
+  {% assign author = site.data.authors[author] | default: author %}
+  {% assign email = author.email %}
+  {% unless email %}
+    {% for link in author.links %}
+        {% if link.label == "Email" %}
+            {% assign email = link.url %}
+        {% endif %}
+    {% endfor %}
+  {% endunless %}
+  {% if email %}
+    {% assign email = email | remove: "mailto:" %}
+      {% capture email_link %} <a href="mailto:{{ email }}" title='{{ email }}'><span><i class="elastic-fai fas fa-envelope"></i></span></a>{% endcapture %}
+  {% else %}
+    {% assign email_link = '' %}
+  {% endif %}
+  {% if author.image %}
+    {% capture author_name %}
+    <a itemprop="sameAs" content="{{ author.website }}" href="{{ author.website }}" rel="me noopener noreferrer" style="vertical-align:top;"><img src="{{ '/assets/images/author_images/{{ image }} | relative_url }}" style="width:1em;margin-right:.5em;" alt="ORCID iD icon" class="orcid-icon">{{ author.name }}</a>{% endcapture %}
+  {% else %}
+    {% assign author_name = author.name %}
+  {% endif %}
+  {{ author_name }}{{ email_link}}{% unless forloop.last %}, {% endunless %}
+{% endfor %}

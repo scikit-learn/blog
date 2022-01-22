@@ -1,0 +1,14 @@
+<html>
+    {% for postauthor in page.postauthors %}
+        
+        {% if name %}
+            {% capture author_name %}
+                <a itemprop="sameAs" content="{{ postauthor.website }}" href="{{ postauthor.website }}" rel="me noopener noreferrer" style="vertical-align:top;"><img src="{{ '/assets/images/scikit-logo.png' | relative_url }}" style="width:1em;margin-right:.5em;" alt="ORCID iD icon" class="orcid-icon">{{ postauthor.name }}</a>
+            {% endcapture %}
+        {% else %}
+            {% assign author_name = postauthor.name %}
+        {% endif %}
+    
+        {{ author_name }}
+    {% endfor %}
+</html>

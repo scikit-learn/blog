@@ -31,7 +31,12 @@ docs:
         url: https://scikit-learn.org/stable/about
       - title: "FAQ"
         url: https://scikit-learn.org/stable/faq
-      - title: "Mailing List Archives"
-        url: https://mail.python.org/pipermail/scikit-learn/
       - title: "Code of Conduct"
         url: https://python.org/psf/conduct/
+
+  - title: Mailing List
+    children:
+      - title: "Subscribe"
+        url: https://mail.python.org/mailman/listinfo/scikit-learn
+      - title: "Archive"
+        url: https://mail.python.org/pipermail/scikit-learn/

@@ -6,16 +6,16 @@ categories:
 tags:
   - Sprints
   - Community
+featured-image: AFME2-photo.png
+postauthors:
+  - name: Reshama Shaikh
+    website: https://reshamas.github.io
+    image: reshama_shaikh.jpeg 
 ---
-
-
-<p float="left">
-<a href="https://blog.dataumbrella.org/jmloyola-opensource-experience">
-  <img src="/blog/assets/images/posts_images/AFME2-photo.png" width="99%" height="99%"/> 
-</a>
-</p>
-
-Author: [Reshama Shaikh](https://reshamas.github.io)
+<div>
+  <img src="/blog/assets/images/posts_images/{{ page.featured-image }}" alt="">
+  {% include postauthor.html %}
+</div>
 
 ## Sprint Background
 
@@ -28,4 +28,6 @@ The Data Umbrella Africa & Middle East (AFME2) scikit-learn online sprint was he
 Check out the report for informative plots, created using Jupyter, python and plotly.  
 
 Read the full report here:  
+<span style="background-color: #CAE9F5;"> 
 [Data Umbrella AFME2 Sprint Report](https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report)
+</span>

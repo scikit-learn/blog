@@ -1,0 +1,12 @@
+{% assign post-author = page.post-author | default: page.authors[0] %}
+{% assign post-author = site.data.post-authors[post-author] | default: post-author %}
+
+<div class=“post-author”>
+  {% for post-author in page.post-author %}
+    <div class=“post-author-content”>
+      <h4>
+        <a class “u-url” href=“{{ post-author.website }}”> {{ post-author.name }} </a>
+      </h4>
+    </div>
+  {% endfor %}
+</div>
