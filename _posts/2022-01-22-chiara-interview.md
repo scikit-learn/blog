@@ -25,15 +25,15 @@ Chiara Marmo joined the scikit-learn Triage Team in 2019. In this interview, lea
 
 1. __Tell us about yourself.__
 
-  I’m Chiara, I’m Italian, from Biella, a small town in the North of Piedmont. I have a PhD in Astronomy. I am a Research Engineer and a French civil servant. I have worked in data processing and archiving for Astronomy, Earth and Planetary Sciences. Right now, I’m living in the US with my family.
+    I’m Chiara, I’m Italian, from Biella, a small town in the North of Piedmont. I have a PhD in Astronomy. I am a Research Engineer and a French civil servant. I have worked in data processing and archiving for Astronomy, Earth and Planetary Sciences. Right now, I’m living in the US with my family.
 
 1. __How did you first become involved in open source?__
 
-  Research is a big customer of open source software. I have found myself managing some technical aspects of research projects. Grants, in Europe, are more and more subject to open source constraints regarding software and IT infrastructure: this is a guarantee for transparency and reproducibility. I started packaging for Debian for internal needs and I ended up contributing to the distribution. I started using the Geographical Data Abstraction Library (GDAL) for a European project and I ended up contributing to a part of the code specific to my research area.
+    Research is a big customer of open source software. I have found myself managing some technical aspects of research projects. Grants, in Europe, are more and more subject to open source constraints regarding software and IT infrastructure: this is a guarantee for transparency and reproducibility. I started packaging for Debian for internal needs and I ended up contributing to the distribution. I started using the Geographical Data Abstraction Library (GDAL) for a European project and I ended up contributing to a part of the code specific to my research area.
 
 1. __We would love to learn of your open source journey.__
 
-  I finished my PhD (quite some time ago) thinking that everyone was better than me at coding stuff. I had spent a lot of time asking questions about some undocumented software I was using, which source was not open. During my first postdoc I discovered that some people were indeed writing scientific software under open licenses. <span style="background-color: #CAE9F5;">  Suddenly, I was able to check the code myself and even fix small issues I found. And I enjoyed it! So much that I switched to another career. </span>
+    I finished my PhD (quite some time ago) thinking that everyone was better than me at coding stuff. I had spent a lot of time asking questions about some undocumented software I was using, which source was not open. During my first postdoc I discovered that some people were indeed writing scientific software under open licenses. <span style="background-color: #CAE9F5;">  Suddenly, I was able to check the code myself and even fix small issues I found. And I enjoyed it! So much that I switched to another career. </span>
 
 1. __How did you get involved with scikit-learn?__
 
@@ -49,7 +49,7 @@ Chiara Marmo joined the scikit-learn Triage Team in 2019. In this interview, lea
 
   I often had the chance to be at the right place at the right moment, without expecting it. I am grateful to all the colleagues that have made me feel valued in my career. When I felt otherwise, I moved. A lot of people, like me, haven’t a dream to realize since they were like 10 years old, perhaps this is just a cinematographic myth. The best thing one can do is keep open eyes and ears and learn. Also never miss an opportunity because someone else says you do not fit.
 
-1. __What do find alluring about OSS?__
+1. __What do you find alluring about OSS?__
 
   Freedom! Technology is becoming a big part of our lives and having the opportunity to check the code yourself and helping in making it more stable and reliable is a guarantee of democracy. In scientific research Open Source Software is one of the keys to reproducibility and contributes to making research more transparent. Especially when funded by public institutions, scientific research has the responsibility of being readable by its users and funders.
 
