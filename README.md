@@ -3,7 +3,7 @@ Hosting the [scikit-learn.org](https://scikit-learn.org/stable/) blog.
 ***
 &nbsp;
 # How to Contribute
-Please refer to the [Guide to Contributing](https://github.com/scikit-learn/blog/blob/main/GUIDE-TO-CONTRIBUTING.md). All contributions must abide by the [Code of Conduct](https://github.com/scikit-learn/blog/blob/main/CODE-OF-CONDUCT.md).
+Please refer to the [Guide to Contributing](https://github.com/scikit-learn/blog/blob/main/CONTRIBUTING.md). All contributions must abide by the [Code of Conduct](https://github.com/scikit-learn/blog/blob/main/CODE-OF-CONDUCT.md).
 
 
 &nbsp;
