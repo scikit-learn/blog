@@ -71,6 +71,6 @@ Chiara Marmo joined the scikit-learn Triage Team in 2019. In this interview, lea
 
 1. __What are your hobbies, outside of work and open source?__
 
-    I really like to read, especially aloud, to whoever is in the room. Luckily my kids stay, in general… others might decide not to. I contribute to wikibooks.it, here and there.
+    I really like to read, especially aloud, to whoever is in the room. Luckily my kids stay, in general… others might decide not to. I contribute to [wikisource.it](https://it.wikisource.org), here and there.
 
     The movie I have watched more is “Ratatouille”. “Barry Lindon” is just after. I love languages, I am not talking about the programming ones. I like to learn how they have evolved. I found it fascinating to know how many they are and how they reflect our humanity.  
