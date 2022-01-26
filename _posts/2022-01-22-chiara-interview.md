@@ -38,7 +38,7 @@ Chiara Marmo joined the scikit-learn Triage Team in 2019. In this interview, lea
 1. __How did you get involved with scikit-learn?__
 
 <figure>
- <img src="../assets/images/posts_images/Paris-s.jpg" alt="photo of Paris" max-width="50%" max-height="50%" /> 
+ <img src="/blog/assets/images/posts_images/Paris-s.jpg" alt="photo of Paris" max-width="50%" max-height="50%" /> 
  <figcaption>
  Photo credit: <a href="https://cmarmo.github.io">Chiara Marmo</a>
  </figcaption>
