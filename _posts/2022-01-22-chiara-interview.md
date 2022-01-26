@@ -37,6 +37,8 @@ Chiara Marmo joined the scikit-learn Triage Team in 2019. In this interview, lea
 
 1. __How did you get involved with scikit-learn?__
 
+    ![Paris](/blog/assets/images/posts_images/Paris-s.jpg){:class="img-responsive"}
+
     I applied to a position offered by Inria (the French National Institute for Research in Digital Science and Technology). After so many years as an Open Source Software user, with some sparse contributions, I was interested in improving my understanding of the Open Source world.
 
     Inria is a French public institution, where the first public release of scikit-learn was prepared. As Community and Operation Officer I have performed a mix of technical and non-technical tasks for the [scikit-learn Consortium](https://scikit-learn.fondation-inria.fr/home/), a project of the “Fondation Inria”. I learned a lot, but I must confess that coming from nowhere, or, let’s say, elsewhere, into the Python Open Source community is not comfortable. But I guess changing one’s perspectives is never comfortable.
@@ -73,4 +75,6 @@ Chiara Marmo joined the scikit-learn Triage Team in 2019. In this interview, lea
 
     I really like to read, especially aloud, to whoever is in the room. Luckily my kids stay, in general… others might decide not to. I contribute to [wikisource.it](https://it.wikisource.org), here and there.
 
-    The movie I have watched more is “Ratatouille”. “Barry Lindon” is just after. I love languages, I am not talking about the programming ones. I like to learn how they have evolved. I found it fascinating to know how many they are and how they reflect our humanity.  
+    The movie I have watched more is “Ratatouille”. “Barry Lindon” is just after. I love languages, I am not talking about the programming ones. I like to learn how they have evolved. I found it fascinating to know how many they are and how they reflect our humanity.
+
+    ![Italian dialect](/blog/assets/images/posts_images/dialetto-s.jpg){:class="img-responsive"}
