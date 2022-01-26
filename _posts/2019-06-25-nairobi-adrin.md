@@ -1,5 +1,5 @@
 ---
-title: " scikit-learn sprint at Nairobi, Kenya"
+title: " scikit-learn Sprint in Nairobi, Kenya"
 date: June 25, 2019
 
 categories:
