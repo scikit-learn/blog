@@ -3,6 +3,8 @@ main:
     url: https://scikit-learn.org/stable/
   - title: "Calendar"
     url: /blog/calendar
+  - title: "Resources"
+    url: /blog/resources
   - title: More
     sublinks:
       - title: Install
