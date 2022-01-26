@@ -27,6 +27,13 @@ Chiara Marmo joined the scikit-learn Triage Team in 2019. In this interview, lea
 
     I’m Chiara, I’m Italian, from Biella, a small town in the North of Piedmont. I have a PhD in Astronomy. I am a Research Engineer and a French civil servant. I have worked in data processing and archiving for Astronomy, Earth and Planetary Sciences. Right now, I’m living in the US with my family.
 
+<figure>
+ <img src="/blog/assets/images/posts_images/Paris-s.jpg" alt="photo of Paris" max-width="50%" max-height="50%" /> 
+ <figcaption>
+ Photo credit: <a href="https://cmarmo.github.io">Chiara Marmo</a>
+ </figcaption>
+</figure>
+
 1. __How did you first become involved in open source?__
 
     Research is a big customer of open source software. I have found myself managing some technical aspects of research projects. Grants, in Europe, are more and more subject to open source constraints regarding software and IT infrastructure: this is a guarantee for transparency and reproducibility. I started packaging for Debian for internal needs and I ended up contributing to the distribution. I started using the Geographical Data Abstraction Library (GDAL) for a European project and I ended up contributing to a part of the code specific to my research area.
@@ -37,12 +44,7 @@ Chiara Marmo joined the scikit-learn Triage Team in 2019. In this interview, lea
 
 1. __How did you get involved with scikit-learn?__
 
-<figure>
- <img src="/blog/assets/images/posts_images/Paris-s.jpg" alt="photo of Paris" max-width="50%" max-height="50%" /> 
- <figcaption>
- Photo credit: <a href="https://cmarmo.github.io">Chiara Marmo</a>
- </figcaption>
-</figure>
+
 
     I applied to a position offered by Inria (the French National Institute for Research in Digital Science and Technology). After so many years as an Open Source Software user, with some sparse contributions, I was interested in improving my understanding of the Open Source world.
 
@@ -83,7 +85,7 @@ Chiara Marmo joined the scikit-learn Triage Team in 2019. In this interview, lea
     The movie I have watched more is “Ratatouille”. “Barry Lindon” is just after. I love languages, I am not talking about the programming ones. I like to learn how they have evolved. I found it fascinating to know how many they are and how they reflect our humanity.
 
 <figure>
- <img src="/blog/assets/images/posts_images/dialetto-s.jpg" alt="photo of Italian dialect text" max-width="50%" max-height="50%" /> 
+ <img src="/blog/assets/images/posts_images/dialetto-s.jpg" alt="photo of Italian dialect text" max-width="30%" max-height="30%" /> 
  <figcaption>
  Photo credit: <a href="https://cmarmo.github.io">Chiara Marmo</a>
  </figcaption>
