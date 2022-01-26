@@ -37,7 +37,12 @@ Chiara Marmo joined the scikit-learn Triage Team in 2019. In this interview, lea
 
 1. __How did you get involved with scikit-learn?__
 
-    ![Paris](/blog/assets/images/posts_images/Paris-s.jpg){:class="img-responsive"}
+<figure>
+ <img src="../assets/images/posts_images/Paris-s.jpg" alt="photo of Paris" max-width="50%" max-height="50%" /> 
+ <figcaption>
+ Photo credit: <a href="https://cmarmo.github.io">Chiara Marmo</a>
+ </figcaption>
+</figure>
 
     I applied to a position offered by Inria (the French National Institute for Research in Digital Science and Technology). After so many years as an Open Source Software user, with some sparse contributions, I was interested in improving my understanding of the Open Source world.
 
@@ -76,8 +81,6 @@ Chiara Marmo joined the scikit-learn Triage Team in 2019. In this interview, lea
     I really like to read, especially aloud, to whoever is in the room. Luckily my kids stay, in general… others might decide not to. I contribute to [wikisource.it](https://it.wikisource.org), here and there.
 
     The movie I have watched more is “Ratatouille”. “Barry Lindon” is just after. I love languages, I am not talking about the programming ones. I like to learn how they have evolved. I found it fascinating to know how many they are and how they reflect our humanity.
-
-    ![Italian dialect](/blog/assets/images/posts_images/dialetto-s.jpg){:class="img-responsive"}
 
 <figure>
  <img src="../assets/images/posts_images/dialetto-s.jpg" alt="photo of Italian dialect text" max-width="50%" max-height="50%" /> 
