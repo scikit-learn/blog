@@ -19,5 +19,12 @@ postauthors:
   {% include postauthor.html %}
 </div>
 
-<iframe src="https://thomasjpfan.github.io/sklearn-repo-status/">
+<iframe  scrolling="no" style="border:none;" seamless="seamless" src="https://thomasjpfan.github.io/sklearn-repo-status/" height="500" width="1000">
 </iframe>
+
+
+
+<iframe id="igraph" src="https://thomasjpfan.github.io/sklearn-repo-status/">
+</iframe>
+
+
