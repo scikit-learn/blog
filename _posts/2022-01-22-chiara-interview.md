@@ -83,7 +83,7 @@ Chiara Marmo joined the scikit-learn Triage Team in 2019. In this interview, lea
     The movie I have watched more is “Ratatouille”. “Barry Lindon” is just after. I love languages, I am not talking about the programming ones. I like to learn how they have evolved. I found it fascinating to know how many they are and how they reflect our humanity.
 
 <figure>
- <img src="../assets/images/posts_images/dialetto-s.jpg" alt="photo of Italian dialect text" max-width="50%" max-height="50%" /> 
+ <img src="/blog/assets/images/posts_images/dialetto-s.jpg" alt="photo of Italian dialect text" max-width="50%" max-height="50%" /> 
  <figcaption>
  Photo credit: <a href="https://cmarmo.github.io">Chiara Marmo</a>
  </figcaption>
