@@ -1,5 +1,5 @@
 ---
-title: "Don't fund software that doesn't exist"
+title: "Don't Fund Software That Doesn't Exist"
 date: January 7, 2020
 
 categories:
