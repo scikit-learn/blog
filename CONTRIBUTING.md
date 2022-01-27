@@ -12,6 +12,7 @@ How to contribute to the [scikit-learn.org blog](https://scikit-learn.org/blog).
     - [Setup](https://github.com/scikit-learn/blog/blob/main/GUIDE-TO-CONTRIBUTING.md#setup)
     - [Submitting Your Blog Post](https://github.com/scikit-learn/blog/blob/main/GUIDE-TO-CONTRIBUTING.md#submitting-your-blog-post)
     - [Formatting Your Blog Post](https://github.com/scikit-learn/blog/blob/main/GUIDE-TO-CONTRIBUTING.md#formatting-your-blog-post)
+<br><br>
 
 # Blog Standards
 This section contains scikit-learn's standards and guidelines.
@@ -30,18 +31,17 @@ Categories are broad groupings of posts. A post should have only one category. I
 Tags describe specific details of a post. They help to link related posts together and aid in user search. A post can have multiple tags or no tags. While there is no strict limit, we recommend using no more than 10 tags per post.
 
 *Example Tags:* Sprints, Community, Open Source, New Member, Machine Learning, New Feature
+<br><br>
 
 
-# Contributing
-## Installation
+
+# Installation
 Instructions to build and test the [scikit-learn.org/blog](https://scikit-learn.org/blog) site locally.
 
-
-### Installing Ruby & Jekyll
+## Installing Ruby & Jekyll
 If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
 
-
-### Deployment
+## Deployment
 To run the theme locally:
 1. Navigate to the theme directory and run `bundle install` to install the dependencies (if you get errors, delete Gemfile.lock and try again). 
 2. Next, run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
@@ -49,19 +49,23 @@ To run the theme locally:
 
 For more information, check the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on the Jekyll website.
 
-#### Theme Documentation
+### Theme Documentation
 This blog is uses the [Minimal Mistakes Jekyll Theme](https://github.com/mmistakes/minimal-mistakes). For more information on configuration/customization, please reference the [theme documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
+<br><br>
 
-&nbsp;
-## Adding a New Post
 
-### Setup
+
+
+# Adding a New Post
+
+## Setup
 This sections contains instructions to add a new blog post to the scikit-learn blog.
 
 Before adding a post, you must have:
 - A Github account
+<br>
 
-### Submitting Your Blog Post
+## Submitting Your Blog Post
 Refer to the [blog post template](https://github.com/scikit-learn/blog/blob/main/_posts/templates/2022-01-01-template-post.markdown).
 
 1. First, fork the [scikit-learn/blog](https://github.com/scikit-learn/blog) repository.
@@ -72,37 +76,47 @@ Refer to the [blog post template](https://github.com/scikit-learn/blog/blob/main
 5. Create a pull request.
 <br>
 
-### Formatting Your Blog Post
 
-#### 1) Update the Post's Front Matter
+## Formatting Your Blog Post
+
+### 1) Update the Post's Front Matter
 The purpose of front matter is to set variables and metadata on the site's pages.
 
-1. **Add Post Information**
-    - *title:* Add the title of your blog post in double quotes, 
-        - `title: "Example Post Title"` (with quotes)
-    - *date:* Add the date of posting. This helps to ensure our blog displays posts are sorted correctly and are displayed in a sequential order.
-        - `date: Month Name, Day, Year` (no quotes) 
-2. **Add Post Category and Tags:** Categories and tags help us organize our blog by grouping related content to make it easier to discover. Check the [Blog Standards](https://github.com/scikit-learn/blog#blog-standards) section for more information.
-    - *categories:* A post should have only one category. Format categories in titlecase without dashes (Ex. "Open Source" instead of "open-source")
-    - *tags:* Tags describe specific details of a post. They help to link related posts together and aid in user search.
-    - ![categories_tags](/assets/images/brand_images/category_tag.png)
-3. **Add Featured Image**
-    - *featured-image:* First, place the image in the [assets/images/posts_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/posts_images) folder. Set the featured-image variable to the base image name, omiting the full path. 
-        - `featured-image: image-name.png` (no quotes)
-4. **Add Author Information**
-    - The *postauthors* field can accomodate multiple authors. Each postauthor can use the following four variables, but only the `name` field is required.
-        -  *name:* (required) 
-            -  `name: Author Name` (no quotes)
-        -  *website:* (optional) Link attached to author name. Can be any relevant link.
-            -  `website: https://github.com` (no quotes)
-        -  *email:* (optional) Appears as an email icon after author name.
-            -  `email: author@email.com` (no quotes)
-        -  *image:* (optional) Author headshot, appears before author name. First, place the image in the [assets/images/author_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/author_images) folder. Set the image variable to the base image name, omiting the full path. 
-            - `image: image-name.png` (no quotes)
-        -  Single Author Post          |  Multiple Author Post
-           :-------------------------:|:-------------------------:
-           ![](/assets/images/brand_images/single-author-post.png)  |  ![](/assets/images/brand_images/multiple-author-post.png)
+<details>
+<summary> Click to Expand </summary>
+  
+  1. **Add Post Information**
+      - *title:* Add the title of your blog post in double quotes, 
+          - `title: "Example Post Title"` (with quotes)
+      - *date:* Add the date of posting. This helps to ensure our blog displays posts are sorted correctly and are displayed in a sequential order.
+          - `date: Month Name, Day, Year` (no quotes) <br>
+        
+  2. **Add Post Category and Tags:** Categories and tags help us organize our blog by grouping related content to make it easier to discover. Check the [Blog Standards](https://github.com/scikit-learn/blog#blog-standards) section for more information.
+      - *categories:* A post should have only one category. Format categories in titlecase without dashes (Ex. "Open Source" instead of "open-source")
+      - *tags:* Tags describe specific details of a post. They help to link related posts together and aid in user search.
+      - ![categories_tags](/assets/images/brand_images/category_tag.png)
+  3. **Add Featured Image**
+      - *featured-image:* First, place the image in the [assets/images/posts_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/posts_images) folder. Set the featured-image variable to the base image name, omiting the full path. 
+          - `featured-image: image-name.png` (no quotes)
+  4. **Add Author Information**
+      - The *postauthors* field can accomodate multiple authors. Each postauthor can use the following four variables, but only the `name` field is required.
+          -  *name:* (required) 
+              -  `name: Author Name` (no quotes)
+          -  *website:* (optional) Link attached to author name. Can be any relevant link.
+              -  `website: https://github.com` (no quotes)
+          -  *email:* (optional) Appears as an email icon after author name.
+              -  `email: author@email.com` (no quotes)
+          -  *image:* (optional) Author headshot, appears before author name. First, place the image in the [assets/images/author_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/author_images) folder. Set the image variable to the base image name, omiting the full path. 
+              - `image: image-name.png` (no quotes)
+          -  Single Author Post          |  Multiple Author Post
+             :-------------------------:|:-------------------------:
+             ![](/assets/images/brand_images/single-author-post.png)  |  ![](/assets/images/brand_images/multiple-author-post.png)
+</details>
         
         
-#### 2) Add post content.
+### 2) Add post content.
 Format using [Markdown](https://www.markdownguide.org/).
+<details>
+<summary> Click to Expand </summary>
+
+</details>
