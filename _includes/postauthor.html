@@ -7,7 +7,7 @@
 
   {% if image %}
     {% capture author_name %}
-      <a itemprop="sameAs" content="{{ postauthor.website }}" href="{{ postauthor.website }}" rel="me noopener noreferrer" style="vertical-align:top;"><img src="/blog/assets/images/author_images/{{ postauthor.image }}" style="width:1em;margin-right:.5em;border-radius: 50%;" alt="Author Icon" class="orcid-icon">{{ postauthor.name }}</a>
+      <a itemprop="sameAs" content="{{ postauthor.website }}" href="{{ postauthor.website }}" rel="me noopener noreferrer" style="vertical-align:top;"><img src="/assets/images/author_images/{{ postauthor.image }}" style="width:1em;margin-right:.5em;border-radius: 50%;" alt="Author Icon" class="orcid-icon">{{ postauthor.name }}</a>
     {% endcapture %}
   {% else %}
     {% assign author_name = postauthor.name %}

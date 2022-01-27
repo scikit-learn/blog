@@ -21,7 +21,7 @@ jobs:
       - name: Generate Jekyll Archives
         uses: kannansuresh/jekyll-blog-archive-workflow@master
         with:
-          archive_url: "https://scikit-learn.org/blog/archives/archivedata"
+          archive_url: "https://blog.scikit-learn.org/archives/archivedata"
           archive_folder_path: "_archives"
 
       - name: setup git config
