@@ -1,6 +1,6 @@
 
 # Guide to Contributing
-How to contribute to the [scikit-learn.org blog](https://scikit-learn.org/blog).
+How to contribute to the [scikit-learn.org blog](https://blog.scikit-learn.org).
 ***
 
 **Table of Contents**  
