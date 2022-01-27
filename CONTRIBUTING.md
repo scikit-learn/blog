@@ -158,7 +158,7 @@ You can format your post using Markdown. Click to expand to view basic formattin
   
   
   #### Links
-  Add a link with custom text. 
+  Add a link with [custom text](https://blog.scikit-learn.org). 
   
       [link text](https://url.com)
   
