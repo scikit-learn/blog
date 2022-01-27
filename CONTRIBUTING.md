@@ -4,13 +4,13 @@ How to contribute to the [scikit-learn.org blog](https://blog.scikit-learn.org).
 ***
 
 **Table of Contents**  
-- [Blog Standards](https://github.com/scikit-learn/blog/blob/main/GUIDE-TO-CONTRIBUTING.md#blog-standards)
-  - [Categories & Tags](https://github.com/scikit-learn/blog/blob/main/GUIDE-TO-CONTRIBUTING.md#categories--tags)    
-- [Installation](https://github.com/scikit-learn/blog/blob/main/GUIDE-TO-CONTRIBUTING.md#installation)
-- [Adding a New Post](https://github.com/scikit-learn/blog/blob/main/GUIDE-TO-CONTRIBUTING.md#adding-a-new-post) 
-    - [Setup](https://github.com/scikit-learn/blog/blob/main/GUIDE-TO-CONTRIBUTING.md#setup)
-    - [Submitting Your Blog Post](https://github.com/scikit-learn/blog/blob/main/GUIDE-TO-CONTRIBUTING.md#submitting-your-blog-post)
-    - [Formatting Your Blog Post](https://github.com/scikit-learn/blog/blob/main/GUIDE-TO-CONTRIBUTING.md#formatting-your-blog-post)
+- [Blog Standards](https://github.com/scikit-learn/blog/blob/main/CONTRIBUTING.md#blog-standards)
+  - [Categories & Tags](https://github.com/scikit-learn/blog/blob/main/CONTRIBUTING.md#categories--tags)    
+- [Installation](https://github.com/scikit-learn/blog/blob/main/CONTRIBUTING.md#installation)
+- [Adding a New Post](https://github.com/scikit-learn/blog/blob/main/CONTRIBUTING.md#adding-a-new-post) 
+    - [Setup](https://github.com/scikit-learn/blog/blob/main/CONTRIBUTING.md#setup)
+    - [Submitting Your Blog Post](https://github.com/scikit-learn/blog/blob/main/CONTRIBUTING.md#submitting-your-blog-post)
+    - [Formatting Your Blog Post](https://github.com/scikit-learn/blog/blob/main/CONTRIBUTING.md#formatting-your-blog-post)
 <br><br>
 
 # Blog Standards
