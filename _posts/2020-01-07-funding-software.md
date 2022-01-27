@@ -25,6 +25,6 @@ I’ve been happy to see an increase in funding for open source software across 
 
 Instead of the current approach of funding new projects, I would recommend funding existing open source software, ideally software that is widely used, underfunded and already using peer-production as its organizational principle.
 
-Read the full post on Andrea's blog:  
+Read the full post on Andreas' blog:  
 <span style="background-color: #CAE9F5;">  [Andreas Mueller's post: Don't fund software that doesn't exist](https://peekaboo-vision.blogspot.com/2020/01/dont-fund-software-that-doesnt-exist.html) </span>
 
