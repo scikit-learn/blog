@@ -116,7 +116,7 @@ The purpose of front matter is to set variables and metadata on the site's pages
 
 ### 2) Add post content.
 You can format your post using Markdown. Click to expand to view basic formatting suggestions or visit the [Markdown Guide](https://www.markdownguide.org/) for more examples. 
-<details open >
+<details>
 <summary> Click to Expand </summary>
   
   #### Headings
