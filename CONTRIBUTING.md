@@ -120,63 +120,72 @@ You can format your post using Markdown. Click to expand to view basic formattin
 <summary> Click to Expand </summary>
   
   #### Headings
-  Use the \# symbol to format header text. 
-  
-      # Heading 1
-      ## Heading 2
-      ### Heading 3
-      #### Heading 4
-      ##### Heading 5
-      ###### Heading 6
+  Use the **\#** symbol to format header text. 
+  ```
+  # Heading 1
+  ## Heading 2
+  ### Heading 3
+  #### Heading 4
+  ##### Heading 5
+  ###### Heading 6
+  ```
   
   #### Text Emphasis
-  Use the \* or \_ symbols around words or phrases to add **bolding** or _italics_, or _even **bold** within italics_!
-      
-      _Italic text_
-      *Italic text*
-      __Bold text__
-      **Bold text**
-      _You can even add **bold text** within italics_
+  Use the __\*__ or **\_** symbols around words or phrases to add **bolding** or _italics_, or _even **bold** within italics_!
+  ```
+  _Italic text_
+  *Italic text*
+  __Bold text__
+  **Bold text**
+  _You can even add **bold text** within italics_
+  ```
   
   #### Lists
   Add unordered lists: 
-      
-      - Item 1
-      - Item 2
-  
+  ```
+  - Item 1
+  - Item 2
+  ```
   Or ordered lists:
-  
-      1. Item 1
-      2. Item 2
-  
+  ```
+  1. Item 1
+  2. Item 2
+  ```
   If you are adding paragraphs between list items, be sure to indent each paragragh by four spaces.
-  
-      1. Item 1
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat in fermentum posuere urna nec. Nibh tellus molestie nunc non blandit. Dui id ornare arcu odio ut sem nulla. 
-          Non curabitur gravida arcu ac. Ut sem viverra aliquet eget sit amet. Morbi tincidunt ornare massa eget egestas purus viverra accumsan in. Vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Tincidunt augue interdum velit euismod in pellentesque massa. Interdum velit laoreet id donec ultrices tincidunt.
-      2. Item 2
-  
+  ```
+  1. Item 1
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat in fermentum posuere urna nec. Nibh tellus molestie nunc non blandit. Dui id ornare arcu odio ut sem nulla. 
+      Non curabitur gravida arcu ac. Ut sem viverra aliquet eget sit amet. Morbi tincidunt ornare massa eget egestas purus viverra accumsan in. Vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Tincidunt augue interdum velit euismod in pellentesque massa. Interdum velit laoreet id donec ultrices tincidunt.
+  2. Item 2
+  ```
   
   #### Links
   Add a link with [custom text](https://blog.scikit-learn.org). 
-  
-      [link text](https://url.com)
+  ```
+  [link text](https://url.com)
+  ```
   
   #### Images
-  Add an image to your post by placing the image in the [/assets/images/posts_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/posts_images) folder, then adding the following code.
-             
-      <figure>
-        <img src="/blog/assets/images/posts_images/paris.jpg" alt="photo of Paris" max-width="50%" max-height="50%" /> 
-        <figcaption>
-          Photo credit: <a href="https://cmarmo.github.io">Chiara Marmo</a>
-        </figcaption>
-      </figure>
+  Add an image to your post by placing the image in the [/assets/images/posts_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/posts_images) folder, then adding the following code. </br>
+  - Within **img src**, replace _sample-image.jpg_ with the name of the image and update the _alt_ to be a short (2-4 word) description of the image.
+  - Update the **Photo Credit** _caption-link_ and replace _Credit Link Text_ with the source name.
+  
+  ```            
+  <figure>
+    <img src="/blog/assets/images/posts_images/sample-image.jpg" alt="short description" max-width="50%" max-height="50%" /> 
+    <figcaption>
+      Photo Credit: <a href="https://caption-link.com">Credit Link Text</a>
+    </figcaption>
+  </figure>
+  ```
 
   #### Text Highlighting
   
-      Read the full interview on Data Umbrella's blog:  
-      <span style="background-color: #CAE9F5;">
-        [Data Umbrella Interview: Juan Martín Loyola](https://blog.dataumbrella.org/jmloyola-opensource-experience)             
-      </span>
+  ![](/assets/images/brand_images/highlighted-text.png) 
   
+  ```
+  <span style="background-color: #CAE9F5;">
+    [Data Umbrella Interview: Juan Martín Loyola](https://blog.dataumbrella.org/jmloyola-opensource-experience)             
+  </span>
+  ```
 </details>
