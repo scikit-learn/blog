@@ -173,14 +173,6 @@ You can format your post using Markdown. Click to expand to view basic formattin
       </figure>
 
   #### Text Highlighting
-  ```
-  Read the full interview on Data Umbrella's blog:  
-  <span style="background-color: #CAE9F5;">  [Data Umbrella Interview: Juan Martín Loyola](https://blog.dataumbrella.org/jmloyola-opensource-experience) </span>
-  ```
-  
-  <span style="background-color: #CAE9F5;">
-    [Data Umbrella Interview: Juan Martín Loyola](https://blog.dataumbrella.org/jmloyola-opensource-experience)             
-  </span>
   
       Read the full interview on Data Umbrella's blog:  
       <span style="background-color: #CAE9F5;">
