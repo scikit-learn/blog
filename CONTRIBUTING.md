@@ -166,22 +166,42 @@ You can format your post using Markdown. Click to expand to view basic formattin
   ```
   
   #### Images
-  Add an image to your post by placing the image in the [/assets/images/posts_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/posts_images) folder, then adding the following code. </br>
+  There are a few ways to add images to your post. First, place the image in the [/assets/images/posts_images/](https://github.com/scikit-learn/blog/tree/main/assets/images/posts_images) folder, then adding the following code. </br>
+  
+  ##### Add an Image
+  ```
+  ![](/assets/images/posts_images/sample-image.png) 
+  ```
+  
+  ##### Customize Image Size
+  Adjust the width and height of your image.
+  ```
+  <img src="/blog/assets/images/posts_images/sample-image.png" width="200" height="100">
+  ```
+  
+  ##### Add an Image Caption
   - Within **img src**, replace _sample-image.jpg_ with the name of the image and update the _alt_ to be a short (2-4 word) description of the image.
   - Update the **Photo Credit** _caption-link_ and replace _Credit Link Text_ with the source name.
-  
   ```            
   <figure>
-    <img src="/blog/assets/images/posts_images/sample-image.jpg" alt="short description" max-width="50%" max-height="50%" /> 
+    <img src="/blog/assets/images/posts_images/sample-image.jpg"
+         alt="short description" max-width="50%" max-height="50%" /> 
     <figcaption>
       Photo Credit: <a href="https://caption-link.com">Credit Link Text</a>
     </figcaption>
   </figure>
   ```
 
+  ##### Add a Link to an Image
+  Update the _image_link_. The _Hover Text_ will be shown when a mouse hover's over the image. 
+  ```
+  [![](/blog/assets/images/posts_images/sample-image.jpg "Hover Text")](https://image-link.com)
+  ```
+
+
   #### Text Highlighting
   
-  ![](/assets/images/brand_images/highlighted-text.png) 
+  <img src="/assets/images/brand_images/highlighted-text.png" width="300">
   
   ```
   <span style="background-color: #CAE9F5;">
