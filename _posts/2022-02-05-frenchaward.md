@@ -2,7 +2,7 @@
 title: "An Open Source Software Award for scikit-learn"
 date: February 7, 2022
 categories:
-  - Events
+  - Press
 tags:
   - Open Source
   - Award
