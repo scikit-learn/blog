@@ -5,9 +5,7 @@ categories:
   - Press
 tags:
   - Open Source
-  - Award
   - Community
-  - French government
 featured-image: Frenchaward.png
 
 postauthors:
