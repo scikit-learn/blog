@@ -117,6 +117,7 @@ analytics:
 exclude:
   - README
   - _posts/template
+  - vendor
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -198,3 +199,5 @@ defaults:
       author_profile: true
       sidebar:
         nav: "docs"
+  # Build settings
+  markdown: kramdown
