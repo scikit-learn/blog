@@ -19,7 +19,7 @@ postauthors:
   {% include postauthor.html %}
 </div>
 
-We are pleased to announce that scikit-learn has received a prize for open-source scientific software from the French government. It is great recognition for all the community of contributors and users of a project born in France. Congratulation to the worldwide community for this great achievement!
+We are pleased to announce that scikit-learn has received a prize for open-source scientific software from the French government. It is great recognition for all the community of contributors and users of a project born in France. Congratulations to the worldwide community for this great achievement!
 
 __A Community Award__ 
 scikit-learn was awarded for its very active community with more than 500,000 users per month and 2,200 contributors. Scikit-learn prides itself on being able to showcase its best practices for community building, an essential element of successful open-source software and open science innovation. Congratulations to all the projects and the teams that received the open-source software and open science award today. This work is inspiring for all of us!
