@@ -43,6 +43,6 @@ The awards came in three categories, which recognized:
 - The scientific and technical quality of the software
 - Building an active community of contributors and users
 - The essential effort to provide documentation that facilitates the use and appropriation of the software
-See the whole list of award recipients:
+See the whole list of award recipients. This article is available in both French and English.
 
 <span style="background-color: #CAE9F5;">  [The official list of award winners](https://www.ouvrirlascience.fr/remise-des-prix-science-ouverte-du-logiciel-libre-de-la-recherche/) </span>
