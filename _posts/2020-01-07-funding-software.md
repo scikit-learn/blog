@@ -3,11 +3,10 @@ title: "Don't Fund Software That Doesn't Exist"
 date: January 7, 2020
 
 categories:
-  - Team
+  - Funding
 tags:
   - Open Source
   - Free Software
-  - Funding
 
 featured-image: 
 
