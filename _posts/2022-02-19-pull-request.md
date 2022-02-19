@@ -21,6 +21,8 @@ A pull request is a method for submitting contributions to a software project. M
 2. The social aspects of code review and how to effectively give feedback.
 3. The technical aspects of reviewing a pull request.
 
+The [slides](https://thomasjpfan.github.io/data-umbrella-2021-reviewing-prs/#/) for this presentation are available.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dyxS9KKCNzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Outline
