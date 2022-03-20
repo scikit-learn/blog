@@ -1,6 +1,6 @@
 ---
 title: "Data Umbrella AFME2 Sprint Report"
-date: January 7, 2022
+date: November 20, 2021
 categories:
   - Events
 tags:
@@ -23,7 +23,7 @@ This sprint was organized by [Data Umbrella](https://www.dataumbrella.org) to in
 
 ## Summary
 
-The Data Umbrella Africa & Middle East (AFME2) scikit-learn online sprint was held on October 23, 2021, and the event report is now available.  40 participants joined from 17 countries, and 57% were returning contributors. 
+The Data Umbrella Africa & Middle East (AFME2) scikit-learn online sprint was held on October 23, 2021, and the event report is now available.  40 participants joined from 17 countries, and 57% were returning contributors.
 
 Check out the report for informative plots, created using Jupyter, python and plotly.  
 
