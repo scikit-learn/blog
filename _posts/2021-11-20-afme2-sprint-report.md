@@ -19,7 +19,7 @@ postauthors:
 
 ## Sprint Background
 
-This sprint was organized by [Data Umbrella](https://www.dataumbrella.org) to increase the participation of underrepresented persons in data science, with a focus on the geographic region of Africa & the Middle East (AFME).
+This sprint was organized by [Data Umbrella](https://www.dataumbrella.org) to increase the participation of underrepresented persons in data science, with a focus on the geographic regions of Africa & the Middle East (AFME).
 
 ## Summary
 
