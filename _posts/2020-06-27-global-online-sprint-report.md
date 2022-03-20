@@ -1,6 +1,6 @@
 ---
-title: "Data Umbrella AFME1 Sprint Report"
-date: February 22, 2021
+title: "Data Umbrella First Global Online Sprint Report"
+date: June 27, 2020
 categories:
   - Events
 tags:
