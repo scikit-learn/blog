@@ -6,7 +6,7 @@ categories:
 tags:
   - Sprints
   - Community
-featured-image: LATAM-group-cover.png
+featured-image: latam-group-cover.png
 postauthors:
   - name: Reshama Shaikh
     website: https://reshamas.github.io
