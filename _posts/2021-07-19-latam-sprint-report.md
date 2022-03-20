@@ -25,7 +25,7 @@ This sprint was organized by [Data Umbrella](https://www.dataumbrella.org) to in
 
 The Data Umbrella Latin America scikit-learn online sprint was held on June 26, 2021, and the event report is now available.  40 participants joined from 9 countries.
 
-Check out the report for informative plots, created using Jupyter, python and plotly.  
+Check out the report for more details.  
 
 Read the full report here:  
 <span style="background-color: #CAE9F5;"> 
