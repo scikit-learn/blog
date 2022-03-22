@@ -1,28 +1,25 @@
 ---
-title: "Behind the Scenes of the Data Umbrella scikit-learn Open Source Sprints"
+title: "Behind the Scenes of Data Umbrella scikit-learn Open Source Sprints"
 date: March 21, 2022
 categories:
-  - Community
+  - Events
 tags:
   - Open Source
+featured-image: behind_the_scenes.png
+
 postauthors:
   - name: Reshama Shaikh
-    website: https://github.com/thomasjpfan
-    image: thomas_fan.jpeg
+    website: https://reshamas.github.io
+    image: reshama_shaikh.jpeg 
+  - name: Angela Okune
+    website: https://angelaokune.me
+    image: angela_okune.jpg
 ---
 
 <div>
+  <img src="/assets/images/posts_images/{{ page.featured-image }}" alt="">
   {% include postauthor.html %}
 </div>
-
-<figure>
- <img src="../assets/images/behind_the_scenes.png" alt="world map with pins where sprint particiapants have joined" max-width="50%" max-height="50%" /> 
- <figcaption>
- Photo credit: <a href="https://reshamas.github.io">Reshama Shaikh</a>
- </figcaption>
-</figure>
-
-Authors: [Reshama Shaikh](https://reshamas.github.io) and [Angela Okune](https://angelaokune.me)
 
 ## Introduction
 
@@ -30,5 +27,3 @@ Prior to 2020, most data sprints were held in person during intensive 8-hour-lon
 
 Read the  full article here:  
 [Behind the Scenes: What It Takes to Run Data Umbrella’s scikit-learn Open Source Sprints](https://eventfund.codeforscience.org/behind-the-scenes-what-it-takes-to-run-data-umbrellas-scikit-learn-open-source-sprints/), March 2022
-
-
