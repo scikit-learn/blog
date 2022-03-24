@@ -24,7 +24,8 @@ author_profile: false
   - Paris, France:  [Sprint of the Decade](https://github.com/scikit-learn/scikit-learn/wiki/Paris-scikit-learn-Sprint-of-the-Decade) (Jan 2020)
   - Berlin, Germany: [WiMLDS sprint](https://github.com/WiMLDS/berlin-2020-scikit-sprint) (Jan 2020)
   
-- 2019  
+- 2019
+  - London:  [ManAHL hackathon](https://www.man.com/hackathon2019) (Nov 2, 2019)
   - San Francisco, CA:  [WiMLDS sprint](http://wimlds.org/opensourcesprints-2/bay-area-scikit-sprint-2019/) (Nov 2019)
   - New York, NY:  [WiMLDS sprint](http://wimlds.org/opensourcesprints-2/nyc-scikit-sprint-2019/) (Aug 24, 2019)
   - SciPy:  [Austin, TX](https://www.scipy2019.scipy.org/sprints) (Jul 13-14, 2019)  
@@ -36,6 +37,7 @@ author_profile: false
   - Paris:  core sprint, for advanced contributors (Jul)
   - Two Sigma:  [New York City](https://twitter.com/amuellerml/status/1007670849774784512) (Jun) 
   - UC Berkeley:  [Berkeley](https://github.com/scikit-image/scikit-image/wiki/UC-Berkeley-(BIDS)-sprint,-May-28-Jun-2-2018)(May 28 to Jun 2)
+  - ManAHL:  London (April 21-22, 2018)
 - 2017
   - [Paris](http://gael-varoquaux.info/programming/scikit-learn-paris-sprint-2017.html) (Jun)
   - WiMLDS: [New York City](https://github.com/WiMLDS/scikit-sprint-nyc-2017/blob/master/README.md) (Mar)
