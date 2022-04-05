@@ -1,13 +1,17 @@
 # scikit-learn Blog
-Hosting the [scikit-learn.org](https://scikit-learn.org/stable/) blog.
-***
+
+![scikit-learn logo](/assets/images/scikit-learn-logo.png)
+
+This repository hosts the development of the [scikit-learn.org](https://scikit-learn.org/stable/) blog.
+
+
 &nbsp;
-# How to Contribute
+## How to Contribute
 Please refer to the [Guide to Contributing](https://github.com/scikit-learn/blog/blob/main/CONTRIBUTING.md). All contributions must abide by the [Code of Conduct](https://github.com/scikit-learn/blog/blob/main/CODE-OF-CONDUCT.md).
 
 
 &nbsp;
-# Brand Standards
+## Brand Standards
 This section contains scikit-learn's branding standards and guidelines.
 
 ### scikit-learn Color Palette
