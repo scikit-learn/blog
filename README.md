@@ -7,7 +7,8 @@ This repository hosts the development of the [scikit-learn.org](https://scikit-l
 
 &nbsp;
 ## How to Contribute
-Please refer to the [Guide to Contributing](https://github.com/scikit-learn/blog/blob/main/CONTRIBUTING.md). All contributions must abide by the [Code of Conduct](https://github.com/scikit-learn/blog/blob/main/CODE-OF-CONDUCT.md).
+Please refer to the [Guide to Contributing](https://github.com/scikit-learn/blog/blob/main/CONTRIBUTING.md).       
+All contributions must abide by the [Code of Conduct](https://github.com/scikit-learn/blog/blob/main/CODE-OF-CONDUCT.md).
 
 
 &nbsp;
@@ -19,8 +20,9 @@ This section contains scikit-learn's branding standards and guidelines.
 ![#F7931E Orange](/assets/images/brand_images/colorswatch_F7931E_orange.png)  `RGB 247/147/30 | HEX #F7931E | scikit-learn Orange`     
 ![#9B4600 Brown](/assets/images/brand_images/colorswatch_9B4600_brown.png) `RGB 155/70/0| HEX #9B4600 | scikit-learn Brown`     
 
-### Logo Use     
-Logo. <br><br>
+### Logo
+Logos can be found in the [assets/images/](https://github.com/scikit-learn/blog/tree/main/assets/images) folder. <br><br>
+<img src="/assets/images/scikit-learn-logo.png" width="200">
 
 ___
 
