@@ -5,6 +5,8 @@ main:
     url: /calendar
   - title: "Resources"
     url: /resources
+  - title: "Sprints" 
+    url: /sprints
   - title: More
     sublinks:
       - title: Install

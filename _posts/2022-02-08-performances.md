@@ -2,17 +2,20 @@
 title: "Performances and scikit-learn"
 date: February 8, 2022
 categories:
-  - Performance
+  - Technical
 tags:
   - Open Source
   - Performance
+featured-image: julien-performances.png
+
 postauthors:
   - name: Julien Jerphanion
     website: https://jjerphan.xyz
-    image: jjerphan.jpg
+    image: jjerphan.jpg 
 ---
 
 <div>
+  <img src="/assets/images/posts_images/{{ page.featured-image }}" alt="">
   {% include postauthor.html %}
 </div>
 
