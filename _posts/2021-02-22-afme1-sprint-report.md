@@ -1,12 +1,12 @@
 ---
-title: "Data Umbrella AFME2 Sprint Report"
-date: January 7, 2022
+title: "Data Umbrella AFME1 Sprint Report"
+date: February 22, 2021
 categories:
   - Events
 tags:
   - Sprints
   - Community
-featured-image: AFME2-photo.png
+featured-image: afme1-summary.png
 postauthors:
   - name: Reshama Shaikh
     website: https://reshamas.github.io
@@ -23,11 +23,11 @@ This sprint was organized by [Data Umbrella](https://www.dataumbrella.org) to in
 
 ## Summary
 
-The Data Umbrella Africa & Middle East (AFME2) scikit-learn online sprint was held on October 23, 2021, and the event report is now available.  40 participants joined from 17 countries, and 57% were returning contributors. 
+The Data Umbrella Africa & Middle East (AFME1) scikit-learn online sprint was held on February 2, 2021, and the event report is now available. About 31 participants joined from 14 countries.
 
-Check out the report for informative plots, created using Jupyter, python and plotly.  
+Check out the report for more details.
 
 Read the full report here:  
 <span style="background-color: #CAE9F5;"> 
-[Data Umbrella AFME2 Sprint Report](https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report)
+[Data Umbrella AFME1 Sprint Report](https://reshamas.github.io/data-umbrella-afme-2021-scikit-learn-sprint-report)
 </span>
