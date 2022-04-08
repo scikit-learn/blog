@@ -7,7 +7,7 @@ tags:
   - Open Source
   - Sprints
   - Community
-featured-image: pyladies-berlin-oshn.jpg
+featured-image: maren-interview.png
 
 postauthors:
   - name: Reshama Shaikh
