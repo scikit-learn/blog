@@ -9,7 +9,8 @@ author_profile: false
 
 
 - 2022
-  - [TO BE ADDED]
+  - [WiMLDS Paris](https://scikit-learn.fondation-inria.fr/wimlds-paris-sprint-and-contribution-workshop/) (March 2022)
+
 - 2021
   - [Fujitsu](https://www.fujitsu.com/global/about/research/article/202111-devsprint2021a.html) (Dec 2021)
   - Data Umbrella [Africa & Middle East Sprint](https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report) (Oct 2021)
