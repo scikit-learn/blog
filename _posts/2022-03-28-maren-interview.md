@@ -14,6 +14,8 @@ postauthors:
     website: https://reshamas.github.io
     image: reshama_shaikh.jpeg 
   - name: Maren Westermann
+    website: https://www.linkedin.com/in/dr-maren-westermann-0b8575144/
+    image: maren-westerman.jpg
 ---
 
 <div>
