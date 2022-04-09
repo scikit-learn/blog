@@ -1,5 +1,5 @@
 ---
-title: "Nairobi Wimlds 2019 Scikit Learn Sprint Impact Report"
+title: "Nairobi 2019 scikit-learn Sprint Impact Report"
 date: August 3, 2019
 categories:
   - Events
