@@ -19,8 +19,8 @@ postauthors:
   {% include postauthor.html %}
 </div>
 
-scikit-learn has been around for more than 10 years.
-Yet, scikit-learn has some room to maneuver when it comes to performance.
-This series of blog post aims at explaining the on-going work of the scikit-learn developers to boost the library's performance.
+For more than 10 years, scikit-learn has been bringing machine learning and data science to the world. Since then, the library always aimed to deliver quality implementations to its users.
+
+This series of blog post aims at explaining the on-going work of the scikit-learn developers to boost the performances of the library.
 
 <span style="background-color: #CAE9F5;">  [Read more online](https://jjerphan.xyz/sklearn-perf.html) </span>
