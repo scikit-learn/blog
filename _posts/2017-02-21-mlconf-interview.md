@@ -21,7 +21,7 @@ postauthors:
   {% include postauthor.html %}
 </div>
 
-In this interview, Andreas Mueller, lecturer in Data Science at Columbia University and core developer of the Python library scikit-learn, talks about his recent work with the scikit-learn open source community.
+In this interview, Andreas Mueller, lecturer in Data Science at Columbia University and core developer of the Python library scikit-learn, speaks with Reshama Shaikh about his recent work with the scikit-learn open source community.
 
 
 __RS) Tell us briefly about yourself__
