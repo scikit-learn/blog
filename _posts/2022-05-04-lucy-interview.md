@@ -21,7 +21,7 @@ postauthors:
   {% include postauthor.html %}
 </div>
 
-Lucy Liu joined the scikit-learn Team Team in 2020. In this interview, learn more about Lucy's journey through open source, from rstats to scikit-learn.
+Lucy Liu joined the scikit-learn Team in September 2020. In this interview, learn more about Lucy's journey through open source, from rstats to scikit-learn.
 
 1. __Tell us about yourself.__
 
