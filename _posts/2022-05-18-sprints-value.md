@@ -20,7 +20,7 @@ postauthors:
   {% include postauthor.html %}
 </div>
 
-With contributions from: Gaël Varoquaux, Andreas Mueller, Olivier Grisel, Julien Jerphanion, Guillaume Lemaitre
+With contributions from: Gaël Varoquaux, Andreas Mueller, Olivier Grisel, Julien Jerphanion, Guillaume LeMaitre
 
 ## Top Line Summary
 
@@ -30,7 +30,7 @@ Sprints are **working sessions to contribute to an open source library**. The go
 
 The [scikit-learn](https://scikit-learn.org/dev/index.html) project has a long and extraordinary legacy of open source sprints.  Since 2010, when its [first public version](https://en.wikipedia.org/wiki/Scikit-learn) was released, there have been as many as [45 sprints organized](https://blog.scikit-learn.org/sprints/). The 45 number is a lower bound, since there are likely more sprints that have not been listed. 
 
-To date, [scikit-learn](https://github.com/scikit-learn/scikit-learn) has **over 2300** contributors to the library.  The number of contributors to scikit-learn exceeds those of other related libraries such as numpy, scipy and matplotlib, with the exception of the [pandas](https://github.com/pandas-dev/pandas), which has a greater number of contributors (See Appendix A). 
+To date, more than 2300 people have contributed to [scikit-learn](https://github.com/scikit-learn/scikit-learn).  The number of contributors to scikit-learn exceeds those of other related libraries such as numpy, scipy and matplotlib, with the exception of the [pandas](https://github.com/pandas-dev/pandas), which has a greater number of contributors (See Appendix A). 
 
 The public discourse on open source has expanded to explore topics of sustainability, funding models, and diversity and inclusion, to name a few.  A *reasonable*, yet *”difficult to answer”* question that has been posed is: 
 >*<span style="background-color: #CAE9F5;">
@@ -39,7 +39,7 @@ What is the effectiveness of sprint models and what is the long-term engagement 
 
 
 
-Due to technological limitations of GitHub, we do not hold precise data on how many scikit-learn contributors connected to the project via a sprint. We have no formal data collection process which records statistics on how many sprint participants are recurring or information on their contributions to other open source projects or other long term positive ripple effects.  A scientific look at the correlation between the number of sprints and contributors is beyond the scope of this article.  What we *will examine* in this article are the **objectives, results and aspirations** of running the scikit-learn open source sprints.
+Due to technological limitations of GitHub and privacy concerns, we do not hold precise data on how many scikit-learn contributors connected to the project via a sprint. We have no formal data collection process which records statistics on how many sprint participants are recurring or information on their contributions to other open source projects or other long term positive ripple effects.  A scientific look at the correlation between the number of sprints and contributors is beyond the scope of this article.  What we *will examine* in this article are the **objectives, results and aspirations** of running the scikit-learn sprints.
 
 The queries from other open-source projects requesting guidance on sprints and diversity and inclusions have been increasing.  We share these experiences and lessons learned with the community, potential funders and open source project maintainers, particularly those projects which are nascent in their quest to build community, sustainability and diversity and inclusion.  
 
@@ -52,9 +52,9 @@ In this article we examine the following:
 - What value do open source sprints bring to the project and community?
 - What are the aspirations of the scikit-learn project, in terms of connecting with the community?
 
-## Definition of Sprint
+## Definition of a scikit-learn Sprint
 
-A sprint has traditionally been an event where contributors come together to work on issues in the scikit-learn repository.  A sprint can be as short as a few hours, or last over several days, even a week or longer.  They may be in-person, online, hybrid or asynchronous.  Sprints may be organized by the developers of the library, community groups (such as Meetups), scheduled alongside scientific or Python conferences, or even at home with a few friends.  They can more simply and less dauntingly be described as
+A scikit-learn sprint has traditionally been an event where contributors come together to work on issues in the scikit-learn repository.  A sprint can be as short as a few hours, or last over several days, even a week or longer.  They may be in-person, online, hybrid or partially asynchronous.  Sprints may be organized by the developers of the library, community groups (such as Meetups), scheduled alongside scientific or Python conferences, or even at home with a few friends.  They can more simply and less dauntingly be described as
 <span style="background-color: #CAE9F5;">
 working sessions to contribute to the open source library.            
 </span>
@@ -67,7 +67,9 @@ We distinguish between a Developer (Dev) and Community sprint because the goals 
 
 A Developer, or “dev”, sprint is one that is typically organized by the maintainers of the library.  A dev sprint is one where the developers or maintainers of the library gather to work on issues and to discuss the resolution of ongoing complex issues. This also provides the team an opportunity to focus on tasks related to the long-term roadmap of the project.
 
-For scikit-learn, the early sprints were alongside the [SciPy conferences](https://conference.scipy.org) and the practice has continued for over a decade.
+For scikit-learn, the early Community sprints were alongside the [SciPy conferences](https://conference.scipy.org) and the practice has continued for over a decade.
+
+The first early Dev sprints were organized at Inria. The first [major Dev sprint](https://github.com/scikit-learn/scikit-learn/wiki/Past-sprints#granada-19th-21th-dec-2011) was held in Granada after the NIPS 2011 conference (now renamed NeurIPS). It was the first time that most of the team had met in real life after months or years of online collaboration, and over a dozen developers participated.   Later, Dev sprints were often hosted in the offices of partnering tech companies, typically from 3 to 7 days, once a year, in pre-COVID times.
 
 **Community Sprint**
 
@@ -75,7 +77,7 @@ A Community sprint can be a collaboration by individuals, by affinity communitie
 
 At a Developer sprint, a contributor may work on a PR that has been ongoing for three months.  Conversely, Community sprints require curated issues which newcomers can complete in a shorter period of time (such as 1 day, or 1 day with 1-2 months follow-up).
 
-The landscape of community sprints with other [scientific python](https://scientific-python.org/calendars/) libraries is unknown.  It is possible that scikit-learn may have had community sprints earlier than other projects.
+The landscape of community sprints with other [scientific python](https://scientific-python.org/calendars/) libraries is unknown.
 
 ## Goals of the Sprints
 
@@ -94,7 +96,7 @@ The landscape of community sprints with other [scientific python](https://scient
 - To onboard new contributors to scikit-learn and PyData generally
 - To onboard new contributors who would become recurring contributors
 - To collaborate with community groups to increase diversity of contributor base with intentional outreach
-- To increase the number of recurring contributors
+- To strengthen and support existing contributors in order to maintain recurring community contributors
 
 ## scikit-learn Team Members Who Connected to the Project Via a Sprint
 
@@ -135,7 +137,8 @@ In her PyConDE  PyData Berlin keynote from April 2022, [5 Years, 10 Sprints, a s
 [Juan Martín Loyola](https://github.com/jmloyola) started [contributing to scikit-learn](https://blog.scikit-learn.org/team/jml-interview/) as preparation for the [Data Umbrella Latin America, June 2021](https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report ) sprint.  He continued to contribute prolifically after the sprint, and he was invited to join the team in December 2021.  Given his location in Argentina, he will be providing support at the [2022 SciPy Latin America](https://www.scipy.lat/es/scipycon.html) sprint.  
 
 ### Second Degree Impact
-[Lauren Burke](https://github.com/laurburke) joined the scikit-learn Communications Team in November 2021 at the recommendation of Reshama Shaikh, and this can be considered a network effect. 
+[Lauren Burke](https://github.com/laurburke) joined the scikit-learn Communications Team in November 2021 at the recommendation of Reshama Shaikh, and this can be considered a network effect. This demonstrates that sprints can result in valuable contributions other than code.
+
 
 ## Sprints: Observed Impact and Lessons Learned 
  
@@ -151,7 +154,7 @@ Sprint participants, whether one-time or recurring, become ambassadors for the p
 
 **Open source workflow knowledge**
 
-Users learn about testing, control version system (i.e. git), documentation which they bring to their work.  The sprint experience assists contributors in developing a [wider set of technical skills](https://academiccommons.columbia.edu/doi/10.7916/D89G70BS) that can be shared across projects, networking, on to jobs and more.
+Users learn a range of tools such as: virtual environment setup, version control systems (i.e. Git), testing (flake8, pytest, continuous integration) and unit tests.  They also learn software development best practices.  For many users of scikit-learn, the sprint is the first time they navigate through the codebase and structure of scikit-learn, dig into functions and learn about errors.  They develop experience in collaborative open source workflow.  For employers, letting their team contribute to open-source might be a plus as they learn how to collaborate properly and learn about the internals of the library.  The sprint experience assists contributors in developing a [wider set of technical skills](https://academiccommons.columbia.edu/doi/10.7916/D89G70BS) that can be shared across projects, networking, on to jobs and more.
 
 
 **Overcoming barriers to entry**
@@ -290,6 +293,33 @@ get some time but I currently have limited of it).
  
 >Finally, I would also really treasure having in-person sprints [in Paris] with external (recurring)
 contributors (with a specific expertise) on advanced subjects when it is possible in the future.
+
+## Conclusion
+
+### Connecting and Supporting scikit-learn
+
+To connect with the scikit-learn project, these are the most active social media platforms:  
+- Twitter:  [@scikit_learn](https://twitter.com/scikit_learn)
+- LinkedIn:  [@scikit-learn](https://www.linkedin.com/company/scikit-learn/)
+
+It is most welcome for users to “star” the code repository on GitHub: [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
+ 
+Our office hours, in addition to public developers and triage meetings are all posted on our [Community Calendar](https://blog.scikit-learn.org/calendar/).  
+ 
+The next Community sprint may be held at [EuroScipy 2022](https://www.euroscipy.org/2022/index.html) in Basel Switzerland in early September.   Information on past and [upcoming sprints](https://blog.scikit-learn.org/sprints/) are shared on our community site. 
+ 
+ 
+### Contributing to scikit-learn
+ 
+To contribute to scikit-learn, we have resources available here:  
+- [English](https://scikit-learn.org/dev/developers/contributing.html)
+- [Spanish](https://qu4nt.github.io/sklearn-doc-es/)
+ 
+There are additional resources for contributing:  
+- [Contributing Videos](https://www.youtube.com/playlist?list=PLM-1QqX7UksT6tREbR-n9Mhup0OoRBU34)
+- [English, Spanish and some Portuguese language transcripts](https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint)
+
+
 
 ## Appendix A: GitHub Contributors Comparison of Libraries
 
