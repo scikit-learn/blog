@@ -93,9 +93,8 @@ The landscape of community sprints with other [scientific python](https://scient
 - To get interactive feedback from new scikit-learn users and contributors
 - To onboard new contributors to scikit-learn and PyData generally
 - To onboard new contributors who would become recurring contributors
-- To collaborate with community groups to increase diversity of contributor base
-- Intentional outreach
-- Increasing the number of recurring contributors
+- To collaborate with community groups to increase diversity of contributor base with intentional outreach
+- To increase the number of recurring contributors
 
 ## scikit-learn Team Members Who Connected to the Project Via a Sprint
 
@@ -241,8 +240,8 @@ This is the [Contributing to scikit-learn](https://www.youtube.com/playlist?list
 
 
 ## Aspirations for Future scikit-learn Sprints
-
-One of the primary goals of the Community sprints was to onboard new contributors who would become recurring contributors.  This goal has not been realized.  scikit-learn is a complex and advanced project, and a one-time sprint does not provide sufficient opportunity and support to sprint participants to become recurring contributors. 
+ <span style="background-color: #CAE9F5;">
+One of the primary goals of the Community sprints was to onboard new contributors who would become recurring contributors.  This goal has generally not been realized.  scikit-learn is a complex and advanced project, and a one-time sprint does not provide sufficient opportunity and support to sprint participants to become recurring contributors.</span> A few sprint participants have progressed to become returning contributors, and it is a very small number relative to the number of sprint participants.
 
 Onboarding a first-time contributor takes time. People who are contributing for the first time need to go through a lot of information simultaneously regarding both technical and organizational aspects of contributions.  People may run into unexpected issues at the really start depending on their
 setup and experience, might get frustrated and or discouraged and might not
@@ -252,7 +251,7 @@ Here are some adjustments that can be made in the future to reach the goal of re
 - Provide mentoring
 - Improve onboarding process
 - Improve issues definitions
-- Sprints alongside tutorials
+- Have sprints alongside tutorials
 - Expand types of contributions that new contributors can make
 - Have smaller sprint events
 
