@@ -24,7 +24,7 @@ With contributions from: Gaël Varoquaux, Andreas Mueller, Olivier Grisel, Julie
 
 ## Top Line Summary
 
-Sprints are **working sessions to contribute to an open source library**.  The goals and achievements differ between Developer and Community sprints.  The long-term impact of open source sprints, particularly community events, is not easily quantifiable or measurable.  Positive outcomes of sprints have slowly been emerging, and for that reason, to realize the value of open source sprints requires playing the “long game”.
+Sprints are **working sessions to contribute to an open source library**. The goals and achievements differ between Developer and Community sprints.  The long-term impact of open source sprints, particularly community events, is not easily quantifiable or measurable.  Positive outcomes of sprints have slowly been emerging, and for that reason, to realize the value of open source sprints requires playing the “long game”.
 
 ## Introduction
 
@@ -236,6 +236,7 @@ This is the [Contributing to scikit-learn](https://www.youtube.com/playlist?list
  Photo credit: <a href="https://reshamas.github.io">Reshama Shaikh</a>
  </figcaption>
 </figure>
+
 
 ## Aspirations for Future scikit-learn Sprints
 
