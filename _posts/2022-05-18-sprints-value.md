@@ -232,9 +232,10 @@ This is the [Contributing to scikit-learn](https://www.youtube.com/playlist?list
 - Melissa Weber Mendonca: [Sphinx for Python Documentation](https://youtu.be/tXWscUSYdBs)
 
 <figure>
- <img src="/assets/images/posts_images/sprint-videos.png" alt="thumbnails of 4 videos to contribute to scikit-learn" max-width="30%" max-height="30%" /> 
+<a href="https://www.youtube.com/playlist?list=PLBKcU7Ik-ir-b1fwjNabO3b8ebs9ez5ga">
+ <img src="/assets/images/posts_images/sprint-videos.png" alt="" max-width="30%" max-height="30%" /> 
  <figcaption>
- Photo credit: <a href="https://www.youtube.com/playlist?list=PLBKcU7Ik-ir-b1fwjNabO3b8ebs9ez5ga"> Reshama Shaikh</a>
+ Photo credit: <a href="https://reshamas.github.io">Reshama Shaikh</a>
  </figcaption>
 </figure>
 
