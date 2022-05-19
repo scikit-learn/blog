@@ -20,16 +20,7 @@ postauthors:
   {% include postauthor.html %}
 </div>
 
-With contributions from: Gael Varoquaux, Andreas Mueller, Olivier Grisel, Julien Jerphanion, Guillaume LeMaitre
-
-
-<figure>
- <img src="/assets/images/posts_images/2010sprint.jpg" alt="5 men sitting around a table coding on their computers" max-width="30%" max-height="30%" /> 
- <figcaption>
- Photo credit: <a href="https://fa.bianp.net/pages/about.html">Fabian Pedregosa; First scikit-learn sprint, Paris, March 2010</a>
- </figcaption>
-</figure>
-
+With contributions from: Gaël Varoquaux, Andreas Mueller, Olivier Grisel, Julien Jerphanion, Guillaume Lemaitre
 
 ## Top Line Summary
 
@@ -73,15 +64,16 @@ working sessions to contribute to the open source library.
 We distinguish between a Developer (Dev) and Community sprint because the goals and results differ significantly between the two.  
 
 **Developer (Dev) Sprint**
+
 A Developer, or “dev”, sprint is one that is typically organized by the maintainers of the library.  A dev sprint is one where the developers or maintainers of the library gather to work on issues and to discuss the resolution of ongoing complex issues. This also provides the team an opportunity to focus on tasks related to the long-term roadmap of the project.
 
 For scikit-learn, the early sprints were alongside the [SciPy conferences](https://conference.scipy.org) and the practice has continued for over a decade.
 
 **Community Sprint**
+
 A Community sprint can be a collaboration by individuals, by affinity communities such as Meetup Groups (Data Umbrella, PyLadies, etc.), by conferences (SciPy, PyData Global, JupyterCon, etc.).  A Community sprint is one that is with the general public and it may be beginners, experts, or a combination of both.
 
-At a Developer sprint, a contributor may work on a PR that has been ongoing for three months.  
-Conversely, Community sprints require curated issues which newcomers can complete in a shorter period of time (such as 1 day, or 1 day with 1-2 months follow-up).
+At a Developer sprint, a contributor may work on a PR that has been ongoing for three months.  Conversely, Community sprints require curated issues which newcomers can complete in a shorter period of time (such as 1 day, or 1 day with 1-2 months follow-up).
 
 The landscape of community sprints with other [scientific python](https://scientific-python.org/calendars/) libraries is unknown.  It is possible that scikit-learn may have had community sprints earlier than other projects.
 
@@ -116,6 +108,12 @@ It is notable that a number of the current maintainers of the library found thei
 Olivier shares:
 >At the time, scikit-learn coding sprints gathered only 6 people sitting around a table with some wifi and a coffee machine :)
 
+<figure>
+ <img src="/assets/images/posts_images/2010sprint.jpg" alt="5 men sitting around a table coding on their computers" max-width="20%" max-height="20%" /> 
+ <figcaption>
+ First scikit-learn sprint, Paris, March 2010; Photo credit: <a href="https://fa.bianp.net/pages/about.html">Fabian Pedregosa</a>
+ </figcaption>
+</figure>
 
 
 ### Andreas Mueller
@@ -134,8 +132,8 @@ Reshama Shaikh has organized nine scikit-learn [community sprints](https://www.d
 
 In her PyConDE  PyData Berlin keynote from April 2022, [5 Years, 10 Sprints, a scikit-learn Open Source Journey](https://blog.dataumbrella.org/pyconde-keynote-reshama), she shares a history and progression of the Community sprints. 
 
-### Juan Martin Loyola
-Juan Martin Loyola started [contributing to scikit-learn](https://blog.scikit-learn.org/team/jml-interview/) as preparation for the [Data Umbrella Latin America, June 2021](https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report ) sprint.  He continued to contribute prolifically after the sprint, and he was invited to join the team in December 2021.  Given his location in Argentina, he will be providing support at the [2022 SciPy Latin America](https://www.scipy.lat/es/scipycon.html) sprint.  
+### Juan Martín Loyola
+Juan Martín Loyola started [contributing to scikit-learn](https://blog.scikit-learn.org/team/jml-interview/) as preparation for the [Data Umbrella Latin America, June 2021](https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report ) sprint.  He continued to contribute prolifically after the sprint, and he was invited to join the team in December 2021.  Given his location in Argentina, he will be providing support at the [2022 SciPy Latin America](https://www.scipy.lat/es/scipycon.html) sprint.  
 
 ### Second Degree Impact
 Lauren Burke joined the scikit-learn Communications Team in November 2021 at the recommendation of Reshama Shaikh, and this can be considered a network effect. 
@@ -169,7 +167,7 @@ As sprints provide an on-ramp for new contributors, it similarly provides an opp
 
 The sprints help to build <span style="background-color: #CAE9F5;">confidence</span> for both new and returning contributors.
 
-Gael shares:
+Gaël shares:
 >I believe those sprints helped resourceful people (like Juan Martín) to gain confidence and provide valuable contributions (especially reviews).
  
 **Increase open-source literacy**
