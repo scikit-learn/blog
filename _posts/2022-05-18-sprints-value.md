@@ -41,7 +41,11 @@ The [scikit-learn](https://scikit-learn.org/dev/index.html) project has a long a
 To date, [scikit-learn](https://github.com/scikit-learn/scikit-learn) has **over 2300** contributors to the library.  The number of contributors to scikit-learn exceeds those of other related libraries such as numpy, scipy and matplotlib, with the exception of the [pandas](https://github.com/pandas-dev/pandas), which has a greater number of contributors (See Appendix A). 
 
 The public discourse on open source has expanded to explore topics of sustainability, funding models, and diversity and inclusion, to name a few.  A *reasonable*, yet *”difficult to answer”* question that has been posed is: 
->“What is the effectiveness of sprint models and what is the long-term engagement as a result of these sprints?”
+>*<span style="background-color: #CAE9F5;">
+What is the effectiveness of sprint models and what is the long-term engagement as a result of these sprints?
+</span>*
+
+
 
 Due to technological limitations of GitHub, we do not hold precise data on how many scikit-learn contributors connected to the project via a sprint. We have no formal data collection process which records statistics on how many sprint participants are recurring or information on their contributions to other open source projects or other long term positive ripple effects.  A scientific look at the correlation between the number of sprints and contributors is beyond the scope of this article.  What we *will examine* in this article are the **objectives, results and aspirations** of running the scikit-learn open source sprints.
 
@@ -50,15 +54,18 @@ The queries from other open-source projects requesting guidance on sprints and d
 ## Outline
 
 In this article we examine the following:
-What is a “sprint”?
-What are the differences between “Developer” and “Community” sprints?
-What are the goals of the open source sprints?
-What value do open source sprints bring to the project and community?
-What are the aspirations of the scikit-learn project, in terms of connecting with the community?
+- What is a “sprint”?
+- What are the differences between “Developer” and “Community” sprints?
+- What are the goals of the open source sprints?
+- What value do open source sprints bring to the project and community?
+- What are the aspirations of the scikit-learn project, in terms of connecting with the community?
 
 ## Definition of Sprint
 
-A sprint has traditionally been an event where contributors come together to work on issues in the scikit-learn repository.  A sprint can be as short as a few hours, or last over several days, even a week or longer.  They may be in-person, online, hybrid or asynchronous.  Sprints may be organized by the developers of the library, community groups (such as Meetups), scheduled alongside scientific or Python conferences, or even at home with a few friends.  They can more simply and less dauntingly be described as **working sessions to contribute to the open source library**. 
+A sprint has traditionally been an event where contributors come together to work on issues in the scikit-learn repository.  A sprint can be as short as a few hours, or last over several days, even a week or longer.  They may be in-person, online, hybrid or asynchronous.  Sprints may be organized by the developers of the library, community groups (such as Meetups), scheduled alongside scientific or Python conferences, or even at home with a few friends.  They can more simply and less dauntingly be described as
+<span style="background-color: #CAE9F5;">
+working sessions to contribute to the open source library.            
+</span>
 
 ## Developer vs Community Sprint
 
@@ -160,7 +167,8 @@ As sprints provide an on-ramp for new contributors, it similarly provides an opp
 
 **Building confidence**
 
-The sprints help to build confidence for both new and returning contributors.
+The sprints help to build <span style="background-color: #CAE9F5;">confidence            
+</span> for both new and returning contributors.
 
 Gael shares:
 >I believe those sprints helped resourceful people (like Juan Martín) to gain confidence and provide valuable contributions (especially reviews).
@@ -273,7 +281,7 @@ Julien shares from personal experience:
 **Have smaller sprints**  
 Julien suggests:
 >Would sprints with a really small number of people (e.g. 2 mentees per mentor) be
-more valuable on the long term? Personally, I would prefer mentoring one or two
+more valuable in the long term? Personally, I would prefer mentoring one or two
 people closely instead (ideally in-person) as I think it is more achievable, enjoyable
 and fruitful experience (this is something I am trying to do at the moment when I can
 get some time but I currently have limited of it).
