@@ -192,7 +192,9 @@ These have been the observed benefits of the online sprints, which began in 2020
 
 Sprints make it easier to meet new people with different backgrounds, and in particular, online sprints help break geographical barriers. 
 
-**International collaboration**:  collaborating with affinity communities can attract more candidates from various backgrounds. 
+**International collaboration**
+
+Collaborating with affinity communities can attract more candidates from various backgrounds. 
 
 **Pair programming**
 
@@ -231,7 +233,7 @@ This is the [Contributing to scikit-learn](https://www.youtube.com/playlist?list
 
 <figure>
 <a href="https://www.youtube.com/playlist?list=PLBKcU7Ik-ir-b1fwjNabO3b8ebs9ez5ga">
- <img src="/assets/images/posts_images/sprint-videos.png" alt="" max-width="30%" max-height="30%" /> 
+ <img src="/assets/images/posts_images/sprint-videos.png" alt="list of videos" max-width="30%" max-height="30%" /> 
  <figcaption>
  Photo credit: <a href="https://reshamas.github.io">Reshama Shaikh</a>
  </figcaption>
