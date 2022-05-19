@@ -26,9 +26,10 @@ With contributions from: Gael Varoquaux, Andreas Mueller, Olivier Grisel, Julien
 <figure>
  <img src="/assets/images/posts_images/2010sprint.jpg" alt="5 men sitting around a table coding on their computers" max-width="30%" max-height="30%" /> 
  <figcaption>
- Photo credit: <a href="https://fa.bianp.net/pages/about.html">Fabian Pedregosa, 2010</a>
+ Photo credit: <a href="https://fa.bianp.net/pages/about.html">Fabian Pedregosa; First scikit-learn sprint, Paris, March 2010</a>
  </figcaption>
 </figure>
+
 
 ## Top Line Summary
 
@@ -112,11 +113,10 @@ It is notable that a number of the current maintainers of the library found thei
 
 [Olivier Grisel](https://github.com/ogrisel) has been a contributor and maintainer for more than 12 years. Olivier met [Gaël Varoquaux](https://github.com/GaelVaroquaux) at a local conference organized in Paris by the French speaking Python users group [AFPy.org](https://www.afpy.org).  After chatting 5 minutes about toy ML experiments in Python, Gaël invited Olivier to join the [first sprint organized at Inria](https://web.archive.org/web/20101118052247/http://fseoane.net/blog/2010/scikitslearn-coding-spring-in-paris/) in March 2010:
 
-Olivier Grisel shares:
+Olivier shares:
 >At the time, scikit-learn coding sprints gathered only 6 people sitting around a table with some wifi and a coffee machine :)
 
 
-[First scikit-learn sprint, Paris, March 2020, photo credit: Fabian Pedregosa]
 
 ### Andreas Mueller
 [Andreas Mueller](https://github.com/amueller) has been a maintainer of the project since 2011. He joined a sprint at a conference because he was a user and wanted to contribute.  He [shares in a 2017 interview](https://mlconf.com/blog/interview-andreas-muller-lecturer-columbia-university-core-contributor-scikit-learn-reshama-shaikh/):  
@@ -167,8 +167,7 @@ As sprints provide an on-ramp for new contributors, it similarly provides an opp
 
 **Building confidence**
 
-The sprints help to build <span style="background-color: #CAE9F5;">confidence            
-</span> for both new and returning contributors.
+The sprints help to build <span style="background-color: #CAE9F5;">confidence</span> for both new and returning contributors.
 
 Gael shares:
 >I believe those sprints helped resourceful people (like Juan Martín) to gain confidence and provide valuable contributions (especially reviews).
@@ -214,17 +213,18 @@ For the scikit-learn project itself, it made it possible to "recruit" a couple o
 
 Actually the fact that we now have community office hours on discord is probably a consequence of us attending the Data Umbrella online sprints.
 
-Olivier Grisel shares:
+Olivier shares:
 >I think they [the sprints] were the most interesting online events I attended during
 the COVID-19 crisis when all traditional on-site tech events were canceled. In particular the active planning by the Data Umbrella team for participants to work in pairs with audio rooms on Discord + a central help desk audio room worked really well.
 
 >The pre-sprint and post-sprint office hours also made it possible to limit the time spent on helping fix setup issues compared to what we experience in traditional sprints. They also forced us as maintainers to review and fix our documentation before the event.
 
 **Creation of supplementary resources in various medium forms**
+
 Data Umbrella coordinated the creation of a series of videos and transcripts that provided learning materials for the community to prepare for the sprint.  These resources were available to the public and have a wide reach:
 
 This is the [Contributing to scikit-learn](https://www.youtube.com/playlist?list=PLBKcU7Ik-ir-b1fwjNabO3b8ebs9ez5ga
-) of videos that were created for the sprints.
+) list of videos that were created for the sprints.
 - Andreas Mueller: [Crash Course in Contributing to scikit-learn](https://youtu.be/5OL8XoMMOfA) 
 - Reshama Shaikh:  [Example of scikit-learn Pull Request](https://youtu.be/PU1WyDPGePI) 
 - Andreas Mueller: [Sprint FAQs](https://youtu.be/p_2Uw2BxdhA)
@@ -266,7 +266,7 @@ The scikit-learn project is complex, the contributor learning curve is steeper, 
 
 **Improve issues definitions**
 
-There are 1500+ [issues](https://github.com/scikit-learn/scikit-learn/issues) in the GitHub repository.  Issues can be better defined and it would be valuable to break the issues into smaller steps which would be more approachable.
+There are 1600+ [issues](https://github.com/scikit-learn/scikit-learn/issues) in the GitHub repository.  Issues can be better defined and it would be valuable to break the issues into smaller steps which would be more approachable.
 
 **Sprints alongside tutorials**
 
@@ -280,6 +280,7 @@ Julien shares from personal experience:
 >In particular and in my opinion,reviewing pull requests is as valuable as authoring them. I also find it a preferable way to learn about scikit-learn internals rather than solving issues.
 
 **Have smaller sprints**  
+
 Julien suggests:
 >Would sprints with a really small number of people (e.g. 2 mentees per mentor) be
 more valuable in the long term? Personally, I would prefer mentoring one or two
