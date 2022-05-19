@@ -80,10 +80,10 @@ The landscape of community sprints with other [scientific python](https://scient
 ## Goals of the Sprints
 
 ### Goals of Dev Sprints
-- Get maintainers in one room to efficiently discuss open issues and pull requests
-- Move along contributions in a synchronous fashion
-- To foster existing collaborations with external developers synchronously (Julien)
-- Building rapport: Maintainers reside in various continents and the in-person sprints build rapport within the team. Social interactions are critical in having a productive team 
+- To get maintainers in one room to efficiently discuss open issues and pull requests
+- To move along contributions in a synchronous fashion
+- To foster existing collaborations with external developers synchronously
+- To building rapport: Maintainers reside in various continents and the in-person sprints build rapport within the team. Social interactions are critical in having a productive team 
 - To foster collaborations with the project’s corporate sponsors (members of the [scikit-learn Consortium](https://scikit-learn.org/stable/about.html#funding))
 
 ### Goals of Community & Beginner Sprints
@@ -127,15 +127,15 @@ He contributed code, reviews, and documentation since March 2021, joined Inria i
 There are [other maintainers](https://scikit-learn.org/dev/about.html#people) and emeritus contributors who had participated in a developer or community sprint along their journey with the scikit-learn team, such as Vlad Nicolae (current maintainer), Gilles Loupe (Emeritus), Thouis (Ray) Jones (Emeritus).
 
 ### Reshama Shaikh
-Reshama Shaikh has organized nine scikit-learn [community sprints](https://www.dataumbrella.org/sprints) from 2017 to 2021. She first contributed code and documentation fixes to scikit-learn in September 2018. In September 2020, she was invited to join the scikit-learn team. 
+[Reshama Shaikh](https://github.com/reshamas) has organized nine scikit-learn [community sprints](https://www.dataumbrella.org/sprints) from 2017 to 2021. She first contributed code and documentation fixes to scikit-learn in September 2018. In September 2020, she was invited to join the scikit-learn team. 
 
 In her PyConDE  PyData Berlin keynote from April 2022, [5 Years, 10 Sprints, a scikit-learn Open Source Journey](https://blog.dataumbrella.org/pyconde-keynote-reshama), she shares a history and progression of the Community sprints. 
 
 ### Juan Martín Loyola
-Juan Martín Loyola started [contributing to scikit-learn](https://blog.scikit-learn.org/team/jml-interview/) as preparation for the [Data Umbrella Latin America, June 2021](https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report ) sprint.  He continued to contribute prolifically after the sprint, and he was invited to join the team in December 2021.  Given his location in Argentina, he will be providing support at the [2022 SciPy Latin America](https://www.scipy.lat/es/scipycon.html) sprint.  
+[Juan Martín Loyola](https://github.com/jmloyola) started [contributing to scikit-learn](https://blog.scikit-learn.org/team/jml-interview/) as preparation for the [Data Umbrella Latin America, June 2021](https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report ) sprint.  He continued to contribute prolifically after the sprint, and he was invited to join the team in December 2021.  Given his location in Argentina, he will be providing support at the [2022 SciPy Latin America](https://www.scipy.lat/es/scipycon.html) sprint.  
 
 ### Second Degree Impact
-Lauren Burke joined the scikit-learn Communications Team in November 2021 at the recommendation of Reshama Shaikh, and this can be considered a network effect. 
+[Lauren Burke](https://github.com/laurburke) joined the scikit-learn Communications Team in November 2021 at the recommendation of Reshama Shaikh, and this can be considered a network effect. 
 
 ## Sprints: Observed Impact and Lessons Learned 
  
