@@ -122,8 +122,7 @@ Olivier shares:
 >While working on my Ph.D. in computer vision and learning, the scikit-learn library became an essential part of my toolkit.  My initial participation in open source began in 2011 at the NeurIPS conference in Granada, Spain, where I had attended a [scikit-learn sprint](https://github.com/scikit-learn/scikit-learn/wiki/Past-sprints#granada-19th-21th-dec-2011). The scikit-learn release manager at the time had to leave, and the project leads asked me to become release manager; that’s how it all got started.
 
 ### Julien Jerphanion
-[Julien Jerphanion](https://github.com/jjerphan) participated in a [sprint in February 2019 at AXA](https://scikit-learn.fondation-inria.fr/scikit-learn-sprint-in-paris/) as a first time contributor while interning at Dataiku. The sprint provided Julien an opportunity to experience scikit-learn and meet the maintainers.  Prior to the sprint, he had only used the library in a few projects. 
-He contributed code, reviews, and documentation since March 2021, joined Inria in April 2021 and in October 2021, Julien became a core developer.
+[Julien Jerphanion](https://github.com/jjerphan) participated in a [sprint in February 2019 at AXA](https://scikit-learn.fondation-inria.fr/scikit-learn-sprint-in-paris/) as a first time contributor while interning at Dataiku. The sprint provided Julien an opportunity to experience scikit-learn and meet the maintainers.  Prior to the sprint, he had only used the library in a few projects. He contributed code, reviews, and documentation since March 2021, joined Inria in April 2021 and in October 2021, Julien became a core developer.
 
 ### Other Maintainers
 There are [other maintainers](https://scikit-learn.org/dev/about.html#people) and emeritus contributors who had participated in a Developer or Community sprint along their journey with the scikit-learn team, such as Vlad Nicolae (current maintainer), Gilles Loupe (Emeritus), Thouis (Ray) Jones (Emeritus).
@@ -181,8 +180,7 @@ The sprints are a forum for users to gain a greater understanding of how an open
 Typically, open source contributions to scikit-learn occur on the GitHub repository in asynchronous fashion.  The sprints provide real-time synchronous interaction.  This experience provides more direct access to technical assistance and feedback to the contributor, and in a direct, efficient, and time-saving manner.  
  
 Julien shares:
->I think having a setup like this [beginner/community sprint] is valuable for first time contributors because they can synchronously get specific information they would hardly have got otherwise.
-To me, this allow giving feedback which is immediate, specific and exact, making contributing to open-source enjoyable and preventing frustration: giving such feedback is what we should aim for and in this regard this setup is convenient.
+>I think having a setup like this [beginner/community sprint] is valuable for first time contributors because they can synchronously get specific information they would hardly have got otherwise. To me, this allow giving feedback which is immediate, specific and exact, making contributing to open-source enjoyable and preventing frustration: giving such feedback is what we should aim for and in this regard this setup is convenient.
 
 ### Online Sprints
 
@@ -280,7 +278,7 @@ Scheduling sprints alongside tutorial sessions would be conducive in allowing us
 While the sprints have typically focused on documentation and code contributions, the project needs support in other areas. There is a backlog of [open issues](https://github.com/scikit-learn/scikit-learn/issues) (1600+ !) and [open pull requests](https://github.com/scikit-learn/scikit-learn/pulls) (650+).  The project needs support in triaging issues and reviewing pull requests.  It would be beneficial to have sprint contributors work on increasingly complex issues.
 
 Julien shares from personal experience:
->In particular and in my opinion,reviewing pull requests is as valuable as authoring them. I also find it a preferable way to learn about scikit-learn internals rather than solving issues.
+>In particular and in my opinion, reviewing pull requests is as valuable as authoring them. I also find it a preferable way to learn about scikit-learn internals rather than solving issues.
 
 **Have smaller sprints**  
 
@@ -337,3 +335,6 @@ A comparison of the contributor base to other related libraries in the same spac
 - Data Umbrella community [sprint blogs](https://blog.dataumbrella.org/tags/#sprint-blog)
 - [Interview with Maren Westermann: Extending the Impact of the scikit-learn Sprints to the Community](https://blog.dataumbrella.org/mwestermann-sprints-experience)
 - [Interview with scikit-learn Triage Team Member: Juan Martín Loyola](https://blog.dataumbrella.org/jmloyola-opensource-experience)
+- Emily Thompson: [Planning a beginner open source sprint day for data scientists
+](https://medium.com/@ethompso28/planning-a-beginner-open-source-sprint-day-for-data-scientists-163b6aa7087f)
+- Adrin Jalali: [scikit-learn Sprint at Nairobi, Kenya (2019)](https://adrin.info/scikit-learn-sprint-at-nairobi-kenya.html)
