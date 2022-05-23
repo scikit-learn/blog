@@ -127,7 +127,7 @@ Olivier shares:
 ### Vlad Niculae
 Vlad Niculae's path to a maintainer was via first a scikit-learn mailing list post, then GSoC (Google Summer of Code) internship, and then the [EuroSciPy 2011](https://fa.bianp.net/blog/2011/scikit-learn-euroscipy-2011-coding-sprint-day-one/) sprint.
 
->The team encouraged me to attend and helped me arrange it. The sprint was instrumental in broadening my focus from the small module I was contributing to the entire library. Co-locating the sprint and the conference this way was great -- it gave me a chance to meet not just the scikit-learn team (small at the time, and incredibly welcoming to me!) but also the broader SciPy ecosystem, including NumPy, iPython [Jupyter Notebook] devs. It helped me understand the scientific Python world a lot better.
+>The team encouraged me to attend and helped me arrange it. The sprint was instrumental in broadening my focus from the small module I was contributing to the entire library. Co-locating the sprint and the conference this way was great -- it gave me a chance to meet not just the scikit-learn team (small at the time, and incredibly welcoming to me!) but also the broader SciPy ecosystem, including NumPy, IPython [Jupyter Notebook] devs. It helped me understand the scientific Python world a lot better.
 
 ### Other Maintainers
 There are [other maintainers](https://scikit-learn.org/dev/about.html#people) and emeritus contributors who had participated in a Developer or Community sprint along their journey with the scikit-learn team, such as emeriti Gilles Loupe and Thouis (Ray) Jones.
