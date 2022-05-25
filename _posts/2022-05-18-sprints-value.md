@@ -112,14 +112,21 @@ Olivier shares:
 <figure>
  <img src="/assets/images/posts_images/2010sprint.jpg" alt="5 men sitting around a table coding on their computers" max-width="20%" max-height="20%" /> 
  <figcaption>
- First scikit-learn sprint, Paris, March 2010; Photo credit: <a href="https://fa.bianp.net/pages/about.html">Fabian Pedregosa</a>
+ First scikit-learn sprint, Paris, March 2010; Photo credit: <a href="https://fa.bianp.net/pages/about.html">Fabian Pedregosa</a>; (from left to right): Fabian Pedregosa, Gael Varoquaux, Olivier Grisel, Alexandre Gramfort
  </figcaption>
 </figure>
-
 
 ### Andreas Mueller
 [Andreas Mueller](https://github.com/amueller) has been a maintainer of the project since 2011. He joined a sprint at a conference because he was a user and wanted to contribute.  He [shares in a 2017 interview](https://mlconf.com/blog/interview-andreas-muller-lecturer-columbia-university-core-contributor-scikit-learn-reshama-shaikh/):  
 >While working on my Ph.D. in computer vision and learning, the scikit-learn library became an essential part of my toolkit.  My initial participation in open source began in 2011 at the NeurIPS conference in Granada, Spain, where I had attended a [scikit-learn sprint](https://github.com/scikit-learn/scikit-learn/wiki/Past-sprints#granada-19th-21th-dec-2011). The scikit-learn release manager at the time had to leave, and the project leads asked me to become release manager; that’s how it all got started.
+
+<figure>
+ <img src="/assets/images/posts_images/sprint-neurips-2011.jpeg" alt="men at a happy hour" max-width="20%" max-height="20%" /> 
+ <figcaption>
+ NeurIPS Granada, Spain scikit-learn sprint, March 2011; Photo credit: <a href="http://gael-varoquaux.info">Gael Varoquaux</a>; (from left to right): Vlad Niculae, Mathieu Blondel, Bertrand Thirion, James Bergtra, Jake VanderPlas, Andreas Mueller, Alexandre Gramfort
+ </figcaption>
+</figure>
+
 
 ### Julien Jerphanion
 [Julien Jerphanion](https://github.com/jjerphan) participated in a [sprint in February 2019 at AXA](https://scikit-learn.fondation-inria.fr/scikit-learn-sprint-in-paris/) as a first time contributor while interning at Dataiku. The sprint provided Julien an opportunity to experience scikit-learn and meet the maintainers.  Prior to the sprint, he had only used the library in a few projects. He contributed code, reviews, and documentation since March 2021, joined Inria in April 2021 and in October 2021, Julien became a core developer.
