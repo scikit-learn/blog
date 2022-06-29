@@ -6,7 +6,7 @@ categories:
 tags:
   - Gradient boosting
 
-featured-image: gdbt.png
+featured-image: gbdt.png
 
 postauthors:
   - name: Nicolas Hug
@@ -15,7 +15,7 @@ postauthors:
 usemathjax: true
 ---
 <div>
-  <img src="/blog/assets/images/posts_images/{{ page.featured-image }}" alt="">
+  <img src="/assets/images/posts_images/{{ page.featured-image }}" alt="">
   {% include postauthor.html %}
 </div>
 
