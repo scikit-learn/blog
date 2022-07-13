@@ -1,6 +1,6 @@
 ---
 title: "The Value of Open Source Sprints, the scikit-learn Experience"
-date: May 18, 2022
+date: July 13, 2022
 categories:
   - Events
 tags:
