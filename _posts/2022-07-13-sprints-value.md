@@ -7,7 +7,7 @@ tags:
   - Open Source
   - Sprints
   - Community
-featured-image: sprints-value.png
+featured-image: sprints-value2.png
 
 postauthors:
   - name: Reshama Shaikh
@@ -30,9 +30,9 @@ Sprints are **working sessions to contribute to an open source library**. The go
 
 The [scikit-learn](https://scikit-learn.org/dev/index.html) project has a long and extraordinary legacy of open source sprints.  Since 2010, when its [first public version](https://en.wikipedia.org/wiki/Scikit-learn) was released, there have been as many as [45 sprints organized](https://blog.scikit-learn.org/sprints/). The number 45 is a lower bound, since there are likely more sprints that have not been listed. 
 
-To date, more than 2300 people have contributed to [scikit-learn](https://github.com/scikit-learn/scikit-learn).  The number of contributors to scikit-learn exceeds those of other related libraries such as numpy, scipy and matplotlib, with the exception of the [pandas](https://github.com/pandas-dev/pandas), which has a greater number of contributors (See Appendix A). 
+To date, more than 2400 people have contributed to [scikit-learn](https://github.com/scikit-learn/scikit-learn).  The number of contributors to scikit-learn exceeds those of other related libraries such as numpy, scipy and matplotlib, with the exception of the [pandas](https://github.com/pandas-dev/pandas), which has a greater number of contributors (See Appendix A).
 
-The public discourse on open source has expanded to explore topics of sustainability, funding models, and diversity and inclusion, to name a few.  A *reasonable*, yet ”difficult to answer” question that has been posed is: 
+The public discourse on open source has expanded to explore topics of sustainability, funding models, and diversity and inclusion, to name a few.  A *reasonable*, yet *difficult to answer* question that has been posed is: 
 >*<span style="background-color: #CAE9F5;">
 What is the effectiveness of sprint models and what is the long-term engagement as a result of these sprints?
 </span>*
@@ -144,6 +144,8 @@ There are [other maintainers](https://scikit-learn.org/dev/about.html#people) an
 
 In her PyConDE  PyData Berlin keynote from April 2022, [5 Years, 10 Sprints, a scikit-learn Open Source Journey](https://blog.dataumbrella.org/pyconde-keynote-reshama), she shares a history and progression of the Community sprints. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZUqJaCWPvmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Juan Martín Loyola
 [Juan Martín Loyola](https://github.com/jmloyola) started [contributing to scikit-learn](https://blog.scikit-learn.org/team/jml-interview/) as preparation for the [Data Umbrella Latin America, June 2021](https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report ) sprint.  He continued to contribute prolifically after the sprint, and he was invited to join the team in December 2021.  Given his location in Argentina, he will be providing support at the [2022 SciPy Latin America](https://www.scipy.lat/es/scipycon.html) sprint.  
 
@@ -189,14 +191,14 @@ The sprints are a forum for users to gain a greater understanding of how an open
  
 **Value of synchronous interaction**
 
-Typically, open source contributions to scikit-learn occur on the GitHub repository in asynchronous fashion.  The sprints provide real-time synchronous interaction.  This experience provides more direct access to technical assistance and feedback to the contributor, and in a direct, efficient, and time-saving manner.  
+Typically, open source contributions to scikit-learn occur on the GitHub repository in asynchronous fashion, over several weeks or months. The sprints provide real-time synchronous interaction.  This experience provides more direct access to technical assistance and feedback to the contributor, which is more efficient and engagin.  
  
 Julien shares:
 >I think having a setup like this [beginner/community sprint] is valuable for first time contributors because they can synchronously get specific information they would hardly have got otherwise. To me, this allow giving feedback which is immediate, specific and exact, making contributing to open-source enjoyable and preventing frustration: giving such feedback is what we should aim for and in this regard this setup is convenient.
 
 ### Online Sprints
 
-Since the start of the pandemic, Data Umbrella organized [4 online sprints](https://blog.dataumbrella.org/tags/#sprint-report).  Additionally, there were 2 online sprints with [SciPy](https://www.scipy2020.scipy.org/sprints-schedule) and [EuroPython](https://wiki.python.org/moin/EuroPython2020/Sprints).   
+Since the start of the pandemic, Data Umbrella has organized [4 online sprints](https://blog.dataumbrella.org/tags/#sprint-report).  Additionally, there were 2 online sprints with [SciPy](https://www.scipy2020.scipy.org/sprints-schedule) and [EuroPython](https://wiki.python.org/moin/EuroPython2020/Sprints).   
 
 These have been the observed benefits of the online sprints, which began in 2020 due to the global pandemic:  
 
@@ -223,9 +225,11 @@ For the scikit-learn project itself, it made it possible to "recruit" a couple o
 
 **Office Hours**
 
-Actually the fact that we now have community office hours on Discord is probably a consequence of us attending the Data Umbrella online sprints.
+The scikit-learn project has regular office hours which are hosted on Discord.  
 
 Olivier shares:
+>Actually the fact that we now have community office hours on Discord is probably a consequence of us attending the Data Umbrella online sprints.
+
 >I think they [the sprints] were the most interesting online events I attended during
 the COVID-19 crisis when all traditional on-site tech events were canceled. In particular the active planning by the Data Umbrella team for participants to work in pairs with audio rooms on Discord + a central help desk audio room worked really well.
 
@@ -260,7 +264,7 @@ Onboarding a first-time contributor takes time. People who are contributing for 
 setup and experience, might get frustrated and or discouraged and might not
 report the problem they are having (thinking it is their fault). Pre-event office hours have been successful at alleviating some of these roadblocks, for those sprint participants who have completed their pre-work.
 
-Here are some adjustments that can be made in the future to reach the goal of recruiting recurring contributors:    
+Here are some adjustments that can be made in the future to reach the goal of recruiting recurring contributors:  
 - Provide mentoring
 - Improve onboarding process
 - Improve issues definitions
@@ -333,12 +337,12 @@ There are additional resources for contributing:
 
 ## Appendix A: GitHub Contributors Comparison of Libraries
 
-A comparison of the contributor base to other related libraries in the same space (May 2022):
-- [pandas](https://github.com/pandas-dev/pandas): ~2560
-- [scikit-learn](https://github.com/scikit-learn/scikit-learn): ~ 2300 contributors
-- [numpy](https://github.com/numpy/numpy): ~ 1300 contributors
+A comparison of the contributor base to other related libraries in the same space (updated July 2022):
+- [pandas](https://github.com/pandas-dev/pandas): ~2600
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn): ~2400 contributors
+- [numpy](https://github.com/numpy/numpy): ~1300 contributors
 - [matplotlib](https://github.com/matplotlib/matplotlib):  ~1150
-- [scipy](https://github.com/scipy/scipy): ~1120
+- [scipy](https://github.com/scipy/scipy): ~1170
 
 ## References
 
