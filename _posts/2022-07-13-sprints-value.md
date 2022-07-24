@@ -30,7 +30,7 @@ Sprints are **working sessions to contribute to an open source library**. The go
 
 The [scikit-learn](https://scikit-learn.org/dev/index.html) project has a long and extraordinary legacy of open source sprints.  Since 2010, when its [first public version](https://en.wikipedia.org/wiki/Scikit-learn) was released, there have been as many as [45 sprints organized](https://blog.scikit-learn.org/sprints/). The number 45 is a lower bound, since there are likely more sprints that have not been listed. 
 
-To date, more than 2400 people have contributed to [scikit-learn](https://github.com/scikit-learn/scikit-learn).  The number of contributors to scikit-learn exceeds those of other related libraries such as numpy, scipy and matplotlib, with the exception of the [pandas](https://github.com/pandas-dev/pandas), which has a greater number of contributors (See Appendix A).
+To date, more than 2400 people have contributed to [scikit-learn](https://github.com/scikit-learn/scikit-learn).  The number of contributors to scikit-learn exceeds those of other related libraries such as numpy, scipy and matplotlib, with the exception of [pandas](https://github.com/pandas-dev/pandas), which has a greater number of contributors (See Appendix A).
 
 The public discourse on open source has expanded to explore topics of sustainability, funding models, and diversity and inclusion, to name a few.  A *reasonable*, yet *difficult to answer* question that has been posed is: 
 >*<span style="background-color: #CAE9F5;">
@@ -41,7 +41,7 @@ What is the effectiveness of sprint models and what is the long-term engagement 
 
 Due to technological limitations of GitHub and privacy concerns, we do not hold precise data on how many scikit-learn contributors connected to the project via a sprint. We have no formal data collection process which records statistics on how many sprint participants are recurring or information on their contributions to other open source projects or other long term positive ripple effects.  A scientific look at the correlation between the number of sprints and contributors is beyond the scope of this article.  What we *will examine* in this article are the **objectives, results and aspirations** of running the scikit-learn sprints.
 
-<span style="background-color: #CAE9F5;">The queries from other open-source projects requesting guidance on sprints and diversity and inclusions have been increasing.</span> We share these experiences and lessons learned with the community, potential funders and open source project maintainers, particularly those projects which are nascent in their quest to build community, sustainability and diversity and inclusion.  
+<span style="background-color: #CAE9F5;">The queries from other open-source projects requesting guidance on sprints and diversity and inclusion have been increasing.</span> We share these experiences and lessons learned with the community, potential funders and open source project maintainers, particularly those projects which are nascent in their quest to build community, sustainability and diversity and inclusion.  
 
 ## Outline
 
