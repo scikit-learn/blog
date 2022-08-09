@@ -21,7 +21,7 @@ In September of 2022, the [SciPy Latin America](https://pythoncientifico.ar/) co
 As part of the event, we are organizing a [Scikit-learn Sprint](https://pythoncientifico.ar/events/sprints/) for the people attending.
 The main idea is to introduce the participants to the open source world and help them make their first contribution.
 
-<img src="https://pythoncientifico.ar/static/assets/images/scipy-la-2022_logo.png" alt="SciPy logo">
+<img src="https://pythoncientifico.ar/static/assets/images/scipy-la-2022_logo.png" alt="SciPy logo" width="50%" height="50%" >
 
 ## Schedule
 - September 27, 2022 - **Pre-sprint** - 10:00 to 12:00 hs (UTC -3)
