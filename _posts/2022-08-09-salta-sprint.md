@@ -1,5 +1,5 @@
 ---
-title: "Scikit-learn Sprint in Salta, Argentina"
+title: "scikit-learn Sprint in Salta, Argentina"
 date: August 9, 2022
 
 categories:
