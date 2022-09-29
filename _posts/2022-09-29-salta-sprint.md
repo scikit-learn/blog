@@ -1,6 +1,6 @@
 ---
 title: "scikit-learn Sprint in Salta, Argentina"
-date: August 9, 2022
+date: September 29, 2022
 
 categories:
   - Events
@@ -17,9 +17,10 @@ postauthors:
   {% include postauthor.html %}
 </div>
 
-In September of 2022, the [SciPy Latin America](https://pythoncientifico.ar/) conference will take place in Salta, Argentina.
-As part of the event, we are organizing a [scikit-learn sprint](https://pythoncientifico.ar/events/sprints/) for the people attending.
-The main idea is to introduce the participants to the open source world and help them make their first contribution.  The sprint event is in-person.
+In September of 2022, the [SciPy Latin America](https://pythoncientifico.ar/) conference took place in Salta, Argentina.
+As part of the event, we organized a [scikit-learn sprint](https://pythoncientifico.ar/events/sprints/).
+The main idea was to introduce the participants to the open source world and help them make their first contribution.
+The sprint event was an in-person event.
 
 <img src="https://pythoncientifico.ar/static/assets/images/scipy-la-2022_logo.png" alt="SciPy logo" width="50%" height="50%" >
 
@@ -28,4 +29,26 @@ The main idea is to introduce the participants to the open source world and help
 - September 28, 2022 - **Sprint** - 10:00 to 17:00 hs (UTC -3)
 
 ## Repository
-For more information in Spanish about the Sprint and how to prepare for it, [check this repository](https://github.com/jmloyola/sklearn-sprint-argentina-2022).
+For more information in Spanish, [check this repository](https://github.com/jmloyola/sklearn-sprint-argentina-2022).
+You will find details about the event, instructions to set up the development environment, links with further information and tutorials, and an example git workflow to make a pull request for the project.
+
+## Photos
+<figure>
+ <img src="/assets/images/posts_images/sprint-salta-2022-1.jpg" alt="11 people standing behind some computers and 2 people projected in the screen" max-width="20%" max-height="20%" />
+ <figcaption>
+ Group photo of the SciPy Latin America sprint, Salta, Argentina, 2022. Sandra Meneses and Juan Martín Loyola are projected on the screen from a Zoom call.
+ </figcaption>
+</figure>
+
+<figure>
+ <img src="/assets/images/posts_images/sprint-salta-2022-2.jpeg" alt="11 people coding in their computers" max-width="20%" max-height="20%" />
+ <figcaption>
+ Participants of the SciPy Latin America sprint working on their computers.
+ </figcaption>
+</figure>
+
+## Acknowledgment
+These people made this sprint possible:
+- Ariel Silvio Norberto Ramos, one of the organizers of the SciPy Latin America,
+- [Data Umbrella](https://www.dataumbrella.org/), especially Sandra Meneses and Reshama Shaikh,
+- The mentors that helped run the sprint.
