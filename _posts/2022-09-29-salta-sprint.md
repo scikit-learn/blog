@@ -50,5 +50,5 @@ You will find details about the event, instructions to set up the development en
 ## Acknowledgment
 These people made this sprint possible:
 - Ariel Silvio Norberto Ramos, one of the organizers of the SciPy Latin America,
-- [Data Umbrella](https://www.dataumbrella.org/), especially Sandra Meneses and Reshama Shaikh,
+- [Data Umbrella](https://www.dataumbrella.org/), [one of the community partners of the event](https://twitter.com/ScipyLA/status/1573710649963724802), especially Sandra Meneses and Reshama Shaikh,
 - The mentors that helped run the sprint.
