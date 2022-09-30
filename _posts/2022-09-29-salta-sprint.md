@@ -36,14 +36,14 @@ You will find details about the event, instructions to set up the development en
 <figure>
  <img src="/assets/images/posts_images/sprint-salta-2022-1.jpg" alt="11 people standing behind some computers and 2 people projected in the screen" max-width="20%" max-height="20%" />
  <figcaption>
- Group photo of the SciPy Latin America sprint, Salta, Argentina, 2022. Sandra Meneses and Juan Martín Loyola are projected on the screen from a Zoom call.
+ Group photo of the SciPy Latin America sprint, Salta, Argentina, 2022. Sandra Meneses and Juan Martín Loyola are projected on the screen from a Zoom call. Photo credit: Lucía Torres.
  </figcaption>
 </figure>
 
 <figure>
  <img src="/assets/images/posts_images/sprint-salta-2022-2.jpeg" alt="11 people coding in their computers" max-width="20%" max-height="20%" />
  <figcaption>
- Participants of the SciPy Latin America sprint working on their computers.
+ Participants of the SciPy Latin America sprint working on their computers. Photo credit: Ariel Silvio Norberto Ramos.
  </figcaption>
 </figure>
 
