@@ -19,7 +19,7 @@ postauthors:
 </div>
 
 ## Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5bCg8VfX2x8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5bCg8VfX2x8" title="Pandas DataFrame Output for sklearn Transformers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Upcoming feature in release 1.2
 Starting with the next release of [scikit-learn](https://github.com/scikit-learn/scikit-learn) (v1.2), pandas dataframe output will be available for all sklearn transformers! This will make running pipelines on dataframes much easier and provide better ways to track feature names. Previously, mapping a transformed output back into columns would be cumbersome as it might not be a one-to-one mapping in cases of complex preprocessing (e.g., polynomial features).
