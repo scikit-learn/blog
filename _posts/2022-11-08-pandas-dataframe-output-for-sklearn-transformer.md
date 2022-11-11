@@ -8,7 +8,7 @@ tags:
 featured-image: pandas_output_sklearn_transformers.PNG
 
 postauthors:
-  - name: Sangam Swadi K
+  - name: Sangam SwadiK
     website: https://www.linkedin.com/in/sangam-swadi-k/
     image: sangam_swadik.jpg 
 ---
