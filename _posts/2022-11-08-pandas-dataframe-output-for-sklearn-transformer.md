@@ -32,7 +32,7 @@ set_config(transform_output = "pandas")
 
 See the sample notebook, [pandas-dataframe-output-for-sklearn-transformer.ipynb](https://github.com/scikit-learn/blog/blob/main/assets/notebooks/sklearn-pandas-df-output.ipynb) and documentation for a more detailed example and usage.
 
-## Links to documentation and example notebook:
+## Links to documentation and example notebook
 - [Pandas output for transformers documentation](https://scikit-learn.org/dev/auto_examples/miscellaneous/plot_set_output.html#sphx-glr-auto-examples-miscellaneous-plot-set-output-py) 
 - [pandas-dataframe-output-for-sklearn-transformer.ipynb](https://github.com/scikit-learn/blog/blob/main/assets/notebooks/sklearn-pandas-df-output.ipynb)
 
