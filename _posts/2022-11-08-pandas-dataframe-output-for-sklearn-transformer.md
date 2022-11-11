@@ -37,7 +37,7 @@ See the sample notebook, [pandas-dataframe-output-for-sklearn-transformer.ipynb]
 - [pandas-dataframe-output-for-sklearn-transformer.ipynb](https://github.com/scikit-learn/blog/blob/main/assets/notebooks/sklearn-pandas-df-output.ipynb)
 
 
-## Reporting bugs:
+## Reporting bugs
 We'd love your feedback on this. In case of any suggestions or bugs, please report them at
 [scikit-learn issues](https://github.com/scikit-learn/scikit-learn/issues)
 
