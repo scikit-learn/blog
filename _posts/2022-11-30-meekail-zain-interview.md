@@ -23,7 +23,7 @@ postauthors:
 
 Posted by [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 
-Meekail Zain is a computer science PhD student at University of Georgia (USA), a member of Quinn Research Group and a software engineer at Quansight.
+Meekail Zain is a computer science PhD student at University of Georgia (USA), a member of Quinn Research Group and a software engineer at Quansight. Meekail officially joined the scikit-learn team as a maintainer in October 2022.
 
 1. __Tell us about yourself.__
 
