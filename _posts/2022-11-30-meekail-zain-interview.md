@@ -26,6 +26,7 @@ Posted by [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 Meekail Zain is a Computer science PhD student at UGA. Member of Quinn Research Group. Software Engineer at Quansight 
 
 1. __Tell us about yourself.__
+
     I’m currently attending the University of Georgia, pursuing a PhD in computer science. My area of research predominantly focuses on deep learning, generative modeling, and statistical approaches to clustering. I’m in my third year, and at the time of writing about to begin my comprehensive exams.
 
     - GitHub: [@Micky774](https://github.com/Micky774)
@@ -42,7 +43,7 @@ Meekail Zain is a Computer science PhD student at UGA. Member of Quinn Research 
     *<span style="background-color: #CAE9F5;">
     I started working on really simple changes to get used to the contribution workflow — things like removing excess whitespace and fixing typos
     </span>*
-    — and then graduated to slightly more complex tasks. Eventually I got to the point where I started to “understand” small corners of the codebase and could actually offer help on new issues because of that familiarity.After that,*<span style="background-color: #CAE9F5;"> I started reviewing others’ PRs and offering feedback in an unofficial capacity</span>*, as well as taking on more challenging tasks across the codebase. That process of growth and escalation is still ongoing, and truly I hope it never ends.
+    — and then graduated to slightly more complex tasks. Eventually I got to the point where I started to “understand” small corners of the codebase and could actually offer help on new issues because of that familiarity. After that,*<span style="background-color: #CAE9F5;"> I started reviewing others’ PRs and offering feedback in an unofficial capacity</span>*, as well as taking on more challenging tasks across the codebase. That process of growth and escalation is still ongoing, and truly I hope it never ends.
 
 1. __To which OSS projects and communities do you contribute?__
 
@@ -67,9 +68,9 @@ Meekail Zain is a Computer science PhD student at UGA. Member of Quinn Research 
 
 1. __What pain points do you observe in community-led OSS?__
     
-    *<span style="background-color: #CAE9F5;">Consensus is difficult</span>*. This is a double-edged sword, since it carries some benefits too. With community-lead OSS, changes at every scale need to meet some kind of consensus.*<span style="background-color: #CAE9F5;">This ensures that the changes are well thought out and provides a layer of safety since the chance of uncaught mistakes propagating goes down with the number of people carefully reviewing changes</span>* (for the most part). 
+    *<span style="background-color: #CAE9F5;">Consensus is difficult</span>*. This is a double-edged sword, since it carries some benefits too. With community-lead OSS, changes at every scale need to meet some kind of consensus.*<span style="background-color: #CAE9F5;"> This ensures that the changes are well thought out and provides a layer of safety since the chance of uncaught mistakes propagating goes down with the number of people carefully reviewing changes</span>* (for the most part). 
 
-    For example, in scikit-learn a PR with changes to code needs to meet a lazy consensus where two official reviewers (currently just core developers) explicitly approve, and no other official reviewer officially disapproves. Going a bit further up, a new feature request in a project could require the consensus of several core developers that are well-versed in the topic area. Large systemic changes manifest in the form of [SLEPs] (https://scikit-learn-enhancement-proposals.readthedocs.io/en/latest/slep_template.html) (scikit-learn enhancement proposals) which require a ⅔ consensus across all core developers. Above even that, there are cross-community discussions where the idea of a “consensus” itself isn’t always really clear.
+    For example, in scikit-learn a PR with changes to code needs to meet a lazy consensus where two official reviewers (currently just core developers) explicitly approve, and no other official reviewer officially disapproves. Going a bit further up, a new feature request in a project could require the consensus of several core developers that are well-versed in the topic area. Large systemic changes manifest in the form of [SLEPs](https://scikit-learn-enhancement-proposals.readthedocs.io/en/latest/slep_template.html) (scikit-learn enhancement proposals) which require a ⅔ consensus across all core developers. Above even that, there are cross-community discussions where the idea of a “consensus” itself isn’t always really clear.
 
     This system is a critical one, but there are important issues intrinsic to it that need to be addressed. For example, who gets to contribute to a consensus at each scale? What qualifications does one need, and how do we codify that? There’s also the intrinsic tradeoff where the stronger the consensus required, the less likely it is that changes will be adopted. This is by design since wide-reaching changes need to be held to high standards, but it does also mean that occasionally even for narrow-scoped problems no solution will be reached despite options being raised that are better than the status quo.
 
