@@ -43,7 +43,7 @@ Meekail Zain is a computer science PhD student at University of Georgia (USA), a
     *<span style="background-color: #CAE9F5;">
     I started working on really simple changes to get used to the contribution workflow — things like removing excess whitespace and fixing typos
     </span>*
-    — and then graduated to slightly more complex tasks. Eventually I got to the point where I started to “understand” small corners of the codebase and could actually offer help on new issues because of that familiarity. After that,*<span style="background-color: #CAE9F5;"> I started reviewing others’ PRs and offering feedback in an unofficial capacity</span>*, as well as taking on more challenging tasks across the codebase. That process of growth and escalation is still ongoing, and truly I hope it never ends.
+    — and then graduated to slightly more complex tasks. Eventually I got to the point where I started to “understand” small corners of the codebase and could actually offer help on new issues because of that familiarity. After that,*<span style="background-color: #CAE9F5;"> I started reviewing others’ pull requests (PRs) and offering feedback in an unofficial capacity</span>*, as well as taking on more challenging tasks across the codebase. That process of growth and escalation is still ongoing, and truly I hope it never ends.
 
 1. __To which OSS projects and communities do you contribute?__
 
