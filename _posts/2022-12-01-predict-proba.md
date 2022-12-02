@@ -29,8 +29,6 @@ postauthors:
   {% include postauthor.html %}
 </div>
 
-Enter blog content here.
-
 In classification, many situations call for estimated probabilities beyond class labels. For example in decision making, cost sensitive learning or causal inference.
 These probability estimates are typically accessible from the `predict_proba` method of scikit-learn's classifiers.
 
