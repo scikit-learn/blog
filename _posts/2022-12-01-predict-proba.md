@@ -45,7 +45,7 @@ It is important to highlight that calibration only captures part of the error on
 However, estimating the grouping loss is a harder problem than calibration as its estimation involves directly the true probabilities. Recent work have focused on approximating the grouping loss through local estimations of the true probabilities [6].
 
 
-When working with scikit-learn's classifiers, users must be equally as cautious on results obtained from `predict_proba` as on results from `predict`. Both output estimated quantities (probabilities and labels respectively) with no guarantees on their quality. In both case, model's quality must be assessed with appropriate metrics: expected calibration error, brier score, accuracy, AUC.
+When working with scikit-learn's classifiers, users must be equally as cautious on results obtained from `predict_proba` as on results from `predict`. Both output estimated quantities (probabilities and labels respectively) with no guarantees on their quality. In both cases, model's quality must be assessed with appropriate metrics: expected calibration error, brier score, accuracy, AUC.
 
 
 ## References
