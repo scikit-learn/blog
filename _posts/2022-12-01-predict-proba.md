@@ -26,6 +26,9 @@ postauthors:
 ---
 <div>
   <img src="/assets/images/posts_images/{{ page.featured-image }}" alt="">
+  <figcaption>
+    Photo Credit: <a href="https://caption-link.com">Credit Link Text</a>
+  </figcaption>
   {% include postauthor.html %}
 </div>
 
