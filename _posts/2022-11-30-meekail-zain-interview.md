@@ -94,6 +94,6 @@ Meekail Zain is a computer science PhD student at University of Georgia (USA), a
 
 1. __What are your hobbies, outside of work and open source?__
 
-    I really enjoy hiking, camping and playing DnD (Dungeons & Dragons)! Camping especially is an important hobby for me since whenever I have a computer in reach I feel inclined to check my GitHubnotifications, so the occasional total disconnect for a weekend is a fantastic tool for me to give myself a break with no pressure of “I could work on that new feature right now…”
+    I really enjoy hiking, camping and playing DnD (Dungeons & Dragons)! Camping especially is an important hobby for me since whenever I have a computer in reach I feel inclined to check my GitHub notifications, so the occasional total disconnect for a weekend is a fantastic tool for me to give myself a break with no pressure of “I could work on that new feature right now…”
 
     If you have ever had difficulty with relaxing because of that little voice in your head that says “How dare you relax? You could be doing this and that right now!” then I highly recommend going camping, even just for one night! When that voice strikes during camping, I retort “Ah but you see, I don’t have my laptop, so I can’t work on that right now. All I can do right now is relax.” and suddenly the anxiety washes away :)
