@@ -2,6 +2,7 @@
 #### Blog Post Template ####
 
 #### Post Information ####
+# title: "What we should and should not expect from `predict_proba`"
 title: "What to expect from `predict_proba`"
 date: December 1, 2022
 
@@ -13,7 +14,7 @@ tags:
   - Machine Learning
 
 #### Featured Image ####
-featured-image: uncertainty_ahead.jpeg
+featured-image: sorting.png
 
 #### Author Info ####
 # Can accomodate multiple authors
@@ -23,12 +24,10 @@ postauthors:
     website: https://perez-lebel.com
     email: alexandre.perez@inria.fr
     image: alexandre_perez.jpeg
+usemathjax: true
 ---
 <div>
-  <img src="/assets/images/posts_images/{{ page.featured-image }}" alt="">
-  <figcaption>
-    Photo Credit: <a href="https://caption-link.com">Credit Link Text</a>
-  </figcaption>
+  <img src="/assets/images/posts_images/{{ page.featured-image }}" alt="" title="Image by storyset on Freepik">
   {% include postauthor.html %}
 </div>
 
@@ -39,14 +38,15 @@ However, the quality of the estimated probabilities must be validated to provide
 To be reliable, the estimated probabilities must be close to the true underlying posterior probabilities of the classes `P(Y=1|X)`.
 
 Similarly to validating a discriminant classifier through accuracy or ROC curves, tools have been developed to evaluate a probabilistic classifier.
-Calibration is one of them [1-4]. Calibration is used as a proxy to evaluate the closeness of the estimated probabilities to the true ones. Many recalibration techniques have been developed to improve the estimated probabilities (see [scikit-learn's user guide on calibration](https://scikit-learn.org/stable/modules/calibration.html)).
+Calibration is one of them [1-4]. Calibration is used as a proxy to evaluate the closeness of the estimated probabilities to the true ones. Many recalibration techniques have been developed to improve the estimated probabilities (see [scikit-learn's user guide on calibration](https://scikit-learn.org/stable/modules/calibration.html)). Estimated probabilities of a calibrated classifier can be interpreted as probability of correctness on population of same estimated probability, but not as the true posterior class probability.
 
-It is important to highlight that calibration only captures part of the error on the estimated probabilities. The remaining term is the grouping loss [5]. Together, the calibration and grouping losses fully characterize the error on the estimated probabilities.
+Indeed, it is important to highlight that calibration only captures part of the error on the estimated probabilities. The remaining term is the grouping loss [5]. Together, the calibration and grouping losses fully characterize the error on the estimated probabilities, the epistemic loss.
+
+$$\text{Epistemic loss} = \text{Calibration loss} + \text{Grouping loss}$$
+
 However, estimating the grouping loss is a harder problem than calibration as its estimation involves directly the true probabilities. Recent work have focused on approximating the grouping loss through local estimations of the true probabilities [6].
 
-
-When working with scikit-learn's classifiers, users must be equally as cautious on results obtained from `predict_proba` as on results from `predict`. Both output estimated quantities (probabilities and labels respectively) with no guarantees on their quality. In both cases, model's quality must be assessed with appropriate metrics: expected calibration error, brier score, accuracy, AUC.
-
+When working with scikit-learn's classifiers, users must be equally as cautious on results obtained from `predict_proba` as on results from `predict`. Both output estimated quantities (probabilities and labels respectively) with no prior guarantees on their quality. In both cases, model's quality must be assessed with appropriate metrics: expected calibration error, brier score, accuracy, AUC.
 
 ## References
 
