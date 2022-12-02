@@ -64,7 +64,7 @@ Meekail Zain is a computer science PhD student at University of Georgia (USA), a
 
     The **community** is fantastic as well! On every project the community base has its own unique personality of sorts, and they are all wonderful! It’s amazing being able to see recurring users that post interesting issues, or take a stab at opening more complex PRs (pull requests). There’s a strong sense of companionship with the people that are also trying to improve the same project as you! It’s akin to a very niche club in high school. It’s a wonderful experience finding people obsessed with the same cool project as you are.
 
-    Finally, the impact. At the end of the day, the work we do has some serious consequences. Each project is essential to so many different workflows and enables brilliant researchers and software engineers to build complex systems and solutions to cutting edge problems. It’s sometimes surreal to think about how essential some of these projects really are.
+    Finally, the **impact**. At the end of the day, the work we do has some serious consequences. Each project is essential to so many different workflows and enables brilliant researchers and software engineers to build complex systems and solutions to cutting edge problems. It’s sometimes surreal to think about how essential some of these projects really are.
 
 1. __What pain points do you observe in community-led OSS?__
     
