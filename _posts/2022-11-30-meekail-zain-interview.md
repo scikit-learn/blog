@@ -32,10 +32,9 @@ Meekail Zain is a computer science PhD student at University of Georgia (USA), a
     - GitHub: [@Micky774](https://github.com/Micky774)
     - LinkedIn: [@meekail-zain](https://www.linkedin.com/in/meekail-zain-02a412a2/)
 
-
 1. __How did you first become involved in open source and scikit-learn?__
 
-    I got my first computer when I was writing my master thesis, and back then a friend installed Linux on it for me. Since then I am a near-exclusive Linux user and learned to love the advantages of open source.
+    I first got involved as a user, as most people do. NumPy was a recurring day-to-day library for me, and scikit-learn was a de-facto necessity for several graduate courses. Originally I never really imagined being able to get to a point where I could affect change in these libraries since they seemed so well-established!
 
 1. __We would love to learn of your open source journey.__
 
@@ -68,7 +67,7 @@ Meekail Zain is a computer science PhD student at University of Georgia (USA), a
 
 1. __What pain points do you observe in community-led OSS?__
     
-    *<span style="background-color: #CAE9F5;">Consensus is difficult</span>*. This is a double-edged sword, since it carries some benefits too. With community-lead OSS, changes at every scale need to meet some kind of consensus.*<span style="background-color: #CAE9F5;"> This ensures that the changes are well thought out and provides a layer of safety since the chance of uncaught mistakes propagating goes down with the number of people carefully reviewing changes</span>* (for the most part). 
+    *<span style="background-color: #CAE9F5;">Consensus is difficult</span>*. This is a double-edged sword, since it carries some benefits too. With community-lead OSS, changes at every scale need to meet _some_ kind of consensus.*<span style="background-color: #CAE9F5;"> This ensures that the changes are well thought out and provides a layer of safety since the chance of uncaught mistakes propagating goes down with the number of people carefully reviewing changes</span>* (for the most part). 
 
     For example, in scikit-learn a PR with changes to code needs to meet a lazy consensus where two official reviewers (currently just core developers) explicitly approve, and no other official reviewer officially disapproves. Going a bit further up, a new feature request in a project could require the consensus of several core developers that are well-versed in the topic area. Large systemic changes manifest in the form of [SLEPs](https://scikit-learn-enhancement-proposals.readthedocs.io/en/latest/slep_template.html) (scikit-learn enhancement proposals) which require a ⅔ consensus across all core developers. Above even that, there are cross-community discussions where the idea of a “consensus” itself isn’t always really clear.
 
@@ -90,10 +89,10 @@ Meekail Zain is a computer science PhD student at University of Georgia (USA), a
 
     I absolutely adore [“Probability and Statistics” by Evans and Rosenthal](https://www.utstat.toronto.edu/mikevans/jeffrosenthal/). It does a fantastic job of constructing a lot of otherwise daunting statistical concepts from very elementary ideas. It is my favorite book to recommend to eager students that do not have a rigorous foundation in probability and statistics, since this book does a great job of building up the reader’s intuition and making everything feel natural and derived, rather than arbitrarily defined.
 
-    Regarding conferences, I have to go with [SciPy](https://conference.scipy.org/)! I was definitely scared going into the conference thinking that I would be the least-qualified person in every room and that I’d have nothing to talk about. I realized very quickly that there is always something to talk about, and qualifications don’t matter. It’s a gathering of super passionate people that are each eager to talk about the things that interest them, so regardless of whether you’re an expert or a beginner, they will happily explain things to you. Every single attendee has some area, no matter how specific, that they can talk about for hours. That genuine interest and excitement felt rejuvenating and reminded me why I love OSS so much.
+    Regarding conferences, I have to go with [SciPy](https://conference.scipy.org/)! I was definitely scared going into the conference thinking that I would be the least-qualified person in every room and that I’d have nothing to talk about. I realized very quickly that there is _always_ something to talk about, and qualifications don’t matter. It’s a gathering of super passionate people that are each eager to talk about the things that interest them, so regardless of whether you’re an expert or a beginner, they will _happily_ explain things to you. Every single attendee has some area, no matter how specific, that they can talk about for hours. That genuine interest and excitement felt rejuvenating and reminded me why I love OSS so much.
 
 1. __What are your hobbies, outside of work and open source?__
 
-    I really enjoy hiking, camping and playing DnD (Dungeons & Dragons)! Camping especially is an important hobby for me since whenever I have a computer in reach I feel inclined to check my GitHub notifications, so the occasional total disconnect for a weekend is a fantastic tool for me to give myself a break with no pressure of “I could work on that new feature right now…”
+    I really enjoy hiking, camping and playing DnD (Dungeons & Dragons)! Camping especially is an important hobby for me since whenever I have a computer in reach I feel inclined to check my GitHub notifications, so the occasional total disconnect for a weekend is a fantastic tool for me to give myself a break with no pressure of “I _could_ work on that new feature right now…”
 
-    If you have ever had difficulty with relaxing because of that little voice in your head that says “How dare you relax? You could be doing this and that right now!” then I highly recommend going camping, even just for one night! When that voice strikes during camping, I retort “Ah but you see, I don’t have my laptop, so I can’t work on that right now. All I can do right now is relax.” and suddenly the anxiety washes away :)
+    If you have ever had difficulty with relaxing because of that little voice in your head that says “How dare you relax? You could be doing _this_ and _that_ right now!” then I highly recommend going camping, even just for one night! When that voice strikes during camping, I retort “Ah but you see, I don’t have my laptop, so I _can’t_ work on that right now. All I can do right now is relax.” and suddenly the anxiety washes away :)
