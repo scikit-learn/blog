@@ -82,6 +82,7 @@ Meekail Zain is a computer science PhD student at University of Georgia (USA), a
     - What are the greatest bottlenecks at each level of expertise?
     - Aside from expertise, are there other socio-economic or general demographics that exhibit consistent bottlenecks? (e.g. access to hardware)
     - How do we create informed and effective DEI policies from this information?
+    
     *<span style="background-color: #CAE9F5;">
     OSS projects thrive and prosper based on their community, so I would love to see more systematic research on community needs and pain points.</span>*
 
