@@ -9,14 +9,18 @@ author_profile: false
 
 
 - 2022
+  - Paris, France: [PyLadies Paris](https://www.meetup.com/pyladiesparis/events/290003585/) (Dec 2022)
+  - Paris, France: [PyLadies Paris](https://www.meetup.com/pyladiesparis/events/289652024/) (Nov 2022)
+  - Paris, France: [PyLadies Paris](https://www.meetup.com/pyladiesparis/events/289471009/) (Nov 2022)
+  - Paris, France: [PyLadies Paris](https://www.meetup.com/pyladiesparis/events/289012536/) (Oct 2022)
   - Salta, Argentina: [SciPy Latin America](https://pythoncientifico.ar) (Sep 2022)
   - Basel, Switzerland: [EuroSciPy 2022](https://www.euroscipy.org/2022/index.html) (Sep 2022)
   - Dublin, Ireland: [EuroPython 2022](https://ep2022.europython.eu/mentored-sprint) (Jul 2022)
   - Paris, France: [WiMLDS Paris](https://scikit-learn.fondation-inria.fr/wimlds-paris-sprint-and-contribution-workshop/) (Mar 2022)
-  - Paris, France: [PyLadies Paris](https://www.meetup.com/pyladiesparis/events/289012536/) (Oct 2022)
-  - Paris, France: [PyLadies Paris](https://www.meetup.com/pyladiesparis/events/289471009/) (Nov 2022)
-  - Paris, France: [PyLadies Paris](https://www.meetup.com/pyladiesparis/events/289652024/) (Nov 2022)
-  - Paris, France: [PyLadies Paris](https://www.meetup.com/pyladiesparis/events/290003585/) (Dec 2022)
+
+
+
+
 
 - 2021
   - Japan: [Fujitsu Research](https://www.fujitsu.com/global/about/research/article/202111-devsprint2021a.html) (Dec 2021)
