@@ -8,6 +8,10 @@ author_profile: false
 ## Listing of Scikit-learn Sprints
 
 
+- 2023
+  - Berlin, Germany: [PyLadies Berlin](https://www.meetup.com/pyladies-berlin/events/291249163/) (Feb 2022)
+  - Berlin, Germany: [PyLadies Berlin](https://www.meetup.com/pyladies-berlin/events/291248660/) (Feb 2022)
+
 - 2022
   - Paris, France: [PyLadies Paris](https://www.meetup.com/pyladiesparis/events/290003585/) (Dec 2022)
   - Paris, France: [PyLadies Paris](https://www.meetup.com/pyladiesparis/events/289652024/) (Nov 2022)
