@@ -9,6 +9,7 @@ author_profile: false
 
 
 - 2023
+  - Zurich, Switzerland: [Python Sprints Zurich](https://www.meetup.com/python-sprints-zurich/events/291718007/) (Mar 2023)
   - Berlin, Germany: [PyLadies Berlin](https://www.meetup.com/pyladies-berlin/events/291249163/) (Feb 2022)
   - Berlin, Germany: [PyLadies Berlin](https://www.meetup.com/pyladies-berlin/events/291248660/) (Feb 2022)
 
@@ -84,7 +85,7 @@ author_profile: false
 - 2010
   - Paris, France: (Sep 2010)
   - Paris, France: (Jun 2010)
-  - Paris, France: (Mar 2010)
+  - [Paris, France](https://web.archive.org/web/20101118052247/http://fseoane.net/blog/2010/scikitslearn-coding-spring-in-paris/): (Mar 2010)
   - **first release of scikit-learn** (Feb)
 
 ## References

@@ -38,6 +38,11 @@ docs:
       - title: "Code of Conduct"
         url: https://python.org/psf/conduct/
 
+  - title: Community
+    children:
+      - title: "Monthly Meeting Minutes"
+        url: https://github.com/scikit-learn/administrative/tree/master/meeting_notes
+
   - title: Mailing List
     children:
       - title: "Subscribe"
