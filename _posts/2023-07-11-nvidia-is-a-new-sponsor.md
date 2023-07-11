@@ -25,7 +25,7 @@ postauthors:
 
 <span style="color:red">*Sponsored blog post* </span>
 
-We are thrilled to announce that [NVIDIA](https://www.nvidia.com) has joined the [scikit-learn consortium](https://scikit-learn.fondation-inria.fr/) as a corporate partner. As a leading provider of GPU-accelerated computing solutions, we recognize the importance of machine learning and the role it plays in the growth of many industries and areas of science. Our partnership with the scikit-learn consortium demonstrates our commitment to supporting the development and advancement of open-source software in the machine learning community.
+We are thrilled to announce that [NVIDIA](https://www.nvidia.com) has joined the [scikit-learn consortium](https://scikit-learn.fondation-inria.fr/) as a corporate partner. As a leading provider of GPU-accelerated computing solutions, we at NVIDIA recognize the importance of machine learning and the role it plays in the growth of many industries and areas of science. Our partnership with the scikit-learn consortium demonstrates our commitment to supporting the development and advancement of open-source software in the machine learning community.
 
 <div>
   <video   preload="auto" autoplay loop muted="muted" volume="0"> 
