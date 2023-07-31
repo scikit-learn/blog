@@ -26,9 +26,9 @@ In June of 2023 (week of June 19 to 23), the scikit-learn held their first Devel
 
 The following [scikit-learn team members](https://scikit-learn.org/stable/about.html) joined the sprint:  
 
-1. Gael Varoquaux (add GitHub handle here too)
-1. Olivier Grisel
-1. Guillaume Lemaitre
+1. Gael Varoquaux (@GaelVaroquaux)
+1. Olivier Grisel (@ogrisel)
+1. Guillaume Lemaitre (@glemaitre)
 1. Tim Head (@betatim)
 1. Maren Westermann
 1. Arturo Amor Quiroz
@@ -37,7 +37,7 @@ The following [scikit-learn team members](https://scikit-learn.org/stable/about.
 1. Thomas Fan
 1. Julien Jerphanion (@jjerphan)
 1. Tim Head
-1. François Goupil
+1. François Goupil (@francoisgoupil)
 1. Roman Yurchak
 1. Joris Van den Bossche
 
