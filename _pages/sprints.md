@@ -9,6 +9,7 @@ author_profile: false
 
 
 - 2023
+  - Paris, France: [2023 Developer Sprint] () (June 2023)
   - Zurich, Switzerland: [Python Sprints Zurich](https://www.meetup.com/python-sprints-zurich/events/291718007/) (Mar 2023)
   - Berlin, Germany: [PyLadies Berlin](https://www.meetup.com/pyladies-berlin/events/291249163/) (Feb 2022)
   - Berlin, Germany: [PyLadies Berlin](https://www.meetup.com/pyladies-berlin/events/291248660/) (Feb 2022)
