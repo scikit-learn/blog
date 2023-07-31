@@ -28,7 +28,7 @@ The following [scikit-learn team members](https://scikit-learn.org/stable/about.
 
 1. Gael Varoquaux (add GitHub handle here too)
 1. Olivier Grisel
-1. Guillaume LeMaitre
+1. Guillaume Lemaitre
 1. Tim Head (@betatim)
 1. Maren Westermann
 1. Arturo Amor Quiroz
@@ -39,6 +39,7 @@ The following [scikit-learn team members](https://scikit-learn.org/stable/about.
 1. Tim Head
 1. François Goupil
 1. Roman Yurchak
+1. Joris Van den Bossche
 
 The following community members joined the sprint:  
 
@@ -52,7 +53,6 @@ The following community members joined the sprint:
 1. Alexandre Landeau
 1. Louis Fouquet
 1. Alexandre Vigny
-1. Joris Van den Bossche
 1. Harizo Rajaona
 1. Samuel Ronsin
 1. Riccardo Cappuzzo
