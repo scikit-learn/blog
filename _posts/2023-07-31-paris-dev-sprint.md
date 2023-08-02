@@ -43,7 +43,7 @@ The following [scikit-learn team members](https://scikit-learn.org/stable/about.
 
 The following community members joined the sprint:  
 
-1. Ines intern @Dataiku
+1. Ines (intern at Dataiku)
 1. Chaine San Buenaventura
 1. Yann Lechelle
 1. Vincent Maladière
