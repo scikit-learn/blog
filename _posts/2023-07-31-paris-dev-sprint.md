@@ -22,7 +22,7 @@ postauthors:
 </div>
 
 
-In June of 2023 (week of June 19 to 23), the scikit-learn team held its first developers sprint since 2019!  The sprint took place in Paris, France at the Dataiku office. The sprint event was an in-person event only and had 29 participants.
+In June of 2023 (week of June 19 to 23), the scikit-learn team held its first developers sprint since 2019! The sprint took place in Paris, France at the Dataiku office. The sprint event was an in-person event only and had 29 participants.
 
 The following [scikit-learn team members](https://scikit-learn.org/stable/about.html) joined the sprint:  
 
@@ -36,7 +36,6 @@ The following [scikit-learn team members](https://scikit-learn.org/stable/about.
 1. Loïc Estève
 1. Thomas Fan
 1. Julien Jerphanion (@jjerphan)
-1. Tim Head
 1. François Goupil (@francoisgoupil)
 1. Roman Yurchak
 1. Joris Van den Bossche
