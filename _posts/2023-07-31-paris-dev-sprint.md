@@ -87,7 +87,7 @@ First Row: Olivier Grisel, Harizo Rajaona, Vincent Maladière.
 
 ### What is next?
 
-We are discussing co-locating with OpenML next Sep to Dec 2024 in Berlin to organize another developers' sprint. 
+We are discussing co-locating with OpenML in 2024 in Berlin to organize another developers' sprint. 
 
 
 <figure>
