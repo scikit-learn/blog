@@ -1,6 +1,6 @@
 ---
 title: "scikit-learn 2023 In-person Developer Sprint in Paris, France"
-date: July 31, 2023
+date: September 10, 2023
 
 categories:
   - Events
