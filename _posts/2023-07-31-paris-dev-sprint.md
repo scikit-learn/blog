@@ -64,7 +64,10 @@ The following community members joined the sprint:
 <figure>
  <img src="/assets/images/posts_images/2023-paris-sprint/paris_2023.jpg" alt="group of people who participated in the sprint" max-width="20%" max-height="20%" /> 
  <figcaption>
- scikit-learn Developer Sprint, Paris, June 2023; Photo credit: <a href=" "> Inria / Photo B. Fourrier, June 2023</a>; (from left to right, back to front): XXX, XXX, François Goupil, Tim Head, Guillaume Lemaitre, XXX, XXX, Gael Varoquaux, Olivier Grisel, Alexandre Gramfort [add other people in]
+ scikit-learn Developer Sprint, Paris, June 2023; Photo credit: <a href=" "> Inria / Photo B. Fourrier, June 2023</a>; (from left to right, back to front):
+Last Row: Denis Engemann, Riccardo Cappuzzo, François Goupil, Tim Head, Guillaume Lemaitre, Louis Fouquet, Jérémie du Boisberranger, Frank Charras, Léo Grinsztajn, Arturo Amor Quiroz.
+Middle Row: Thomas Fan, Lilian Boulard, Gaël Varoquaux,  Ines, Jovan Stojanovic, Chaine San Buenaventura.
+First Row: Olivier Grisel, Harizo Rajaona, Vincent Maladière.
  </figcaption>
 </figure>
 
