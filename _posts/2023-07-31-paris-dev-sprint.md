@@ -30,6 +30,8 @@ The following [scikit-learn team members](https://scikit-learn.org/stable/about.
 1. Olivier Grisel (@ogrisel)
 1. Guillaume Lemaitre (@glemaitre)
 1. Tim Head (@betatim)
+1. Jérémie du Boisberranger (@jeremiedbb)
+1. Frank Charras (@fcharras)
 1. Maren Westermann
 1. Arturo Amor Quiroz
 1. Adrin Jalali
