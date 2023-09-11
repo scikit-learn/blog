@@ -57,6 +57,8 @@ The following community members joined the sprint:
 1. Riccardo Cappuzzo
 1. Camille Troillard
 1. Denis Engemann
+1. Léo Grinsztajn
+1. Lilian Boulard
 
 
 <figure>
