@@ -22,45 +22,45 @@ postauthors:
 </div>
 
 
-In June of 2023 (week of June 19 to 23), the scikit-learn team held its first developers sprint since 2019! The sprint took place in Paris, France at the Dataiku office. The sprint event was an in-person event only and had 33 participants.
+In June of 2023 (week of June 19 to 23), the scikit-learn team held its first developers sprint since 2019! The sprint took place in Paris, France at the Dataiku office. The sprint event was an in-person event only and had 32 participants.
 
 The following [scikit-learn team members](https://scikit-learn.org/stable/about.html) joined the sprint:  
 
-1. Gael Varoquaux (@GaelVaroquaux)
-1. Olivier Grisel (@ogrisel)
-1. Guillaume Lemaitre (@glemaitre)
-1. Tim Head (@betatim)
-1. Jérémie du Boisberranger (@jeremiedbb)
-1. Frank Charras (@fcharras)
-1. Maren Westermann
-1. Arturo Amor Quiroz
 1. Adrin Jalali
-1. Loïc Estève
-1. Thomas Fan
-1. Julien Jerphanion (@jjerphan)
+1. Arturo Amor Quiroz
 1. François Goupil (@francoisgoupil)
-1. Roman Yurchak
+1. Frank Charras (@fcharras)
+1. Gael Varoquaux (@GaelVaroquaux)
+1. Guillaume Lemaitre (@glemaitre)
+1. Jérémie du Boisberranger (@jeremiedbb)
 1. Joris Van den Bossche
+1. Julien Jerphanion (@jjerphan)
+1. Loïc Estève
+1. Maren Westermann
+1. Olivier Grisel (@ogrisel)
+1. Roman Yurchak
+1. Thomas Fan
+1. Tim Head (@betatim)
 
 The following community members joined the sprint:  
 
-1. Ines (intern at Dataiku)
-1. Chaine San Buenaventura
-1. Yann Lechelle
-1. Vincent Maladière
-1. Franck Charras
-1. Jovan Stojanovic
-1. Leo Dreyfus-Schmidt
 1. Alexandre Landeau
-1. Louis Fouquet
 1. Alexandre Vigny
-1. Harizo Rajaona
-1. Samuel Ronsin
-1. Riccardo Cappuzzo
+1. Chaine San Buenaventura
 1. Camille Troillard
 1. Denis Engemann
+1. Franck Charras
+1. Harizo Rajaona
+1. Ines (intern at Dataiku)
+1. Jovan Stojanovic
+1. Leo Dreyfus-Schmidt
 1. Léo Grinsztajn
 1. Lilian Boulard
+1. Louis Fouquet
+1. Riccardo Cappuzzo
+1. Samuel Ronsin
+1. Vincent Maladière
+1. Yann Lechelle
 
 
 <figure>
