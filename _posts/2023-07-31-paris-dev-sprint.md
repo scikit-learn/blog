@@ -73,7 +73,7 @@ First Row: Olivier Grisel, Harizo Rajaona, Vincent Maladière.
 
 ## Sponsors
 - Dataiku provided the space and some of the food, as well as all of the coffee.
-- The scikit-learn consortium paid for the lunch, the travel and accommodation expenses.
+- The scikit-learn consortium organized the sprint, paid for the lunch, the travel and accommodation expenses.
 
 ## Topics covered at the sprint
 - PR #13649: [Monotonic constraints for Tree-based models](https://github.com/scikit-learn/scikit-learn/pull/13649) 
