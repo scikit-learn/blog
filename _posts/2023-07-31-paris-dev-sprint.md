@@ -22,7 +22,7 @@ postauthors:
 </div>
 
 
-In June of 2023 (week of June 19 to 23), the scikit-learn team held its first developers sprint since 2019! The sprint took place in Paris, France at the Dataiku office. The sprint event was an in-person event only and had 29 participants.
+In June of 2023 (week of June 19 to 23), the scikit-learn team held its first developers sprint since 2019! The sprint took place in Paris, France at the Dataiku office. The sprint event was an in-person event only and had 33 participants.
 
 The following [scikit-learn team members](https://scikit-learn.org/stable/about.html) joined the sprint:  
 
@@ -66,7 +66,7 @@ The following community members joined the sprint:
 <figure>
  <img src="/assets/images/posts_images/2023-paris-sprint/paris_2023.jpg" alt="group of people who participated in the sprint" max-width="20%" max-height="20%" /> 
  <figcaption>
- scikit-learn Developer Sprint, Paris, June 2023; Photo credit: <a href=" "> Inria / Photo B. Fourrier, June 2023</a>; (from left to right, back to front):
+ scikit-learn Developer Sprint, Paris, June 2023; Photo credit: <a href=" "> Copyright: Inria / Photo B. Fourrier, June 2023</a>; (from left to right, back to front):
 Last Row: Denis Engemann, Riccardo Cappuzzo, François Goupil, Tim Head, Guillaume Lemaitre, Louis Fouquet, Jérémie du Boisberranger, Frank Charras, Léo Grinsztajn, Arturo Amor Quiroz.
 Middle Row: Thomas Fan, Lilian Boulard, Gaël Varoquaux,  Ines, Jovan Stojanovic, Chaine San Buenaventura.
 First Row: Olivier Grisel, Harizo Rajaona, Vincent Maladière.
@@ -95,6 +95,6 @@ We are discussing co-locating with OpenML in 2024 in Berlin to organize another 
 <figure>
  <img src="/assets/images/posts_images/2023-paris-sprint/thomas_olivier.jpg" alt="group of people who participated in the sprint" max-width="20%" max-height="20%" /> 
  <figcaption>
- scikit-learn Developer Sprint, Paris, June 2023; Photo credit: <a href=" "> Inria / Photo B. Fourrier, June 2023</a>; (from left to right): Thomas Fan, Olivier Grisel
+ scikit-learn Developer Sprint, Paris, June 2023; Photo credit: <a href=" "> Copyright Inria / Photo B. Fourrier, June 2023</a>; (from left to right): Thomas Fan, Olivier Grisel
  </figcaption>
 </figure>
