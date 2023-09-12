@@ -7,6 +7,7 @@ categories:
 tags:
   - Sprints
   - Community
+featured-image: 2023-paris-dev-sprint.png
 
 postauthors:
   - name: Reshama Shaikh
@@ -22,7 +23,7 @@ postauthors:
 </div>
 
 
-In June of 2023 (week of June 19 to 23), the scikit-learn team held its first developers sprint since 2019! The sprint took place in Paris, France at the Dataiku office. The sprint event was an in-person event only and had 32 participants.
+During the week of June 19 to 23, 2023, the scikit-learn team held its first developers sprint since 2019! The sprint took place in Paris, France at the Dataiku office. The sprint event was an in-person event and had 32 participants.
 
 The following [scikit-learn team members](https://scikit-learn.org/stable/about.html) joined the sprint:  
 
@@ -89,7 +90,7 @@ First Row: Olivier Grisel, Harizo Rajaona, Vincent Maladière.
 
 ### What is next?
 
-We are discussing co-locating with OpenML in 2024 in Berlin to organize another developers' sprint. 
+We are discussing co-locating with OpenML in 2024 in Berlin, Germany to organize another developers' sprint. 
 
 
 <figure>
