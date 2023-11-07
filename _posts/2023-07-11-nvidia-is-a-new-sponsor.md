@@ -11,7 +11,7 @@ featured-image: NVIDIAxsklearn.jpg
 
 postauthors:
   - name: NVIDIA
-    website: https://nvidia.com/
+    website: https://developer.nvidia.com/gpu-accelerated-libraries
     image: "nvidia-logo.png"
   - name: François Goupil
     email: francois.goupil@inria.fr
