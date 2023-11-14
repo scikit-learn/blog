@@ -1,6 +1,6 @@
 ---
 title: "NVIDIA Is A New Sponsor Of The Scikit-Learn consortium at the Inria Foundation"
-date: July 11, 2023
+date: November 14, 2023
 
 categories:
   - Funding
