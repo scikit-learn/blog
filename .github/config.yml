@@ -4,8 +4,8 @@
 
 # Comment to be posted to on first time issues
 newIssueWelcomeComment: |
-  ![Welcome Banner](https://github.com/scikit-learn/blog/blob/main/welcome-bot/BannerWelcome.jpg)
-  
+  ![Welcome Banner](https://raw.githubusercontent.com/scikit-learn/blog/main/welcome-bot/BannerWelcome.jpg)
+
   :tada: Welcome to _scikit-learn Blog_! :tada:
   We're really excited to have your input into the project! :sparkling_heart:
 
@@ -16,7 +16,7 @@ newIssueWelcomeComment: |
 
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: |
-  ![Thank You Banner](https://github.com/scikit-learn/blog/blob/main/welcome-bot/BannerThanks.jpg)
+  ![Thank You Banner](https://raw.githubusercontent.com/scikit-learn/blog/main/welcome-bot/BannerThanks.jpg)
 
   :sparkling_heart: Thanks for opening this pull request! :sparkling_heart:
   _scikit-learn_ community really appreciates your time and effort to contribute to the project.
@@ -27,7 +27,7 @@ newPRWelcomeComment: |
 
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: |
-  ![Congratulations Banner](https://github.com/scikit-learn/blog/blob/main/welcome-bot/BannerCongratulations.jpg)
+  ![Congratulations Banner](https://raw.githubusercontent.com/scikit-learn/blog/main/welcome-bot/BannerCongratulations.jpg)
 
   Congrats on merging your first pull request! :tada:
   We here at _scikit-learn_ are proud of you! :sparkling_heart:
