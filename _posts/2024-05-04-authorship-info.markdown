@@ -39,7 +39,7 @@ to the following format:
 ```
 
 However, after a series of discussions which you can see in detail in [this
-issue]( https://github.com/scikit-learn/scikit-learn/pull/28799), could list
+issue]( https://github.com/scikit-learn/scikit-learn/pull/28799), we could list
 the following caveats to the status quo:
 
 - Authorship information was not up-to-date and in most cases, but not always,
@@ -49,8 +49,8 @@ the following caveats to the status quo:
 - One can check the real authors and the history of the authors of any part of
   the code-base using `git blame` and other `git` tools.
 
-Therefore we came to the conclusion to change all inline license information to
-the following:
+Therefore we came to the conclusion to standardize all authorship information to
+mention "The scikit-learn developers", and have the license notice as:
 
 ```python
 # Authors: The scikit-learn developers
