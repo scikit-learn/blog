@@ -54,7 +54,7 @@ mention "The scikit-learn developers", and have the license notice as:
 
 ```python
 # Authors: The scikit-learn developers
-# License: BSD-3-Clause
+# SPDX-License-Identifier: BSD-3-Clause
 ```
 
 The change is to happen gradually in the coming months after April 2024.
