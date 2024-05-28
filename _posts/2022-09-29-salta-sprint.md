@@ -22,7 +22,7 @@ As part of the event, we organized a [scikit-learn sprint](https://pythoncientif
 The main idea was to introduce the participants to the open source world and help them make their first contribution.
 The sprint event was an in-person event.
 
-<img src="https://pythoncientifico.ar/static/assets/images/scipy-la-2022_logo.png" alt="SciPy logo" width="50%" height="50%" >
+<img src="/assets/images/posts_images/scipy-la-2022_logo.png" alt="SciPy logo" width="50%" height="50%" >
 
 ## Schedule
 - September 27, 2022 - **Pre-sprint** - 10:00 to 12:00 hs (UTC -3)
