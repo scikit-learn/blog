@@ -9,8 +9,10 @@ author_profile: false
 
 
 - 2023
+  - Zurich, Switzerland: [Python Sprints & Zurich WiMLDS](https://python-sprints.github.io/zurich/2023/11/07/scikit-learn-sprint.html) (Nov 2023)
   - Berlin, Germany: [PyLadies Berlin](https://www.meetup.com/pyladies-berlin/events/294785222/) (Aug 2023)
   - Berlin, Germany: [PyLadies Berlin](https://www.meetup.com/pyladies-berlin/events/294784938/) (Jul 2023)
+  - Paris, France: [scikit-learn Consortium](https://blog.scikit-learn.org/events/paris-dev-sprint/) (Jun 2023)
   - Zurich, Switzerland: [Python Sprints Zurich](https://www.meetup.com/python-sprints-zurich/events/291718007/) (Mar 2023)
   - Berlin, Germany: [PyLadies Berlin](https://www.meetup.com/pyladies-berlin/events/291249163/) (Feb 2023)
   - Berlin, Germany: [PyLadies Berlin](https://www.meetup.com/pyladies-berlin/events/291248660/) (Feb 2023)
@@ -24,10 +26,6 @@ author_profile: false
   - Basel, Switzerland: [EuroSciPy 2022](https://www.euroscipy.org/2022/index.html) (Sep 2022)
   - Dublin, Ireland: [EuroPython 2022](https://ep2022.europython.eu/mentored-sprint) (Jul 2022)
   - Paris, France: [WiMLDS Paris](https://scikit-learn.fondation-inria.fr/wimlds-paris-sprint-and-contribution-workshop/) (Mar 2022)
-
-
-
-
 
 - 2021
   - Japan: [Fujitsu Research](https://www.fujitsu.com/global/about/research/article/202111-devsprint2021a.html) (Dec 2021)
@@ -49,7 +47,7 @@ author_profile: false
   - New York, NY:  [NYC WiMLDS](http://wimlds.org/opensourcesprints-2/nyc-scikit-sprint-2019/) (Aug 24, 2019)
   - Austin, TX: [SciPy](https://www.scipy2019.scipy.org/sprints) (Jul 13-14, 2019)  
   - Nairobi, Kenya:  [WiMLDS sprint](http://wimlds.org/nairobi-scikit-sprint-2019/) (Jun 22, 2019)
-  - Paris, France:  [core sprint, for advanced contributors](https://scikit-learn.fondation-inria.fr/en/scikit-learn-sprint-in-paris/) (Feb)
+  - Paris, France:  [core sprint, for advanced contributors](https://scikit-learn.fondation-inria.fr/en/scikit-learn-sprint-in-paris/) (Feb 2019)
 - 2018
   - New York, NY: [NYC WiMLDS](https://reshamas.github.io/highlights-from-the-2018-NYC-WiMLDS-scikit-sprint) (Sep 2018)
   - Austin, TX: [SciPy](http://gael-varoquaux.info/programming/sprint-on-scikit-learn-in-paris-and-austin.html) (open sprint, for new contributors) (Jul 2018)
@@ -58,37 +56,38 @@ author_profile: false
   - Berkeley, CA: [UC Berkeley](https://github.com/scikit-image/scikit-image/wiki/UC-Berkeley-(BIDS)-sprint,-May-28-Jun-2-2018)(May 28 to Jun 2)
   - London, UK: ManAHL (April 21-22, 2018)
 - 2017
-  - [Paris, France](http://gael-varoquaux.info/programming/scikit-learn-paris-sprint-2017.html) (Jun)
-  - New York, NY: [NYC WiMLDS](https://github.com/WiMLDS/scikit-sprint-nyc-2017/blob/master/README.md) (Mar)
+  - [Paris, France](http://gael-varoquaux.info/programming/scikit-learn-paris-sprint-2017.html) (Jun 2017)
+  - New York, NY: [NYC WiMLDS](https://github.com/WiMLDS/scikit-sprint-nyc-2017/blob/master/README.md) (Mar 2017)
 - 2016
-  - SciPy:  [Austin](https://scipy2016.scipy.org/ehome/146062/332969/) (Jul)
+  - SciPy:  [Austin](https://scipy2016.scipy.org/ehome/146062/332969/) (Jul 2016)
 - 2015
-  - SciPy:  [Austin](https://scipy2016.scipy.org/ehome/115969/292867/) (Jul)
-  - ODSC:   San Francisco (Nov)
-  - Criteo:  [Paris](https://twitter.com/GaelVaroquaux/status/656847270550310912) (Oct)
-  - PyData:  Paris (Apr)
+  - SciPy:  [Austin](https://scipy2016.scipy.org/ehome/115969/292867/) (Jul 2015)
+  - ODSC:   San Francisco (Nov 2015)
+  - Criteo:  [Paris](https://twitter.com/GaelVaroquaux/status/656847270550310912) (Oct 2015)
+  - PyData:  Paris (Apr 2015)
 - 2014
-  - Euro SciPy, Cambridge (Aug)
-  - INRIA, Criteo, La paillasse, Tinyclues:  [Paris](http://gael-varoquaux.info/programming/scikit-learn-2014-sprint-a-report.html) (Jul)
-  - Cloudera, SF (Feb)
+  - Euro SciPy, Cambridge (Aug 2014)
+  - INRIA, Criteo, La paillasse, Tinyclues:  [Paris](http://gael-varoquaux.info/programming/scikit-learn-2014-sprint-a-report.html) (Jul 2014)
+  - Cloudera, SF (Feb 2014)
 - 2013
-  - Paris (Jul)
-  - SciPy:  [Austin](https://conference.scipy.org/scipy2013/sprint_detail.php?id=36) (Jun)
+  - [Paris, France](https://github.com/scikit-learn/administrative/blob/master/sprint_paris_2013/proposal.rst) (Jul 2013)
+    - Sponsors: [Télécom Paristech](https://www.telecom-paristech.fr/), [tinyclues](https://www.tinyclues.com/), [French Python Association](https://www.afpy.org/), [Fonds de la Recherche Scientifique](https://www.frs-fnrs.be)
+  - SciPy:  [Austin](https://conference.scipy.org/scipy2013/sprint_detail.php?id=36) (Jun 2013)
 - 2012
-  - EuroSciPy Bruxelles (Aug)
-  - PyCon France (Jul)
-  - SciPy:  [Austin](http://conference.scipy.org/scipy2012/sprints/sprint_detail.php?id=15) (Jul)
+  - EuroSciPy Bruxelles (Aug 2012)
+  - PyCon France (Jul 2012)
+  - SciPy:  [Austin](http://conference.scipy.org/scipy2012/sprints/sprint_detail.php?id=15) (Jul 2012)
 - 2011
-  - NeurIPS:  [Granada, Spain](http://gael-varoquaux.info/programming/scikit-learn-nips-2011-sprint-international-thanks-to-our-sponsors.html) (Dec)
-  - Euro SciPy:  [Paris](http://fa.bianp.net/blog/2011/scikit-learn-euroscipy-2011-coding-sprint-day-one/) (Aug)
-  - Austin SciPy (Jul)
-  - Paris, Logilab (Apr)
+  - NeurIPS:  [Granada, Spain](http://gael-varoquaux.info/programming/scikit-learn-nips-2011-sprint-international-thanks-to-our-sponsors.html) (Dec 2011)
+  - Euro SciPy:  [Paris](http://fa.bianp.net/blog/2011/scikit-learn-euroscipy-2011-coding-sprint-day-one/) (Aug 2011)
+  - Austin SciPy (Jul 2011)
+  - Paris, Logilab (Apr 2011)
     - Boston MIT
 - 2010
   - Paris, France: (Sep 2010)
   - Paris, France: (Jun 2010)
   - [Paris, France](https://web.archive.org/web/20101118052247/http://fseoane.net/blog/2010/scikitslearn-coding-spring-in-paris/): (Mar 2010)
-  - **first release of scikit-learn** (Feb)
+  - **first release of scikit-learn** (Feb 2010)
 
 ## References
 - scikit learn wiki: [upcoming sprints](https://github.com/scikit-learn/scikit-learn/wiki/Upcoming-events)
