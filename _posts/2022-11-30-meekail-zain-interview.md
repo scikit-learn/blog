@@ -11,7 +11,7 @@ postauthors:
   - name: Reshama Shaikh
     website: https://reshamas.github.io
     image: reshama_shaikh.jpeg 
-  - name: Meekail zain
+  - name: Meekail Zain
     website: https://www.linkedin.com/in/meekail-zain-02a412a2/
     image: meekail-zain.jpg
 ---
