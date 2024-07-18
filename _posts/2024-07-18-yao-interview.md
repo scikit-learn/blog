@@ -61,4 +61,4 @@ Yao Xiao recently earned his undergraduate degree in mathematics and computer sc
 
 1. __What are your hobbies, outside of work and open source?__
 
-    I would say my largest hobby is programming (not for school, not for work, just for fun). I’ve recently been fascinated with [Tauri](https://v2.tauri.app/) and wrote a lot of small desktop applications for myself in my spare time. Apart from this I also love playing the piano and I’m an [anime](https://www.animenzpiano.com/) lover, so I often listen to or play piano versions of anime theme songs (mostly arranged by Animenz).
+    I would say my largest hobby is programming (not for school, not for work, just for fun). I’ve recently been fascinated with [Tauri](https://v2.tauri.app/) and wrote a lot of small desktop applications for myself in my spare time. Apart from this I also love playing the piano and I’m an anime lover, so I often listen to or play piano versions of anime theme songs (mostly arranged by [Animenz](https://www.animenzpiano.com/)).
