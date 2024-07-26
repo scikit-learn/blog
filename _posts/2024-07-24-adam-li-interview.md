@@ -5,7 +5,7 @@ categories:
   - Team
 tags:
   - Open Source
-featured-image: 
+featured-image: adam-li-interview.png
 
 postauthors:
   - name: Reshama Shaikh
