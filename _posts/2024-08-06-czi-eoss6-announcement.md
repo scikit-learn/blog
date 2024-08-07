@@ -5,7 +5,7 @@ categories:
   - Funding
 tags:
   - Open Source
-  - Sponsor
+  - Funding
   - Internship
   - Diversity
 featured-image: sklearn_czi.png
