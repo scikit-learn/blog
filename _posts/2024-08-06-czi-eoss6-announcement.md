@@ -1,5 +1,5 @@
 ---
-title: "Scikit-learn awarded CZI EOSS Cycle 6 Grant"
+title: "Chan Zuckerberg Initiative considers scikit-learn an Essential Open Source Software"
 date: August 6, 2024
 categories:
   - Funding
