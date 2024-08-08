@@ -47,7 +47,7 @@ community.
 
 In this new grant, we will focus on improving the evaluation and inspection of
 predictive models. We provide in the next section a detailed description of the
-proposed work. One can find the full submitted proposal in [1].
+proposed work.
 
 ## Predictive models evaluation & inspection
 
@@ -101,8 +101,3 @@ To execute this project, we plan the following hires:
   groups in the field of machine learning and data science, similarly to previous
   initiatives (cf. [NumFOCUS Small Development
   Grant](https://blog.scikit-learn.org/diversity/mentoring/)).
-
-## References
-
-[1] [Scikit-learn proposal for CZI EOSS
-6](https://github.com/scikit-learn/administrative/blob/master/czi_eoss_proposal/EOSS6-0000000551_202312181059.pdf)
