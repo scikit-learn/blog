@@ -23,7 +23,7 @@ postauthors:
   {% include postauthor.html %}
 </div>
 
-We are delighted to announce that `scikit-learn` is awarded a grant from
+We are delighted to announce that `scikit-learn` has been awarded a grant from
 the [Chan Zuckerberg Initiative (CZI)](https://chanzuckerberg.com/)'s [Essential Open
 Source Software for Science
 (EOSS)](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/)
