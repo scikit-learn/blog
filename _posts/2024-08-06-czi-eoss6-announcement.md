@@ -12,8 +12,11 @@ featured-image: sklearn_czi.png
 
 postauthors:
   - name: Guillaume Lemaitre
-    website: https://glemaitre.github.io/
+    website: https://github.com/glemaitre
     image: guillaume-lemaitre.jpg
+  - name: Lucy Liu
+    website: https://github.com/lucyleeow
+    image: lucyliu.jpeg
 ---
 <div>
   <img src="/assets/images/posts_images/{{ page.featured-image }}" alt="">
@@ -44,7 +47,7 @@ community.
 
 In this new grant, we will focus on improving the evaluation and inspection of
 predictive models. We provide in the next section a detailed description of the
-proposed work.
+proposed work. One can find the full submitted proposal in [1].
 
 ## Predictive models evaluation & inspection
 
@@ -84,7 +87,20 @@ use cases.
 
 On top of all these items, we intend to continue working on the general maintenance of
 the project, addressing bug reports and performance regressions. As a community-driven
-project, we want to dedicate time reviewing external contributions.
+project, we want to dedicate time reviewing external contributions.\
+
+## Involved people
+
+To execute this project, we plan the following hires:
+
+- [Lucy Liu](https://github.com/lucyleeow) (Quansight Labs) will work about half-time on
+  the project, on topic related to displays and feature importance.
+- We will hire full-time internships to work on the other part of the project. The
+  initial plan is to hire two interns for a period of 6 months each and repeat this
+  process for the next 2 years. We want to provide opportunities to underrepresented
+  groups in the field of machine learning and data science, similarly to previous
+  initiatives (cf. [NumFOCUS Small Development
+  Grant](https://blog.scikit-learn.org/diversity/mentoring/)).
 
 ## References
 
