@@ -30,24 +30,10 @@ Source Software for Science
 program. This grant is funded by [Wellcome Trust](https://wellcome.org/).
 As in previous rounds, this cycle supports open-source software projects that are
 essential to biomedical research. This is the third time that CZI EOSS supports
-`scikit-learn`. In previous rounds, the following projects were funded:
-
-- [CZI EOSS 1](https://chanzuckerberg.com/eoss/proposals/scikit-learn-maintenance-and-enhancement-for-gradient-boosting/)
-  helped create the
-  [`HistGradientBoostingClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html) and
-  [`HistGradientBoostingRegressor`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html) estimators.
-  These estimators are equivalent to the gradient boosting models implemented in
-  `LightGBM` and `XGBoost`.
-- [CZI EOSS 4](https://chanzuckerberg.com/eoss/proposals/maintenance-extension-of-scikit-learn-machine-learning-in-python/)
-  extended `scikit-learn` to improve handling of missing values and categorical data in
-  several estimators.
-
-Both grants allowed us to maintain and enhance `scikit-learn` to better serve the
-community.
+`scikit-learn`.
 
 In this new grant, we will focus on improving the evaluation and inspection of
-predictive models. In the next section we will describe the
-proposed work.
+predictive models.
 
 ## Predictive models evaluation & inspection
 
@@ -101,3 +87,20 @@ To execute this project, we plan the following hires:
   groups in the field of machine learning and data science, similarly to previous
   initiatives (cf. [NumFOCUS Small Development
   Grant](https://blog.scikit-learn.org/diversity/mentoring/)).
+
+## Past CZI EOSS grants
+
+In the past `scikit-learn` has been awarded two grants from the CZI EOSS program:
+
+- [CZI EOSS Cycle 1](https://chanzuckerberg.com/eoss/proposals/scikit-learn-maintenance-and-enhancement-for-gradient-boosting/)
+  helped at creating to the
+  [`HistGradientBoostingClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html) and
+  [`HistGradientBoostingRegressor`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html) estimators.
+  These estimators are the equivalent of gradient boosting models implemented in
+  `LightGBM` and `XGBoost`.
+- [CZI EOSS Cycle 4](https://chanzuckerberg.com/eoss/proposals/maintenance-extension-of-scikit-learn-machine-learning-in-python/)
+  extended `scikit-learn` to work better with missing values and categorical data in
+  several estimators.
+
+Both grants allowed us to maintain and enhance `scikit-learn` to better serve the
+community.
