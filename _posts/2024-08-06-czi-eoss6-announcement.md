@@ -36,7 +36,7 @@ essential to biomedical research. This is the third time that CZI EOSS supports
   helped create the
   [`HistGradientBoostingClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html) and
   [`HistGradientBoostingRegressor`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html) estimators.
-  These estimators are the equivalent of gradient boosting models implemented in
+  These estimators are equivalent to the gradient boosting models implemented in
   `LightGBM` and `XGBoost`.
 - [CZI EOSS 4](https://chanzuckerberg.com/eoss/proposals/maintenance-extension-of-scikit-learn-machine-learning-in-python/)
   extended `scikit-learn` to improve handling of missing values and categorical data in
