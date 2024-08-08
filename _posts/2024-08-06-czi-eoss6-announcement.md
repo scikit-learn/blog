@@ -28,25 +28,25 @@ the [Chan Zuckerberg Initiative (CZI)](https://chanzuckerberg.com/)'s [Essential
 Source Software for Science
 (EOSS)](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/)
 program. This grant is funded by [Wellcome Trust](https://wellcome.org/).
-As in previous round, this cycle supports open-source software projects that are
+As in previous rounds, this cycle supports open-source software projects that are
 essential to biomedical research. This is the third time that CZI EOSS supports
 `scikit-learn`. In previous rounds, the following projects were funded:
 
 - [CZI EOSS 1](https://chanzuckerberg.com/eoss/proposals/scikit-learn-maintenance-and-enhancement-for-gradient-boosting/)
-  helped at creating to the
+  helped create the
   [`HistGradientBoostingClassifier`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html) and
   [`HistGradientBoostingRegressor`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html) estimators.
   These estimators are the equivalent of gradient boosting models implemented in
   `LightGBM` and `XGBoost`.
 - [CZI EOSS 4](https://chanzuckerberg.com/eoss/proposals/maintenance-extension-of-scikit-learn-machine-learning-in-python/)
-  extended `scikit-learn` to work better with missing values and categorical data in
+  extended `scikit-learn` to improve handling of missing values and categorical data in
   several estimators.
 
 Both grants allowed us to maintain and enhance `scikit-learn` to better serve the
 community.
 
 In this new grant, we will focus on improving the evaluation and inspection of
-predictive models. We provide in the next section a detailed description of the
+predictive models. In the next section we will describe the
 proposed work.
 
 ## Predictive models evaluation & inspection
@@ -55,13 +55,13 @@ When building a machine learning pipeline for a specific research problem, two k
 aspects are closely connected: (i) design the pipeline and (ii) assess, analyze, and
 inspect it. Researchers strive to identify the optimal pipeline, maximizing specific
 evaluation metrics, while also seeking at explaining the validity and rationale behind
-the pipeline's predictions. This is the corner stone to properly answering research
+the pipeline's predictions. This is the cornerstone of answering research
 questions. With this proposal we aim to improve and extend the available `scikit-learn`
 tools.
 
 `scikit-learn` provides building blocks for model evaluation and statistical analysis of
 results. Originally, this information was presented in a raw format and required
-expertise from scientists to create intuitive supports for outreach to peers and
+expertise from scientists to create intuitive reports for outreach to peers and
 outsiders. Recently, the `scikit-learn` community developed displays to easily generate
 visual figures for communicating such results. However, these displays are still in
 their early development stages and do not leverage all available statistical analysis
@@ -87,7 +87,7 @@ use cases.
 
 On top of all these items, we intend to continue working on the general maintenance of
 the project, addressing bug reports and performance regressions. As a community-driven
-project, we want to dedicate time reviewing external contributions.\
+project, we want to dedicate time reviewing external contributions.
 
 ## Involved people
 
