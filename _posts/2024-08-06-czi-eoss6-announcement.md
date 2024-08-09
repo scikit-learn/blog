@@ -32,8 +32,9 @@ As in previous rounds, this cycle supports open-source software projects that ar
 essential to biomedical research. This is the third time that CZI EOSS supports
 `scikit-learn`.
 
-In this new grant, we will focus on improving the evaluation and inspection of
-predictive models.
+In this new grant, we will focus on improving the [evaluation and inspection of
+predictive
+models](https://chanzuckerberg.com/eoss/proposals/predictive-models-evaluation-inspection-in-scikit-learn/).
 
 ## Predictive models evaluation & inspection
 
