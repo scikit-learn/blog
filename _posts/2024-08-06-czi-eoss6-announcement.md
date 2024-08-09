@@ -55,7 +55,7 @@ their early development stages and do not leverage all available statistical ana
 tools (i.e., cross-validation) from `scikit-learn`. Thus, we aim to expand these
 displays, using the right statistical tools and thus promote the adoption of best
 practices when reporting results. Additionally, we also intend to create new displays
-that are considered as "standards" during such analyses.
+to support common analysis tasks that are not yet covered in `scikit-learn`.
 
 In the domain of model inspection, we aim to address several areas: (i) model inspection
 during training, (ii) enhancing user experience through interactive inspection, and
