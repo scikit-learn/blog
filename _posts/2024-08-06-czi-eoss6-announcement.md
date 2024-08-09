@@ -38,8 +38,8 @@ predictive models.
 ## Predictive models evaluation & inspection
 
 When building a machine learning pipeline for a specific research problem, two key
-aspects are closely connected: (i) design the pipeline and (ii) assess, analyze, and
-inspect it. Researchers strive to identify the optimal pipeline, maximizing specific
+aspects are closely connected: (i) design of the pipeline and (ii) assessment, analysis, and
+inspection of it. Researchers strive to identify the optimal pipeline, maximizing specific
 evaluation metrics, while also seeking at explaining the validity and rationale behind
 the pipeline's predictions. This is the cornerstone of answering research
 questions. With this proposal we aim to improve and extend the available `scikit-learn`
@@ -52,14 +52,14 @@ outsiders. Recently, the `scikit-learn` community developed displays to easily g
 visual figures for communicating such results. However, these displays are still in
 their early development stages and do not leverage all available statistical analysis
 tools (i.e., cross-validation) from `scikit-learn`. Thus, we aim to expand these
-displays to use the right statistical tools and thus promote the adoption of best
+displays, using the right statistical tools and thus promote the adoption of best
 practices when reporting results. Additionally, we also intend to create new displays
 that are considered as "standards" during such analyses.
 
 In the domain of model inspection, we aim to address several areas: (i) model inspection
 during training, (ii) enhancing user experience through interactive inspection, and
 (iii) model explainability. First, during the training of a pipeline, researchers are
-interested in monitoring the internal characteristics of the model and it is a not yet
+interested in monitoring the internal characteristics of the model, which is a not yet
 addressed long-standing issue in `scikit-learn`. We want to build upon some initial work
 by implementing a "callback" framework that allows users to track these internal
 parameters. Next, researchers commonly use interactive tools such as Jupyter Notebook to
@@ -73,7 +73,7 @@ use cases.
 
 On top of all these items, we intend to continue working on the general maintenance of
 the project, addressing bug reports and performance regressions. As a community-driven
-project, we want to dedicate time reviewing external contributions.
+project, we also want to dedicate time reviewing external contributions.
 
 ## Involved people
 
