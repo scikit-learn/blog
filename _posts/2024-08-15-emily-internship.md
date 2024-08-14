@@ -64,3 +64,39 @@ I am very optimistic about scikit-learn’s presence in China, and I am very exc
 ## Special thanks 
 
 My internship would not have been possible without Probabl, the official operating brand of scikit-learn. Probabl funded my internship, and the Probabl team made me feel so welcomed and comfortable in my position. Everyone is nice, open, and extremely supportive. I could honestly say that this is the best internship experience I have had, and I will be missing this team so much next year as I completed my final year of university. 
+
+### PS: bits and pieces caught on camera 
+Internship in 1 minute 
+<div>
+  <video preload="auto" autoplay loop muted="muted" volumne="0">
+    <source src="/assets/videos/emily_blog_vid.MOV" type="video/mp4">
+  </video>
+</div>
+
+<figure>
+ <img src="/assets/images/posts_images/paris_office_view.JPG" max-width="20%" max-height="20%" />
+ <figcaption>
+ The Paris Montparnasse office has the best views
+ </figcaption>
+</figure>
+
+<figure>
+ <img src="/assets/images/posts_images/polaroid.png" max-width="20%" max-height="20%" />
+ <figcaption>
+ Best office vibes (this is on our HR's desk)
+ </figcaption>
+</figure>
+
+<figure>
+ <img src="/assets/images/posts_images/pytorch_premier.png" max-width="20%" max-height="20%" />
+ <figcaption>
+ When I went to the PyTorch documentary premiere with my co-worker
+ </figcaption>
+</figure>
+
+<figure>
+ <img src="/assets/images/posts_images/pic_on_probabl_wall.png" max-width="20%" max-height="20%" />
+ <figcaption>
+ My picture on the Probabl wall 
+ </figcaption>
+</figure>
