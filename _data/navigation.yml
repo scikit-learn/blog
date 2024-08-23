@@ -14,7 +14,7 @@ main:
       - title: "User Guide"
         url: "https://scikit-learn.org/stable/user_guide"
       - title: "API"
-        url: "https://scikit-learn.org/stable/modules/classes"
+        url: "https://scikit-learn.org/stable/api/index"
       - title: "Examples"
         url: "https://scikit-learn.org/stable/auto_examples/index"
 
@@ -41,7 +41,7 @@ docs:
   - title: Community
     children:
       - title: "Monthly Meeting Minutes"
-        url: https://github.com/scikit-learn/administrative/tree/master/meeting_notes
+        url: https://github.com/scikit-learn/administrative/tree/master/monthly_meetings
 
   - title: Mailing List
     children:
