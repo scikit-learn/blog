@@ -70,7 +70,10 @@ of user interaction and accessibility. Finally, as `scikit-learn` is widely used
 reference package, it is crucial to improve the section of the library dedicated to
 model explainability. We aim to improve the documentation and user experience with the
 existing explainability tools, making sure that they use the appropriate tool for their
-use cases.
+use cases. In addition, we propose to work on a scikit-learn enhancement proposal (SLEP)
+to define a common API for model explainability within scikit-learn. Ultimately, the
+goal is to come to a consensus to provide scikit-learn end-users with a consistent
+experience when using model explainability tools.
 
 On top of all these items, we intend to continue working on the general maintenance of
 the project, addressing bug reports and performance regressions. As a community-driven
