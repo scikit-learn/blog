@@ -44,7 +44,7 @@ I also happened to be the only one on the team using a Mac with Intel chips, whi
 
 China has the second largest user group of scikit-learn according to documentation web analytics. As a community, we believe that we can be more inclusive to ease Chinese contribution and do what is necessary to onboard more Chinese contributors. Therefore, I need to find out who and where scikit-learn is being used, if there are other platforms (outside of GitHub) that development is happening, because GitHub tends to be very slow in China, and establish scikit-learn’s official presence in the Chinese community. 
 
-It was my first time being in this type of role, so it was lots of exploring, reaching out to representatives of the Chinese chapter at different companies/communities, translation work, and learning how the business side of Chinese social media works. After these three months, a network has been established between scikit-learn and various Chinese entities, including companies with open source projects, open source communities, and data science training and certification programs. I will be representing scikit-learn at [KubeCon + CloudNativeCon + AI_Dev](https://events.linuxfoundation.org/kubecon-cloudnativecon-open-source-summit-ai-dev-china/) in Hong Kong, where I will be meeting with some of the Chinese network in-person, establishing new connections, and looking for more collaboration opportunities. 
+It was my first time being in this type of role, so it was lots of exploring, reaching out to representatives of the Chinese chapter at different companies/communities, translation work, and learning how the business side of Chinese social media works. After these three months, a network has been established between scikit-learn and various Chinese entities, including companies with open source projects, open source communities, and data science training and certification programs. I also represented scikit-learn at [KubeCon + CloudNativeCon + AI_Dev](https://events.linuxfoundation.org/kubecon-cloudnativecon-open-source-summit-ai-dev-china/) in Hong Kong, where I met up with some of the Chinese network in-person, established new connections, and discussed more collaboration opportunities. 
 
 
 ## Interacting with my mentors and co-workers 
@@ -93,5 +93,12 @@ Vlog: [Internship in 1 minute](https://www.tiktok.com/t/ZGe363yG4/)
  <img src="/assets/images/posts_images/pic_on_probabl_wall.png" max-width="20%" max-height="20%" />
  <figcaption>
  My picture on the Probabl wall 
+ </figcaption>
+</figure>
+
+<figure>
+ <img src="/assets/images/posts_images/kubecon.jpg" max-width="20%" max-height="20%" />
+ <figcaption>
+ scikit-learn at KubeCon China 2024 
  </figcaption>
 </figure>
