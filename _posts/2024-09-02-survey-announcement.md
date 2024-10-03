@@ -12,7 +12,7 @@ postauthors:
   - name: Inessa Pawson
     email: inessapawson@gmail.com
     website: https://github.com/inessapawson
-    image: "inessa_pawson.jpg"
+    image: "inessa-pawson.jpg"
   - name: François Goupil
     email: francois.goupil@inria.fr
     website: https://github.com/francoisgoupil
