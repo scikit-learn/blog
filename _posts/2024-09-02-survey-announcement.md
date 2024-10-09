@@ -45,9 +45,10 @@ contributors, for their time and effort in designing and translating it.
 Once the survey closes, we’ll analyze the responses and publish the findings in a
 follow-up blog post.
 
-To take the survey, visit: https://forms.gle/p5P7AweCJCbFMzfo6. The survey will remain
-open until October 14th, 2024, and we encourage you to share it with your colleagues and
-extended network.
+To take the survey, visit: 
+[https://forms.gle/p5P7AweCJCbFMzfo6](https://forms.gle/p5P7AweCJCbFMzfo6). 
+The survey will remain open until October 14th, 2024, and we encourage you to share it with your 
+colleagues and extended network.
 
 We value every contribution in our community, and we’re committed to making scikit-learn
 even better. Your feedback is the foundation upon which scikit-learn will continue to
