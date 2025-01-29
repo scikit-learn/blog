@@ -44,7 +44,7 @@ Reshama Shaikh is the Director of Data Umbrella. She is also on the Contributor 
 
 ## Connecting
 - LinkedIn: [@reshamas](https://www.linkedin.com/in/reshamas/)
-- Twitter: [@reshamas](https://twitter.com/reshamas)
+- Bluesky: [@reshamas](https://bsky.app/profile/reshamas.bsky.social)
 - GitHub: [@reshamas](https://github.com/reshamas)
 - Medium: [@reshamas](https://medium.com/@reshamas) 
 - Join the Data Umbrella [Meetup Group](https://www.meetup.com/data-umbrella/)

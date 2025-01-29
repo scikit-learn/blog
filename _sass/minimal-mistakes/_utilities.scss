@@ -307,6 +307,16 @@ body:hover .visually-hidden button {
     color: $twitter-color;
   }
 
+  .fa-bluesky,
+  .fa-bluesky-square {
+    color: $bluesky-color;
+  }
+
+  .fa-mastodon,
+  .fa-mastodon-square {
+    color: $mastodon-color;
+  }
+
   .fa-vimeo,
   .fa-vimeo-square,
   .fa-vimeo-v {

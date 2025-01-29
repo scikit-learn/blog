@@ -14,8 +14,9 @@ logo: assets/images/scikit-learn-logo.png
 favicon: assets/images/scikit-learn-logo.png
 baseurl: "/"
 url: "https://blog.scikit-learn.org" # the base hostname
-twitter_username: scikit_learn
 github_username:  scikit-learn
+bluesky_username: scikit-learn.org
+mastodon_username: sklearn
 repository: scikit-learn/blog
 
 header:
@@ -40,6 +41,12 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/company/scikit-learn/"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky-square"
+      url: "https://bsky.app/profile/scikit-learn.org"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon-square"
+      url: "https://fosstodon.org/@sklearn"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@scikit-learn"
@@ -49,9 +56,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/scikitlearnofficial/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/scikit_learn"
+
 
 
 # Site Footer
@@ -60,15 +65,18 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github-square"
       url: "https://github.com/scikit-learn"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/scikit_learn"
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/@scikit-learn"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/company/scikit-learn/"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky-square"
+      url: "https://bsky.app/profile/scikit-learn.org"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon-square"
+      url: "https://fosstodon.org/@sklearn"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@scikit-learn"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/scikitlearnofficial/"
