@@ -40,6 +40,9 @@
   (facebook, $facebook-color),
   (twitter, $twitter-color),
   (linkedin, $linkedin-color);
+  (bluesky, $bluesky-color);
+  (mastodon, $mastodon-color);
+
 
   @each $buttoncolor, $color in $buttoncolors {
     &--#{$buttoncolor} {
