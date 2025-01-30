@@ -313,8 +313,8 @@ contributors (with a specific expertise) on advanced subjects when it is possibl
 ### Connecting and Supporting scikit-learn
 
 To connect with the scikit-learn project, these are the most active social media platforms:  
-- Twitter:  [@scikit_learn](https://twitter.com/scikit_learn)
 - LinkedIn:  [@scikit-learn](https://www.linkedin.com/company/scikit-learn/)
+- Bluesky: [@scikit-learn.org](https://bsky.app/profile/scikit-learn.org)
 
 It is most welcome for users to “star” the code repository on GitHub: [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
  
