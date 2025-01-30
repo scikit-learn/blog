@@ -15,8 +15,6 @@ favicon: assets/images/scikit-learn-logo.png
 baseurl: "/"
 url: "https://blog.scikit-learn.org" # the base hostname
 github_username:  scikit-learn
-bluesky_username: scikit-learn.org
-mastodon_username: sklearn
 repository: scikit-learn/blog
 
 header:
@@ -41,12 +39,6 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/company/scikit-learn/"
-    - label: "Bluesky"
-      icon: ""
-      url: "https://bsky.app/profile/scikit-learn.org"
-    - label: "Mastodon"
-      icon: ""
-      url: "https://fosstodon.org/@sklearn"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@scikit-learn"
@@ -68,12 +60,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/company/scikit-learn/"
-    - label: "Bluesky"
-      icon: ""
-      url: "https://bsky.app/profile/scikit-learn.org"
-    - label: "Mastodon"
-      icon: ""
-      url: "https://fosstodon.org/@sklearn"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@scikit-learn"
