@@ -65,9 +65,9 @@ author_profile: false
   - [Paris, France](http://gael-varoquaux.info/programming/scikit-learn-paris-sprint-2017.html) (Jun 2017)
   - New York, NY: [NYC WiMLDS](https://github.com/WiMLDS/scikit-sprint-nyc-2017/blob/master/README.md) (Mar 2017)
 - 2016
-  - SciPy:  [Austin](https://scipy2016.scipy.org/ehome/146062/332969/) (Jul 2016)
+  - SciPy:  [Austin](https://scipy2016.scipy.org/ehome/146062/332969/index9a04.html?%26) (Jul 2016)
 - 2015
-  - SciPy:  [Austin](https://scipy2016.scipy.org/ehome/115969/292867/) (Jul 2015)
+  - SciPy:  [Austin](https://scipy2015.scipy.org/ehome/115969/292867/index9a04.html?%26) (Jul 2015)
   - ODSC:   San Francisco (Nov 2015)
   - Criteo:  [Paris](https://twitter.com/GaelVaroquaux/status/656847270550310912) (Oct 2015)
   - PyData:  Paris (Apr 2015)
