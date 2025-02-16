@@ -4,7 +4,7 @@ date: November 8, 2022
 categories:
   - Technical
 tags:
-  - performance
+  - Performance
 featured-image: pandas_output_sklearn_transformers.PNG
 
 postauthors:
