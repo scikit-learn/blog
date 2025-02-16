@@ -5,7 +5,7 @@ categories:
   - Team
 tags:
   - Open Source
-featured-image: adam-li-interview.png
+featured-image: /assets/images/posts_images/adam-li-interview.png
 
 postauthors:
   - name: Reshama Shaikh
@@ -17,7 +17,7 @@ postauthors:
 ---
 
 <div>
-  <img src="/assets/images/posts_images/{{ page.featured-image }}" alt="">
+  <img src="{{ page.featured-image }}" alt="">
   {% include postauthor.html %}
 </div>
 
