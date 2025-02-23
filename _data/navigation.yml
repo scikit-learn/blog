@@ -18,8 +18,10 @@ main:
       - title: "Examples"
         url: "https://scikit-learn.org/stable/auto_examples/index"
 
+
 # Sidebar
 docs:
+
   - title: Archives
     children:
       - title: "Category"
@@ -37,6 +39,10 @@ docs:
         url: https://scikit-learn.org/stable/faq
       - title: "Code of Conduct"
         url: https://python.org/psf/conduct/
+      - title:  "Contribute to scikit-learn"
+        url : "https://scikit-learn.org/stable/developers/contributing.html"
+      - title:  "Contribute to the blog"
+        url : "https://github.com/scikit-learn/blog"
 
   - title: Community
     children:
