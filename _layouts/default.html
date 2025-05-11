@@ -12,6 +12,8 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+
+    <script defer data-domain="blog.scikit-learn.org" src="https://views.scientific-python.org/js/script.js"></script>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
