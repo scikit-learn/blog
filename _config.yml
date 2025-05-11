@@ -106,6 +106,10 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone:
 
+params:
+  description: "scikit-learn Blog Posts"
+  plausible:
+    dataDomain: blog.scikit-learn.org
 
 # SEO Related
 #google_site_verification : 
