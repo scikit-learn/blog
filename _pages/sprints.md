@@ -7,11 +7,11 @@ author_profile: false
 
 ## Listing of Scikit-learn Sprints
 
--2025
+- 2025
   - Online: [PyLadies Berlin](https://www.meetup.com/pyladies-berlin/events/305492587) (Feb 2025)
   - Berlin, Germany: [PyLadies Berlin](https://www.meetup.com/pyladies-berlin/events/305397520/) (Feb 2025)
 
--2024
+- 2024
   - Paris, France: [PyData Paris](https://pydata.org/paris2024/sprints) (Sep 2024)
 
 - 2023
