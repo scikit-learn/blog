@@ -10,6 +10,7 @@ date: June 30, 2025
 categories:
   - Updates
 tags:
+  - Sponsor
   - Open Source
   - Machine Learning
 
@@ -27,9 +28,8 @@ postauthors:
   <img src="/assets/images/posts_images/{{ page.featured-image }}" alt="">
   {% include postauthor.html %}
 </div>
-<p>style="color:red;">Sponsored blog post</p>
 
-https://skolar.probabl.ai/
+<span style="color:red">*Sponsored blog post* </span>
 
 The scikit-learn project always puts efforts on education to build and nurture a
 strong vibrant open-source community. The goal is straightforward: give
