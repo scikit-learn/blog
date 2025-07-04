@@ -53,12 +53,13 @@ Probabl—the MOOC has reached over 40,000 learners worldwide, clearly
 highlighting the demand for organized, hands-on resources that blend theory with
 real-world practice.
 
-Today, Probabl is excited to introduce Skolar, a new, fully open-source
-educational initiative, built directly from your feedback and all the lessons
-we've learned along the way. Developed and extended by those same core
-developers of scikit-learn, Skolar is designed specifically for data science
-practitioners, offering hands-on, high-quality learning resources grounded in
-real-world applications and open-source values.
+Today, Probabl is excited to introduce
+[Skolar](https://app.arcade.software/share/vCN6ik9dR22zD35XP5a7), a new, fully
+open-source educational initiative, built directly from your feedback and all
+the lessons we've learned along the way. Developed and extended by those same
+core developers of scikit-learn, Skolar is designed specifically for data
+science practitioners, offering hands-on, high-quality learning resources
+grounded in real-world applications and open-source values.
 
 Skolar exists to boost our shared values: openness, teamwork, and practicality.
 It offers clear, interactive tutorials and structured courses carefully designed
@@ -86,3 +87,8 @@ curious, to join us. Help shape Skolar’s future and support open-source
 education in data science.
 
 Create your account on Skolar today: https://skolar.probabl.ai
+
+Contribute to the [scikit-learn course
+contents](https://github.com/probabl-ai/scikit-learn-course), or contribute to
+the learning platform's [backend](https://github.com/France-ioi/AlgoreaBackend)
+or [frontend](https://github.com/France-ioi/AlgoreaFrontend).
