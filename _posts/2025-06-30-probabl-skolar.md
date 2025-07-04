@@ -21,8 +21,12 @@ featured-image: BSD_watermark.svg
 # Can accomodate multiple authors
 # Add SQUARE Author Image to /assets/images/author_images/ folder
 postauthors:
+  - name: Skolar
+    website: https://skolar.probabl.ai/
+    image: "skolar-logo.png"
   - name: Pénélope Gittos
     website: https://www.linkedin.com/in/gittospenelope-data-analyst-growth-bilingual/
+    image: "penelope_gittos.jpeg"
 ---
 <div>
   <img src="/assets/images/posts_images/{{ page.featured-image }}" alt="">
