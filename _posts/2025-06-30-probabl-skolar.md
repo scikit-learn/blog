@@ -33,8 +33,7 @@ postauthors:
   {% include postauthor.html %}
 </div>
 
-<span style="color:red">*Sponsored blog post* </span>
-
+<span style="color:red">*This blog post has been submitted by Probabl, a sponsor of scikit-learn.* </span>
 The scikit-learn project always puts efforts on education to build and nurture a
 strong vibrant open-source community. The goal is straightforward: give
 everyone, everywhere, the tools they need to easily grasp, engage with, and
