@@ -1,5 +1,4 @@
 ---
-#### Blog Post Template ####
 
 #### Post Information ####
 title: "Skolar: an open-source initiative to democratize open data science"
@@ -34,18 +33,18 @@ postauthors:
 </div>
 
 <span style="color:red">*This blog post has been submitted by Probabl, a sponsor of scikit-learn.* </span>
-The scikit-learn project always puts efforts on education to build and nurture a
-strong vibrant open-source community. The goal is straightforward: give
+The scikit-learn project values educational efforts that build and nurture a
+strong vibrant open-source community. The goal of this is straightforward: give
 everyone, everywhere, the tools they need to easily grasp, engage with, and
 meaningfully contribute to data science using open-source software. This mission
 is shared and actively supported by [Probabl](https://probabl.ai/), a company
 that helps maintain scikit-learn by employing many of its core contributors and
-investing in its long-term sustainability. With their support and a deep
-commitment from the community, we continue building bridges between research,
+investing in its long-term sustainability. With Probabl's support and a deep
+commitment from the community, the scikit-learn ecosystem continues building bridges between research,
 software, and education.
 
 When the [Inria scikit-learn MOOC](https://inria.github.io/scikit-learn-mooc/)
-(Massive Open Online Course) first went live, our community got a front-row seat
+(Massive Open Online Course) first went live, the community got a front-row seat
 to the amazing impact of practical, accessible and open learning. Created by
 several core developers and maintainers of scikit-learn—now working at
 Probabl—the MOOC has reached over 40,000 learners worldwide, clearly
@@ -71,9 +70,11 @@ Scikit-learn Associate Practitioner online course, adapted from the popular
 Inria MOOC but enhanced with new material on unsupervised learning, especially
 clustering.
 
-The next stages, professional and expert levels, will launch soon. We’ll also
-add more courses covering other open-source libraries such as skrub (for data
-wrangling), hazardous (for survival analysis), and fairlearn (for fairness).
+The next stages, professional and expert levels, will be released soon. We'll
+also add more courses covering other open-source libraries such as
+[skrub](https://skrub-data.org) (for data wrangling),
+[hazardous](https://soda-inria.github.io/hazardous/) (for survival analysis),
+and [fairlearn](https://fairlearn.org/) (for fairness).
 Additionally, our scikit-learn team is planning to create  industry-specific
 modules tackling real-world needs in fields like healthcare, finance, medicine,
 and beyond.
