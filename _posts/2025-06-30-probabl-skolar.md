@@ -14,7 +14,7 @@ tags:
   - Machine Learning
 
 #### Featured Image ####
-featured-image: BSD_watermark.svg
+featured-image: sklearn_skolar.png
 
 #### Author Info ####
 # Can accomodate multiple authors
