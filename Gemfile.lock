@@ -275,6 +275,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.17.2)
   github-pages
   jekyll-archives
   jekyll-feed (~> 0.12)
@@ -291,4 +292,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   1.17.2
+   1.17.3

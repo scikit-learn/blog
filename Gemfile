@@ -11,6 +11,7 @@ gem "jekyll-archives"
 gem "jekyll-target-blank"
 gem "jekyll-paginate"
 gem "jekyll-twitter-plugin"
+gem 'bundler', '~> 1.17.2'
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
