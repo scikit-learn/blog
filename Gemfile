@@ -13,6 +13,8 @@ gem "jekyll-paginate"
 gem "jekyll-twitter-plugin"
 gem 'bundler', '~> 2.0'
 gem "csv"
+gem "logger"
+gem "bigdecimal"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
