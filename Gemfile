@@ -11,7 +11,10 @@ gem "jekyll-archives"
 gem "jekyll-target-blank"
 gem "jekyll-paginate"
 gem "jekyll-twitter-plugin"
-
+gem 'bundler', '~> 2.0'
+gem "csv"
+gem "logger"
+gem "bigdecimal"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -33,5 +36,5 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "wdm", "~> 0.1.1", :platforms => [:windows]
 
