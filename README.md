@@ -18,7 +18,7 @@ This section contains scikit-learn's branding standards and guidelines.
 ### Trademark
 
 A [detailed document](/assets/brand_guidelines/2025-02-scikit-learn-brand-guidelines.pdf)
-containing the term of use of the scikit-learn brand is available for reference.
+containing the terms of use of the scikit-learn brand is available for reference.
 
 ### scikit-learn Color Palette
 ![#29ABE2 Cyan](/assets/images/brand_images/colorswatch_29ABE2_cyan.png) `RGB 41/171/226 | HEX #29ABE2 | scikit-learn Cyan`
@@ -29,7 +29,7 @@ containing the term of use of the scikit-learn brand is available for reference.
 Logos can be found in the [assets/images/](https://github.com/scikit-learn/blog/tree/main/assets/images) folder. <br><br>
 <img src="/assets/images/scikit-learn-logo.png" width="200">
 
-Refer to the term of use above for the correct use of the scikit-learn logo.
+Refer to the terms of use above for the correct use of the scikit-learn logo.
 
 ___
 
