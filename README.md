@@ -7,7 +7,7 @@ This repository hosts the development of the [scikit-learn.org](https://scikit-l
 
 &nbsp;
 ## How to Contribute
-Please refer to the [Guide to Contributing](https://github.com/scikit-learn/blog/blob/main/CONTRIBUTING.md).       
+Please refer to the [Guide to Contributing](https://github.com/scikit-learn/blog/blob/main/CONTRIBUTING.md).
 All contributions must abide by the [Code of Conduct](https://github.com/scikit-learn/blog/blob/main/CODE-OF-CONDUCT.md).
 
 
@@ -15,14 +15,21 @@ All contributions must abide by the [Code of Conduct](https://github.com/scikit-
 ## Brand Standards
 This section contains scikit-learn's branding standards and guidelines.
 
+### Trademark
+
+A [detailed document](/assets/brand_guidelines/2025-02-scikit-learn-brand-guidelines.pdf)
+containing the terms of use of the scikit-learn brand is available for reference.
+
 ### scikit-learn Color Palette
-![#29ABE2 Cyan](/assets/images/brand_images/colorswatch_29ABE2_cyan.png) `RGB 41/171/226 | HEX #29ABE2 | scikit-learn Cyan`      
-![#F7931E Orange](/assets/images/brand_images/colorswatch_F7931E_orange.png)  `RGB 247/147/30 | HEX #F7931E | scikit-learn Orange`     
-![#9B4600 Brown](/assets/images/brand_images/colorswatch_9B4600_brown.png) `RGB 155/70/0| HEX #9B4600 | scikit-learn Brown`     
+![#29ABE2 Cyan](/assets/images/brand_images/colorswatch_29ABE2_cyan.png) `RGB 41/171/226 | HEX #29ABE2 | scikit-learn Cyan`
+![#F7931E Orange](/assets/images/brand_images/colorswatch_F7931E_orange.png)  `RGB 247/147/30 | HEX #F7931E | scikit-learn Orange`
+![#9B4600 Brown](/assets/images/brand_images/colorswatch_9B4600_brown.png) `RGB 155/70/0| HEX #9B4600 | scikit-learn Brown`
 
 ### Logo
 Logos can be found in the [assets/images/](https://github.com/scikit-learn/blog/tree/main/assets/images) folder. <br><br>
 <img src="/assets/images/scikit-learn-logo.png" width="200">
+
+Refer to the terms of use above for the correct use of the scikit-learn logo.
 
 ___
 
