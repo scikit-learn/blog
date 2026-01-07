@@ -16,7 +16,7 @@ tags:
   - Machine Learning
 
 #### Featured Image ####
-featured-image: jml.png
+featured-image: sklearn_czi.png
 
 #### Author Info ####
 # Can accomodate multiple authors
