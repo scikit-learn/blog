@@ -84,6 +84,14 @@ HTML visualization before scikit-learn 1.7
 This feature was further enhanced in version 1.8, with tooltips providing 
 documentation for each parameter, as well as links to the online documentation.
 
+<figure>
+<img src="/assets/images/posts_images/enhancing-UX/scikit-learn-1_8.gif"
+alt="HTML visualization after scikit-learn 1.8" />
+<figcaption>
+HTML visualization after scikit-learn 1.8
+</figcaption>
+</figure>
+
 ## Planned improvements
 
 More features are now being implemented. In particular, users will be able to 
