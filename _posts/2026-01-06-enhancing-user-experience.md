@@ -84,7 +84,7 @@ HTML visualization before scikit-learn version 1.7
 <figure>
 <img src="/assets/images/posts_images/enhancing-UX/scikit-learn1_7.png"
 alt="HTML visualization with scikit-learn 1.7"
-max-width="50%" max-height="50%" />
+style="max-width=50%; max-height=50%;" />
 <figcaption>
 HTML visualization with scikit-learn version 1.7
 </figcaption>
