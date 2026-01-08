@@ -1,7 +1,4 @@
 ---
-#### Blog Post Template ####
-
-#### Post Information ####
 title: "Enhancing user experience through interactive inspection"
 date: January 6, 2026
 
@@ -14,8 +11,6 @@ tags:
   - Funding
   - Diversity
   - Machine Learning
-
-#### Featured Image ####
 featured-image: sklearn_czi.png
 
 #### Author Info ####
@@ -37,16 +32,22 @@ As we know, UX encompasses many aspects, but here we will focus specifically on
 how easy it is for the user to understand `scikit-learn` models during development, 
 especially while using tools like jupyter notebooks. 
 
+## First visualizations
+ 
 Initial work to allow users to inspect their models interactively began in 2019, 
 when Thomas J. Fan introduced HTML visualizations for estimators. 
 He continued to build on this foundation with additional improvements 
 in subsequent contributions.
+
+## Lack of resources to go forward
 
 In the summer of 2023, an issue was opened by Gaël Varoquaux outlining 
 several potential enhancements to the HTML displays. These ideas stemmed from 
 direct interactions with users, which clearly highlighted the need for 
 further work in this area. Unfortunately, due to a lack of resources, 
 the issue remained open for approximately a year and a half.
+
+##  Wellcome grant awarded to `scikit-learn` 
 
 This was until the end of 2023, when Guillaume Lemaitre applied for a NumFOCUS 
 grant, that the broader topic of Predictive model evaluation and inspection was 
@@ -61,6 +62,8 @@ from the said issue have already been completed.
 [See the grant application here.](https://github.com/scikit-learn/
 administrative/blob/master/czi_eoss_proposal/EOSS6-0000000551_202312181059.pdf)
 
+## First milestone 
+
 The first part was introduced in`scikit-learn` 1.7 version. A parameters table
 was added to the HTML representation of models, displaying parameter names 
 and their corresponding values. Non-default parameters—those explicitly set by 
@@ -68,10 +71,23 @@ the user—are highlighted. In addition, a copy-to-clipboard button is available
 for each parameter name. The parameters table is collapsed by default and 
 can be opened by the user.
 
+<figure>
+<img src="/assets/images/posts_images/enhancing-UX/before1_7.png"
+alt="HTML visualization before & after scikit-learn 1.7" />
+<figcaption>
+HTML visualization before scikit-learn 1.7
+</figcaption>
+</figure>
+
+## Second milestone
+
 This feature was further enhanced in version 1.8, with tooltips providing 
 documentation for each parameter, as well as links to the online documentation.
+
+## Planned improvements
 
 More features are now being implemented. In particular, users will be able to 
 visualize feature names and values, display fitted attributes and further improve 
 the overall appearance of the interactive displays.
+
 
