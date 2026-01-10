@@ -50,10 +50,10 @@ the issue remained open for approximately a year and a half.
 
 ##  Wellcome grant awarded to `scikit-learn` 
 
-This was until the end of 2023, when Guillaume Lemaitre applied for a NumFOCUS 
-grant, that the broader topic of Predictive model evaluation and inspection was 
-formalized. Enhancing user experience through interactive inspection is an 
-essential part of this effort and falls within the scope of the grant.
+This was until the end of 2023, when Guillaume Lemaitre applied for a grant with
+the help of NumFOCUS, that the broader topic of Predictive model evaluation and 
+inspection was formalized. Enhancing user experience through interactive inspection 
+is an essential part of this effort and falls within the scope of the grant.
 
 The grant was awarded to `scikit-learn`and it is from the Chan Zuckerberg 
 Initiative (CZI) through its Essential Open-Source Software for Science 
