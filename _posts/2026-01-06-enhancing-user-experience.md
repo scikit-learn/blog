@@ -42,7 +42,7 @@ in subsequent contributions.
 
 ## Lack of resources to go forward
 
-In June 2023, [issue 26596 was opened by Gaël Varoquaux](https://github.com/
+In June 2023, [issue 26595 was opened by Gaël Varoquaux](https://github.com/
 scikit-learn/scikit-learn/issues/26595) outlining several potential enhancements 
 to the HTML displays. These ideas stemmed from direct interactions with users, 
 which clearly highlighted the need for further work in this area. 
