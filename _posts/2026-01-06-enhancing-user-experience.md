@@ -66,13 +66,14 @@ administrative/blob/master/czi_eoss_proposal/EOSS6-0000000551_202312181059.pdf)
 
 ## First milestone: Added interactive parameters table for each element 
 
-The first milestone was introduced in`scikit-learn` 1.7 version. A parameters table
-was added to the HTML representation of models, displaying parameter names 
-and their corresponding values. Non-default parameters—those explicitly set by 
-the user—are highlighted. In addition, a copy-to-clipboard button is available 
-for each parameter name. The parameter name that is copied to the clipboard is 
-the fully classified name, which is shown on hover as well. The parameters 
-table is collapsed by default and can be opened by the user. 
+The first milestone was introduced in`scikit-learn` version 1.7, released in 
+June 2025. A parameters table was added to the HTML representation of models, 
+displaying parameter names and their corresponding values. 
+Non-default parameters—those explicitly set by the user—are highlighted. 
+In addition, a copy-to-clipboard button is available for each parameter name. 
+The parameter name that is copied to the clipboard is the fully classified name, 
+which is shown on hover as well. The parameters table is collapsed by default 
+and can be opened by the user. 
 
 The following two images show a pipeline table before and after the milestone.
 
@@ -97,8 +98,9 @@ HTML visualization with scikit-learn version 1.7
 
 ## Second milestone: Links to parameters documentation and tooltip preview
 
-This feature was further enhanced in version 1.8, with tooltips providing 
-documentation for each parameter, as well as links to the online documentation.
+This feature was further enhanced in version 1.8, released in December 2025.
+We added tooltips that provide documentation for each parameter, 
+as well as links to the online documentation. 
 See the GIF below or this example for more details: 
 [Displaying estimators and complex pipelines](https://scikit-learn.org/
 stable/auto_examples/miscellaneous/plot_estimator_representation.html).
