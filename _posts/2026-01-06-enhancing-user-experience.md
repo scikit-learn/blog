@@ -42,11 +42,12 @@ in subsequent contributions.
 
 ## Lack of resources to go forward
 
-In the summer of 2023, an issue was opened by Gaël Varoquaux outlining 
-several potential enhancements to the HTML displays. These ideas stemmed from 
-direct interactions with users, which clearly highlighted the need for 
-further work in this area. Unfortunately, due to a lack of resources, 
-the issue remained open for approximately a year and a half.
+In June 2023, [issue 26596 was opened by Gaël Varoquaux](https://github.com/
+scikit-learn/scikit-learn/issues/26595) outlining several potential enhancements 
+to the HTML displays. These ideas stemmed from direct interactions with users, 
+which clearly highlighted the need for further work in this area. 
+Unfortunately, due to a lack of resources, the issue remained open for 
+approximately a year and a half.
 
 ##  Wellcome grant awarded to `scikit-learn` 
 
@@ -57,7 +58,7 @@ is an essential part of this effort and falls within the scope of the grant.
 
 The grant was awarded to `scikit-learn`and it is from the Chan Zuckerberg 
 Initiative (CZI) through its Essential Open-Source Software for Science 
-(EOSS) program. It is funded by Wellcome and administered by NumFOCUS. 
+(EOSS) program. It is funded by The Wellcome Trust and administered by NumFOCUS. 
 Thanks to this financial support, work is well underway. And several objectives
 from the said issue have already been completed. 
 [See the grant application here.](https://github.com/scikit-learn/
@@ -69,7 +70,9 @@ The first milestone was introduced in`scikit-learn` 1.7 version. A parameters ta
 was added to the HTML representation of models, displaying parameter names 
 and their corresponding values. Non-default parameters—those explicitly set by 
 the user—are highlighted. In addition, a copy-to-clipboard button is available 
-for each parameter name. The parameter name that is copied to the clipboard is the fully classified name, which is shown on hover as well. The parameters table is collapsed by default and can be opened by the user. 
+for each parameter name. The parameter name that is copied to the clipboard is 
+the fully classified name, which is shown on hover as well. The parameters 
+table is collapsed by default and can be opened by the user. 
 
 The following two images show a pipeline table before and after the milestone.
 
@@ -96,7 +99,10 @@ HTML visualization with scikit-learn version 1.7
 
 This feature was further enhanced in version 1.8, with tooltips providing 
 documentation for each parameter, as well as links to the online documentation.
-See the following GIF. 
+See the GIF below or this example for more details: 
+[Displaying estimators and complex pipelines](https://scikit-learn.org/
+stable/auto_examples/miscellaneous/plot_estimator_representation.html).
+
 
 <figure>
 <img src="/assets/images/posts_images/enhancing-UX/scikit-learn-1_8.gif"
