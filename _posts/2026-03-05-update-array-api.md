@@ -280,7 +280,7 @@ samples and 300 features. The benchmarks were run on AMD Ryzen Threadripper
 The figure below shows the performance speed up on CuPy, Torch CPU and Torch
 GPU relative to NumPy.
 
-![Benchmarking of MaxAbsScaler/Ridge pipeline](../assets/images/posts_images/array_api_timings.png "Benchmarking of MaxAbsScaler/Ridge pipeline")
+![Benchmarking of MaxAbsScaler/Ridge pipeline](/assets/images/posts_images/array_api_timings.png "Benchmarking of MaxAbsScaler/Ridge pipeline")
 
 *Performance speedup relative to NumPy across different backends.*
 
