@@ -33,7 +33,7 @@ canonical_url: https://labs.quansight.org/blog/array-api-scikit-learn-2026
   <img src="/assets/images/posts_images/{{ page.featured-image }}" alt="">
   {% include postauthor.html %}
 </div>
-
+*Note: this blog post is a cross-post of a [Quansight Labs blog post](https://labs.quansight.org/blog/array-api-scikit-learn-2026).*
 The [Consortium for Python Data API Standards](https://data-apis.org/)
 developed the [Python array API standard](https://data-apis.org/array-api/)
 to define a consistent interface for array libraries, specifing core
