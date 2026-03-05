@@ -25,6 +25,9 @@ postauthors:
   - name: Lucy Liu
     website: https://github.com/lucyleeow
     image: lucyliu.jpeg
+
+# This is a cross-post. Better make it explicit to appease the search engine overlords.
+canonical_url: https://labs.quansight.org/blog/array-api-scikit-learn-2026
 ---
 <div>
   <img src="/assets/images/posts_images/{{ page.featured-image }}" alt="">
