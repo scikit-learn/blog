@@ -2,7 +2,7 @@
 #### Blog Post Template ####
 
 #### Post Information ####
-title: "Update on Metadata Routing"
+title: "An Update on Metadata Routing"
 date: August 25, 2026
 
 #### Post Category and Tags ####
@@ -29,16 +29,12 @@ canonical_url: https://blog.probabl.ai/update-on-scikit-learn-metadata-routing-a
 <div>
   {% include postauthor.html %}
 </div>
-*Note: this blog post is a cross-post of a [Probabl blog post](
-https://blog.probabl.ai/update-on-scikit-learn-metadata-routing-api) and based on a talk given at EuroSciPy 2026 in Kraków [1].*
-
-# An Update on scikit-learn's Metadata Routing API
+*This blog post is a cross-post of a [Probabl blog post](
+https://blog.probabl.ai/update-on-scikit-learn-metadata-routing-api) and based on a [talk](https://www.youtube.com/watch?v=7gWsV9hdQCc&list=PLYqi92iCr_sU&t=2478) given at EuroSciPy 2026 in Kraków ([slides](https://github.com/StefanieSenger/Talks/blob/main/2026_Update_on_Metadata_Routing/Update%20on%20Metadata%20Routing.pdf)).*
 
 Metadata routing has been introduced gradually in experimental mode since scikit-learn
 1.3; coverage is now almost complete, and the feature is mature enough that users can
 use it in real workflows.
-
----
 
 ## What is metadata routing?
 
@@ -71,8 +67,6 @@ spreading in the ecosystem, for example in [fairlearn](https://fairlearn.org),
 [imbalanced-learn](https://imbalanced-learn.org/stable),
 [skada](https://github.com/scikit-adaptation/skada),
 [skorch](https://skorch.readthedocs.io), and [skfolio](https://skfolio.org).
-
----
 
 ## Metadata in the wild
 
@@ -134,9 +128,12 @@ re-balance the over- or under-representation of a certain group of patients and 
 model to emphasize reducing training error on the higher weighted samples more.
 
 One method to determine `sample_weight` values is inverse probability of treatment
-weighting (IPTW) in observational studies (see Wilhelm's walkthrough with scikit-learn
-[2]). Probabl Whiteboard Series has also published an exploration on the usefulness of
-`sample_weight` from a different angle [3].
+weighting (IPTW) in observational studies (see Florian Wilhelm, [Causal Inference and
+Propensity Score
+Methods](https://florianwilhelm.info/2017/04/causal_inference_propensity_score/)
+(walkthrough with scikit-learn)). Probabl Whiteboard Series has also published an
+exploration on the usefulness of `sample_weight` from a different angle (see [Improving
+models via subsets](https://www.youtube.com/watch?v=REIg5NH2SNc)).
 
 In practice, since `Ridge.fit` can consume `sample_weight`, you might reasonably try:
 
@@ -162,8 +159,6 @@ patients, we need metadata to move through several layers of other tools by cont
 Metadata Routing API was built to bridge exactly this gap: you can use it to get your
 metadata to be used inside the functions that consume it.
 
----
-
 ## Using the metadata routing API
 
 With metadata routing, the code stays close to what you already know. The orange boxed
@@ -175,8 +170,8 @@ top level, and set requests where metadata is
 consumed](/assets/images/posts_images/fig04_routing_api.png)
 
 Figure 4: The three metadata routing steps: enable, pass at the top, request metadata
-where it gets used. See scikit-learn's Metadata Routing User Guide [4] for a full
-example. 
+where it gets used. See [Metadata Routing in scikit-learn User
+Guide](https://scikit-learn.org/stable/metadata_routing.html) for a full example. 
 
 1. **Enable** the experimental feature. `set_config(enable_metadata_routing=True)` turns
    routing on. Disable it when you no longer need it.
@@ -193,8 +188,6 @@ releases, these will come with default settings, so that users in the most commo
 cases don't need to touch them anymore.
 
 This is the core mental model: **pass at the top, request at the leaves**.
-
----
 
 ## Pipelines that transform validation sets
 
@@ -227,8 +220,6 @@ stopping.
 Here `X_val` is transformed like `X_train` at every pipeline step until
 `HistGradientBoostingClassifier.fit` consumes it for early stopping.
 
----
-
 ## Recent updates and ongoing work
 
 Metadata routing is still experimental, but it is pretty mature in practice. On top of
@@ -244,17 +235,16 @@ In progress:
   ([#31413](https://github.com/scikit-learn/scikit-learn/issues/31413))
 - Callbacks (e.g. `ScoringMonitor`) can accept metadata such as `X_val` and
   `y_val` ([#34137](https://github.com/scikit-learn/scikit-learn/issues/34137))
-- Developer API for customized routing
+- Developer API for customised metadata requests in consumers
   ([#34314](https://github.com/scikit-learn/scikit-learn/issues/34314)) (for further
-  information see "Developing estimators compliant with metadata routing" [5])
+  information see [Developing estimators compliant with metadata
+  routing](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_metadata_routing.html))
 - Visualization and debugging tools for metadata routing
   ([#31535](https://github.com/scikit-learn/scikit-learn/issues/31535))
 
 Once Metadata Routing gets released as a stable feature, the user's code will look as
 simple as it always was for default cases, except we can now pass metadata and it will
 be used internally.
-
----
 
 ## Takeaway
 
@@ -265,22 +255,6 @@ integration of scikit-learn compatible libraries in the ecosystem. The API is st
 experimental, but worth trying if your real data is grouped, weighted, or otherwise
 richer than `(X, y)`.
 
----
+## Acknowledgements
 
-## References
-
-[1] Stefanie Senger, [Scikit-learn’s Metadata Routing
-  API](https://github.com/StefanieSenger/Talks/blob/main/2026_Update_on_Metadata_Routing/Update%20on%20Metadata%20Routing.pdf)
-  (full deck of slides from talk at EuroSciPy 2026)
-
-[2] Florian Wilhelm, [Causal Inference and Propensity Score
-  Methods](https://florianwilhelm.info/2017/04/causal_inference_propensity_score/)
-  (IPTW with scikit-learn)
-
-[3] [Probabl Whiteboard Series: Improving models via
-  subsets](https://www.youtube.com/watch?v=REIg5NH2SNc)
-
-[4] [Metadata Routing in scikit-learn User Guide](https://scikit-learn.org/stable/metadata_routing.html)
-
-[5] [Developing estimators compliant with metadata
-  routing](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_metadata_routing.html) (scikit-learn docs)
+I would like to thank [Adrin Jalali](https://github.com/adrinjalali), without whose consistent work on Metadata Routing, this feature wouldn't exist.
