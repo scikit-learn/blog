@@ -36,11 +36,11 @@ scikit-learn is one of the most widely used tools in data science, counting over
 
 Community Voices is an interview series where we introduce you to members of this community – maintainers, contributors, educators, community-builders, and many others. Each month we'll sit down with a different person to hear how they got involved in scikit-learn, what they’re working on, what they're excited about, and how newcomers can get involved.
 
-Community Voices continues Reshama Shaikh’s (@reshamas) interviews with scikit-learn contributors, which have been published on the scikit-learn.org blog since 2017. Reshama no longer has the time to continue these interviews and, after syncing with her, we decided to jump in and continue her tradition.Thank you, Reshama, for all your work over the years — we’re honored to pick up where you left off!
+Community Voices continues Reshama Shaikh’s ([`@reshamas`](https://github.com/reshamas)) interviews with scikit-learn contributors, which have been published on the [scikit-learn.org blog](https://blog.scikit-learn.org) since 2017. Reshama no longer has the time to continue these interviews and, after syncing with her, we decided to jump in and continue her tradition.Thank you, Reshama, for all your work over the years — we’re honored to pick up where you left off!
 
 ## Interview with Lucy Liu
 
-To kick off Community Voices , we're delighted to speak with Lucy Liu (@lucyleeow), a scikit-learn core maintainer and software engineer at Quansight Labs. Lucy has led much of the work bringing array API support to scikit-learn. Longtime readers of the scikit-learn blog will recognize her: Reshama interviewed Lucy back in 2022, and Lucy published an update about array API adoption in scikit-learn in March this year.
+To kick off Community Voices , we're delighted to speak with Lucy Liu ([`@lucyleeow`](https://github.com/lucyleeow)), a scikit-learn core maintainer and software engineer at Quansight Labs. Lucy has led much of the work bringing array API support to scikit-learn. Longtime readers of the scikit-learn blog will recognize her: [Reshama interviewed Lucy](https://blog.scikit-learn.org/team/lucy-interview/) back in 2022, and Lucy published an [update about array API adoption in scikit-learn](https://blog.scikit-learn.org/updates/update-array-api/) in March this year.
 
 So it's a pleasure to catch up with Lucy and hear about what she’s working on now.
 
@@ -48,12 +48,12 @@ So it's a pleasure to catch up with Lucy and hear about what she’s working on 
 
 **Lucy:** I currently live in Australia and am a software engineer at Quansight Labs. I primarily work on scikit-learn but also contribute to or have contributed to Sphinx-Gallery, array-api-strict and napari. My introduction to programming came through R, which I used for bioinformatics research during my master's degree. It became clear to me fairly early on that I was more interested in software and tool development than biomedical science. Luckily I was able to transition to more software focused roles. At Quansight Labs I get to work alongside many other maintainers in the scientific python ecosystem, helping improve the software that researchers and data scientists rely on.
 
-GitHub: @lucyleeow
-LinkedIn: @lucy-jp-liu
+GitHub: [`@lucyleeow`](https://github.com/lucyleeow)
+LinkedIn: [`@lucy-jp-liu`](https://www.linkedin.com/in/lucy-jp-liu/)
 
 **Cailean:** How did you first get involved in scikit-learn?
 
-**Lucy:** Unlike many contributors who were users first, I started working on scikit-learn via my role at INRIA, where many scikit-learn core developers used to work. My role involved working on RAMP, a platform for collaborative data science, and contributing to open source. I saw the latter as an amazing opportunity to both contribute to the ecosystem and learn from talented open source maintainers, particularly as I had only authored small solo packages previously.
+**Lucy:** Unlike many contributors who were users first, I started working on scikit-learn via my role at INRIA, where many scikit-learn core developers used to work. My role involved working on [RAMP](https://www.ramp.studio/), a platform for collaborative data science, and contributing to open source. I saw the latter as an amazing opportunity to both contribute to the ecosystem and learn from talented open source maintainers, particularly as I had only authored small solo packages previously.
 
 I started with contributing to Sphinx-Gallery, which was a great introduction as it is a small project. Later, I also began contributing to scikit-learn, where I could combine my interests in statistics and software engineering. I've continued maintaining both projects ever since.
 
