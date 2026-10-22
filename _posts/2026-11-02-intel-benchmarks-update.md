@@ -3,7 +3,7 @@
 
 #### Post Information ####
 title: "Accelerating scikit-learn on Intel hardware: what the benchmarks found so far"
-date: October 22, 2026
+date: November 02, 2026
 
 #### Post Category and Tags ####
 # Format in titlecase without dashes (Ex. "Open Source" instead of "open-source")
