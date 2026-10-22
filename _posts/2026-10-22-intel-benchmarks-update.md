@@ -192,8 +192,8 @@ timings, metrics and warnings.
 
 I also started using the same machinery to benchmark scikit-learn pull
 requests, through some automation. This is for instance what I used to check
-that preserving F-ordered data in `LogisticRegression` helps <!-- TODO: update link -->
-([example](https://github.com/probabl-ai/scikit-learn-benchmarks/pull/31)).
+that preserving F-ordered data in `LogisticRegression` helps
+([example](https://github.com/probabl-ai/scikit-learn-benchmarks/pull/100)).
 
 
 ## What we found
@@ -387,7 +387,7 @@ For the next months, our priorities are:
 1. Improve the scalability of HistGradientBoosting, and make the new tools
    developed for this available in `threadpoolctl`;
 2. Turn the findings into performance guidance in the scikit-learn
-   documentation; <!-- TODO: link RFC once opened -->
+   documentation;
 3. Add binning to random forests and extra trees, which should speed them up
    considerably;
 4. Finish the encoder speed-ups, which turned out to be an easy-to-fix
