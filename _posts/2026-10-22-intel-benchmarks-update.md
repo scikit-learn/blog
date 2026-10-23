@@ -263,7 +263,8 @@ already merged or on the way for most of them.
 This is the cheapest speed-up in this post. With conda-forge's MKL build of
 scikit-learn, BLAS-bound linear model fits are commonly 1.3x to 2x faster
 than with the PyPI wheel
-([Builds dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/builds_comparison.html#high_end_intel_xeon_server)): You don't need to change any code, only how you install scikit-learn:
+([Builds dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/builds_comparison.html#high_end_intel_xeon_server)). You don't need to change
+any code, only how you install scikit-learn:
 
 ```bash
 conda install -c conda-forge scikit-learn "libblas=*=*mkl"
