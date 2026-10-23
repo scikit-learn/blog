@@ -75,7 +75,7 @@ In short:
   they get merged;
 - ~20 issues reported to other projects: 11 to scikit-learn-intelex and
   oneDAL, the others to PyTorch's XPU backend, OpenBLAS, joblib, loky,
-  narwhals and conda-forge. Some came with a fix, like the two
+  narwhals and conda-forge. Some came with a fix, like the three
   merged in oneDAL;
 - In scikit-learn, merged speed-ups for the encoders and for trees on
   conda-forge, and PRs under review for `HistGradientBoosting`, pandas
@@ -125,7 +125,8 @@ merged. So it grew into its own project.
 
 The suite fits and predicts a fixed set of estimators:
 
-- Linear models: `Ridge` and `LogisticRegression`;
+- Linear models: `LinearRegression` (on synthetic data only), `Ridge` and
+  `LogisticRegression`;
 - Tree-based models: `RandomForest*`, `ExtraTrees*` and
   `HistGradientBoosting*` (classifiers and regressors);
 - Clustering: `KMeans`.
@@ -189,6 +190,10 @@ Every point can be hovered, and links to a row in a table with the exact
 timings, metrics and warnings.
 
 ![Implementations dashboard: speed-up of each implementation vs the scikit-learn PyPI wheel, for linear model fits](/assets/images/posts_images/intel-benchmarks/linear_implem_dashboard.png)
+
+*Implementations dashboard on the laptop: speed-up of each implementation over
+the scikit-learn PyPI wheel, for linear model fits. Each point is one case
+(estimator, dataset, parameters).*
 
 I also started using the same machinery to benchmark scikit-learn pull
 requests, through some automation. This is for instance what I used to check
@@ -424,7 +429,7 @@ and the next big item is to add it to scikit-learn's `RandomForest*` and
 splits: SIMD sort and radix sort. Radix sort gives very promising results on
 the laptop, but less good ones on the server for now.
 
-**Smaller ones**: `Ridge` and `LogisticRegression`. For `Ridge`, an algebra
+**`Ridge` and `LogisticRegression`.** For `Ridge`, an algebra
 trick avoids re-centering (and copying) `X` in the Cholesky solver, for 1.2x
 to 2x speed-ups
 ([#34793](https://github.com/scikit-learn/scikit-learn/pull/34793)). For now,
