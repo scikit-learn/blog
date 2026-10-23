@@ -1,0 +1,14 @@
+# Checked in so every Netlify project linked to this repository uses the same
+# build. Settings entered only in the Netlify UI can diverge between projects.
+
+[build]
+  # Generate the static site and exit. A long-running `jekyll serve` process
+  # is killed when Netlify's build time limit is reached.
+  command = "bundle exec jekyll build"
+  # Jekyll writes the generated site to this directory.
+  publish = "_site"
+
+# Pull-request previews render posts whose publication date has not arrived.
+# Production builds keep the default and hide those posts until that date.
+[context.deploy-preview]
+  command = "bundle exec jekyll build --future"
