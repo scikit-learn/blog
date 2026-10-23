@@ -37,7 +37,7 @@ postauthors:
   `KMeans`, and the MKL build of scikit-learn for linear models.
 - On a high-core-count server, put the cores in the outer loop
   (hyperparameter search, cross-validation). A single fit rarely uses them
-  well, and HistGradientBoosting can be up to 30x slower with all of them (a
+  well, and `HistGradientBoosting` can be up to 30x slower with all of them (a
   fix is under review).
 - We reported ~20 issues to other projects, and have fixes in progress in
   scikit-learn for `HistGradientBoosting`, categorical feature encoders,
@@ -123,7 +123,7 @@ merged. So it grew into its own project.
 
 ## How the benchmarks work
 
-The suite fits and predicts a fixed set of estimators:
+The suite fits and predicts with a restricted set of important estimators:
 
 - Linear models: `LinearRegression` (on synthetic data only), `Ridge` and
   `LogisticRegression`;
@@ -146,7 +146,7 @@ Each case runs in several software environments, all locked with
 - Builds of scikit-learn: the PyPI wheel, and conda-forge with MKL or with
   OpenBLAS (native "pthreads" threading backend or combined with LLVM OpenMP);
 - [scikit-learn-intelex](https://uxlfoundation.github.io/scikit-learn-intelex/latest/)
-  (sklearnex), on CPU and Intel GPU. It's an extension, initially developed
+  (`sklearnex`), on CPU and Intel GPU. It's an extension, initially developed
   by Intel, that replaces some scikit-learn estimators with accelerated
   implementations behind the same API, and falls back to scikit-learn when it
   doesn't support some parameters;
@@ -161,7 +161,7 @@ The two main machines are provided by Intel:
   Arc B390 GPU.
 
 
-The hard part is comparing fairly. By default, sklearnex random forests bin
+The hard part is comparing fairly. By default, `sklearnex` random forests bin
 the features, which scikit-learn doesn't implement yet. Solvers stop after
 different numbers of iterations. Some backends silently fall back to
 scikit-learn for unsupported parameters. Hiding or dropping these cases would bias the
@@ -174,7 +174,7 @@ The results are split in several dashboards, each varying one thing and
 keeping the rest fixed:
 
 - [Implementations](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/per_hardware.html):
-  scikit-learn vs sklearnex vs Python array API backends, on the same machine;
+  scikit-learn vs `sklearnex` vs Python array API backends, on the same machine;
 - [Builds](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/builds_comparison.html):
   the same scikit-learn code with different BLAS and OpenMP runtimes;
 - [Hardware](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/hardware_comparisons.html):
@@ -183,7 +183,7 @@ keeping the rest fixed:
   how the time of a single fit changes with the number of cores;
 - [Hyperparameter search scalability](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/hptuning_scalability.html):
   how a `RandomizedSearchCV` scales with its outer `n_jobs`;
-- [HistGradientBoosting breakdown](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/hgb_scaling.html):
+- [`HistGradientBoosting` breakdown](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/hgb_scaling.html):
   which phases of an HGB fit scale with threads and which don't.
 
 Every point can be hovered, and links to a row in a table with the exact
@@ -205,7 +205,7 @@ that preserving F-ordered data in `LogisticRegression` helps
 
 ### scikit-learn-intelex is the most consistently fast option on CPU
 
-sklearnex replaces some scikit-learn estimators with implementations from
+`sklearnex` replaces some scikit-learn estimators with implementations from
 Intel's oneDAL library, and keeps the scikit-learn API. Among everything we
 benchmarked, it's the option that speeds up the most cases on CPU. Tree-based
 models and `KMeans` gain the most: `KMeans` fits are ~3x faster and never
@@ -213,15 +213,15 @@ slower than with scikit-learn. Linear models gain less.
 
 It also makes much better use of big machines. With scikit-learn, random
 forests and extra trees fit ~2x to 4x faster on the 172-core server than on the
-laptop. With sklearnex, they fit ~10x to 15x faster.
+laptop. With `sklearnex`, they fit ~10x to 15x faster.
 
-Part of the tree speed-up comes from binning: sklearnex uses
+Part of the tree speed-up comes from binning: `sklearnex` uses
 `max_bins=256` by default, which roughly doubles or triples the fit speed-up.
 When both libraries use the same exact-split algorithm, the gap is much
 smaller. This is a strong argument for adding binning to scikit-learn's
 trees, see the last section.
 
-The caveat is that sklearnex only supports
+The caveat is that `sklearnex` only supports
 [a subset of estimators and parameters](https://uxlfoundation.github.io/scikit-learn-intelex/latest/algorithms.html),
 and doesn't always behave exactly like scikit-learn. Running it on real
 datasets, with missing values, categorical features and multiclass targets,
@@ -262,8 +262,16 @@ already merged or on the way for most of them.
 
 This is the cheapest speed-up in this post. With conda-forge's MKL build of
 scikit-learn, BLAS-bound linear model fits are commonly 1.3x to 2x faster
-than with the PyPI wheel. You don't need to change any code, only how you
-install scikit-learn:
+than with the PyPI wheel
+([Builds dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/builds_comparison.html#high_end_intel_xeon_server)):
+
+![Builds dashboard: speed-up of each conda-forge build over the scikit-learn PyPI wheel, for linear model fits on the Xeon server](/assets/images/posts_images/intel-benchmarks/builds_linear_xeon.png)
+
+*Builds dashboard on the Xeon server: speed-up of each conda-forge build over
+the PyPI wheel, for linear model fits. The MKL build (green) is faster on most
+cases.*
+
+You don't need to change any code, only how you install scikit-learn:
 
 ```bash
 conda install -c conda-forge scikit-learn "libblas=*=*mkl"
@@ -327,7 +335,7 @@ search, cross-validation) instead of counting on a single fit to use all the
 cores. On a 172-core server, that's the difference between using most of the
 machine and using a few percent of it.
 
-### HistGradientBoosting: the best number of threads depends on the data
+### `HistGradientBoosting`: the best number of threads depends on the data
 
 This is the most striking result. On the Xeon server, the best number of
 threads for a `HistGradientBoosting*` fit grows with the size of the data: 1
@@ -336,16 +344,17 @@ largest. Past that point, fits get slower: every workload is 2x to 30x slower
 on 128 or 172 threads than on its best thread count. And by default, HGB uses
 all the cores of the machine.
 
-![HistGradientBoosting fit time by phase vs number of threads, on year_prediction_msd and covtype, Xeon server](/assets/images/posts_images/intel-benchmarks/hgb_dashboard.png)
+![`HistGradientBoosting` fit time by phase vs number of threads, on `year_prediction_msd` and `covtype` for a Xeon server](/assets/images/posts_images/intel-benchmarks/hgb_dashboard.png)
 ![Legend: bin fit, bin transform, other / unmeasured, apply split, find split, compute hist](/assets/images/posts_images/intel-benchmarks/hgb_dashboard_legend.png)
 
-*HistGradientBoosting fit time on the Xeon server, split by phase, for two
+*`HistGradientBoosting` fit time on the Xeon server, split by phase, for two
 real datasets of ~500k samples. One can observe that fit duration decreases
 when going from 1 to 8 or 16 threads depending on the size of the problem and
 beyond that point thread scheduling overhead dominates to the point of
 degrading performance, especially on many-core hosts.*
 
-In short, an HGB fit typically runs thousands of small OpenMP parallel regions
+In short, a single HGB fit typically runs thousands of small OpenMP
+parallel regions
 whatever the size of the data, and with many threads, starting a region might cost
 more than the work inside it. That cost also depends on the OpenMP runtime and
 settings, which differ between builds. On the laptop, the conda-forge builds get worse slowdowns because
@@ -389,7 +398,7 @@ under CPU affinity.
 
 For the next months, our priorities are:
 
-1. Improve the scalability of HistGradientBoosting, and make the new tools
+1. Improve the scalability of `HistGradientBoosting`, and make the new tools
    developed for this available in `threadpoolctl`;
 2. Turn the findings into performance guidance in the scikit-learn
    documentation;
@@ -409,7 +418,7 @@ and [parallelism](https://scikit-learn.org/stable/computing/parallelism.html)
 guides of the scikit-learn documentation, with a section for Intel users,
 from laptops to data center servers.
 
-**HistGradientBoosting scalability.** See
+**`HistGradientBoosting` scalability.** See
 [#34935](https://github.com/scikit-learn/scikit-learn/pull/34935) above.
 
 **Encoders.** Profiling a typical tabular pipeline showed `OneHotEncoder` and
@@ -423,7 +432,7 @@ pandas string and categorical columns as `Series` instead of converting them to
 NumPy `object` arrays, and uses pandas' own factorization on them. It brings
 very large speed-ups for columns with the `category` dtype (up to 10x).
 
-**Trees.** Binning is the main reason sklearnex's random forests are faster,
+**Trees.** Binning is the main reason `sklearnex`'s random forests are faster,
 and the next big item is to add it to scikit-learn's `RandomForest*` and
 `ExtraTrees*`. In parallel, I'm experimenting with faster sorting for exact
 splits: SIMD sort and radix sort. Radix sort gives very promising results on
