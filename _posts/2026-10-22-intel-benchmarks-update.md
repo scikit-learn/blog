@@ -251,6 +251,10 @@ pixi add scikit-learn "libblas=*=*mkl"
 
 It's also possible to install an MKL build
 [with pip, from Intel's index](https://github.com/intel/optimization-zone/tree/main/software/scikit-learn#blas-and-lapack).
+If you stay on OpenBLAS, conda-forge ships it with either pthreads or OpenMP
+threading, and the
+[builds dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/builds_comparison.html)
+compares both.
 
 The PyPI build had a much bigger problem with [`LogisticRegression`][logisticregression], now fixed
 upstream. On the
