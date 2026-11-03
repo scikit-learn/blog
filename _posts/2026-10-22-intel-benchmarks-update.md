@@ -2,7 +2,7 @@
 #### Blog Post Template ####
 
 #### Post Information ####
-title: "Accelerating scikit-learn on Intel hardware: what the benchmarks found so far"
+title: "Accelerating scikit-learn: early findings of benchmarks on Intel hardware"
 date: October 22, 2026
 
 #### Post Category and Tags ####
@@ -30,46 +30,32 @@ postauthors:
 **TL;DR:**
 
 - We care about the performance and resource use of scikit-learn, and we're
-  glad that Probabl and Intel collaborate to improve them. As a first step,
-  we built a benchmark suite for scikit-learn on Intel hardware, and focused
-  on a few important estimators: linear models, tree-based models and
-  [`KMeans`][kmeans].
-  The [code](https://github.com/probabl-ai/scikit-learn-benchmarks) and the
-  [results](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/)
+  glad that Probabl and Intel collaborate to improve them. The first
+  [benchmark results](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/)
   are public.
-- The good news: these benchmarks are driving performance improvements in
-  scikit-learn and in other projects of the ecosystem (OpenBLAS, oneDAL,
-  PyTorch, joblib, loky). Once released, these improvements reach users
-  without any change on their side, and not only on Intel hardware.
-- If you run scikit-learn on a machine with many cores, the benchmark results
-  are worth a closer look. The main tip: set `n_jobs` on the outer loop
-  ([`GridSearchCV`][gridsearchcv], [`cross_validate`][cross_validate]...) rather than counting on a single fit
-  to use all the cores. A single fit rarely uses them well:
-  [`HistGradientBoosting`][hgb], for instance, uses all of them by default, and can
-  then be up to 30x slower than with fewer threads (a fix giving 2x to 10x
-  speed-ups on small and medium datasets is under review).
-- If you need the speed-up, and don't want to wait for these improvements to land in
-  scikit-learn, have a look at
-  [scikit-learn-intelex](https://uxlfoundation.github.io/scikit-learn-intelex/2026.2/),
-  an extension from the [UXL Foundation](https://uxlfoundation.org/), initially
-  developed by Intel, that swaps in faster implementations while keeping the
-  scikit-learn API. Among what we benchmarked, it's the fastest option today
-  for tree-based models. For linear models, the fastest is the
-  [MKL build of scikit-learn](#builds-matter-for-linear-models-pick-mkl),
-  which also becomes competitive for [`KMeans`][kmeans] with the speed-ups
-  coming in scikit-learn 1.10.
+- The good news: the improvements they drive reach users through new
+  releases, whether they land in scikit-learn (version 1.10 will have many of
+  them) or in other projects of the ecosystem (OpenBLAS, oneDAL, PyTorch,
+  joblib, loky), and not only on Intel hardware.
+- If you run scikit-learn on a machine with many cores, the benchmarks show
+  that it's often significantly better to use them in the outermost loop
+  ([`GridSearchCV`][gridsearchcv], [`cross_validate`][cross_validate]...)
+  rather than in a single model fit.
 
-In June, at VivaTech, Probabl and Intel
+The Probabl Labs team has been working on the performance of scikit-learn
+since April 2026, and this post is a first progress update. In June, at
+VivaTech, Probabl and Intel
 [announced a collaboration](https://blog.probabl.ai/intel-and-probabl-announce-collaboration-to-accelerate-scikit-learn-on-intel-hardware)
 to make scikit-learn faster on Intel hardware: Xeon CPUs, Intel GPUs, from
 high performance data center servers with hundreds of cores down to consumer
-laptops. We prioritized data center environments and use cases, where
-performance directly translates into cost. If a single fit uses only 4 of the 172 cores, the remaining 168 sit idle unless given other work, such as running multiple fits in parallel. Below, we demonstrate how to do this, and explain how we've optimised a single fit to use more cores.
+laptops.
 
-The Probabl Labs team has been working on these performance improvements
-since April 2026, and this post is a first progress update. Below, we explain
-what the benchmarks show, what we're now fixing because of them, and how they
-work.
+We prioritized data center environments and use cases, where performance
+directly translates into costs. For instance, if a single fit uses only 4 of
+the 172 cores, the remaining 168 sit idle unless given other work, such as
+running multiple fits in parallel. Below, we explain what the benchmarks
+show, how to make good use of many cores, what we're now fixing to make a
+single fit use more of them, and how the benchmarks work.
 
 > *"Enterprises run scikit-learn at scale while performance and cost directly
 > shape what they can build. Our work with Intel is about delivering
@@ -78,13 +64,22 @@ work.
 
 ## Where we are after six months
 
-The first outcome is a benchmark repository and its
-[dashboards](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/).
-Besides comparing implementations, builds and machines, they also check the
+The first goal was to set up benchmarks that tell us, reliably and
+repeatedly, where and how to improve performance. They live in a public
+repository, with
+[dashboards](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/)
+that compare implementations, builds and machines, and that also check the
 impact of scikit-learn PRs on Intel machines before they get merged.
 
-Running scikit-learn and its alternatives on real datasets also surfaced
-bugs and slowdowns in other projects. We reported ~20 issues: 11 to
+![Implementations dashboard: speed-up of each implementation vs the scikit-learn PyPI wheel, for linear model fits](/assets/images/posts_images/intel-benchmarks/linear_implem_dashboard.png)
+
+*Implementations dashboard on the laptop: speed-up of each implementation over
+the scikit-learn PyPI wheel, for linear model fits. Each point is one case
+(estimator, dataset, parameters).*
+
+These benchmarks have driven improvements well beyond scikit-learn. Running
+scikit-learn and its alternatives on real datasets surfaced bugs and
+slowdowns in other projects. We reported ~20 issues: 11 to
 scikit-learn-intelex and oneDAL, the others to PyTorch's XPU backend,
 OpenBLAS, joblib, loky, narwhals and conda-forge. Some came with a fix, like
 the three merged in oneDAL.
@@ -148,7 +143,20 @@ the same estimator:
 The OpenMP and BLAS threads aren't set through scikit-learn's API, but with
 environment variables (`OMP_NUM_THREADS`, `OPENBLAS_NUM_THREADS`,
 `MKL_NUM_THREADS`) or, from Python, with
-[threadpoolctl](https://github.com/joblib/threadpoolctl).
+[threadpoolctl](https://github.com/joblib/threadpoolctl):
+
+```python
+from threadpoolctl import threadpool_limits
+
+# joblib: n_jobs sets the number of workers of the outer loop
+search = GridSearchCV(RandomForestClassifier(), param_grid, n_jobs=8)
+
+# OpenMP and BLAS: an environment variable set before starting Python,
+#   OMP_NUM_THREADS=4 python train.py
+# or threadpoolctl, from Python
+with threadpool_limits(limits=4, user_api="openmp"):
+    HistGradientBoostingClassifier().fit(X, y)
+```
 
 Everything else runs on a single core: Python code, input validation, copies
 and most NumPy operations outside of BLAS, and the steps of an algorithm that
@@ -312,7 +320,27 @@ search.fit(X, y)
 ```
 
 On a 172-core server, that's the difference between using most of the
-machine and using a few percent of it.
+machine and using a few percent of it. You don't need to set the inner
+threads yourself: joblib caps the OpenMP and BLAS threads of each worker to
+`cpu_count() // n_jobs`, so the fits don't oversubscribe the machine.
+
+The
+[hyperparameter search scalability dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/hptuning_scalability.html)
+shows this on the Xeon server. With `n_jobs=1`, the search runs its fits one
+after the other, and each fit tries to use all 172 cores, with little
+success. With `n_jobs=172`, it runs 172 fits at once, one per core. For a
+[`LogisticRegression`][logisticregression] on a small dataset, the second way
+gets through the fits ~40x faster. A [`Ridge`][ridge] on 5 million rows gains
+less, ~8x, and little past ~40 workers.
+
+<figure class="half">
+  <img src="/assets/images/posts_images/intel-benchmarks/hptuning_lr_amazon.png" alt="Hyperparameter search on the Xeon server: time per fit vs outer n_jobs for LogisticRegression on amazon_employee_access">
+  <img src="/assets/images/posts_images/intel-benchmarks/hptuning_ridge_susy.png" alt="Hyperparameter search on the Xeon server: time per fit vs outer n_jobs for Ridge on susy">
+</figure>
+
+*Hyperparameter searches on the Xeon server: wall time of the search divided
+by its number of fits, vs the outer `n_jobs` (log scale), for three
+implementations. The marker size is the CPU load.*
 
 ### `HistGradientBoosting`: the optimal number of threads depends on the data
 
@@ -422,12 +450,6 @@ and a
 [breakdown of `HistGradientBoosting` fits](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/hgb_scaling.html)
 by phase. Every point can be hovered, and links to the exact timings, metrics
 and warnings.
-
-![Implementations dashboard: speed-up of each implementation vs the scikit-learn PyPI wheel, for linear model fits](/assets/images/posts_images/intel-benchmarks/linear_implem_dashboard.png)
-
-*Implementations dashboard on the laptop: speed-up of each implementation over
-the scikit-learn PyPI wheel, for linear model fits. Each point is one case
-(estimator, dataset, parameters).*
 
 The same machinery also benchmarks scikit-learn pull requests before they get
 merged. This is for instance how I measured the speed-up of the new k-means++
