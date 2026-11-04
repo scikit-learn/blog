@@ -34,7 +34,7 @@ postauthors:
   [benchmark results](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/)
   are public.
 - The good news: the improvements they drive reach users through new
-  releases, whether they land in scikit-learn (version 1.10 will have many of
+  releases, whether they land in scikit-learn (version 1.10 will have some of
   them) or in other projects of the ecosystem (OpenBLAS, oneDAL, PyTorch,
   joblib, loky), and not only on Intel hardware.
 - If you run scikit-learn on a machine with many cores, the benchmarks show
@@ -54,8 +54,8 @@ We prioritized data center environments and use cases, where performance
 directly translates into costs. For instance, if a single fit uses only 4 of
 the 172 cores, the remaining 168 sit idle unless given other work, such as
 running multiple fits in parallel. Below, we explain what the benchmarks
-show, how to make good use of many cores, what we're now fixing to make a
-single fit use more of them, and how the benchmarks work.
+show, how to make good use of many cores and what we're now fixing to make a
+single fit use more of them.
 
 > *"Enterprises run scikit-learn at scale while performance and cost directly
 > shape what they can build. Our work with Intel is about delivering
@@ -65,11 +65,11 @@ single fit use more of them, and how the benchmarks work.
 ## Where we are after six months
 
 The first goal was to set up benchmarks that tell us, reliably and
-repeatedly, where and how to improve performance. They live in a public
-repository, with
+repeatedly, where and how to improve performance. They live in a
+[public repository](https://github.com/probabl-ai/scikit-learn-benchmarks), with
 [dashboards](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/)
-that compare implementations, builds and machines, and that also check the
-impact of scikit-learn PRs on Intel machines before they get merged.
+that compare implementations, builds and machines. They can also check the
+impact of scikit-learn PRs before they get merged.
 
 ![Implementations dashboard: speed-up of each implementation vs the scikit-learn PyPI wheel, for linear model fits](/assets/images/posts_images/intel-benchmarks/linear_implem_dashboard.png)
 
@@ -118,19 +118,20 @@ it scales well as long as there is enough memory. Inner parallelism is
 harder: the threads of a single fit have to synchronize, often thousands of
 times per fit.
 
-**Three mechanisms.** scikit-learn relies on three of them, sometimes within
-the same estimator:
+**Three mechanisms.** scikit-learn runs work in parallel in three ways,
+sometimes within the same estimator:
 
 - [joblib](https://joblib.readthedocs.io/), controlled by the `n_jobs`
-  parameter, runs Python functions in parallel. Its default backend, loky,
-  uses separate processes: that's how [`GridSearchCV`][gridsearchcv] or
-  [`cross_validate`][cross_validate] fit their candidates and folds. Its
-  alternative 'threading' backend uses threads of the same process, which share the data
-  instead of copying it. But Python's global interpreter lock (GIL) runs
-  Python code in only one thread at a time, so threads (as used by the non-default 'threading' backend) only help when the
-  heavy work happens in compiled code, which can release the lock. That's the
-  case for the tree building of [`RandomForest*`][rf] and
-  [`ExtraTrees*`][et], written in Cython, which fit their trees in threads.
+  parameter, runs Python functions in parallel, with two backends:
+  - loky, the default, uses separate processes: that's how
+    [`GridSearchCV`][gridsearchcv] or [`cross_validate`][cross_validate] fit
+    their candidates and folds.
+  - 'threading' uses threads of the same process, which share the data
+    instead of copying it. But Python's global interpreter lock (GIL) runs
+    Python code in only one thread at a time, so threads only help when the
+    heavy work happens in compiled code, which can release the lock. That's
+    the case for the tree building of [`RandomForest*`][rf] and
+    [`ExtraTrees*`][et], written in Cython, which fit their trees in threads.
 - [OpenMP](https://www.openmp.org/) parallelizes loops in scikit-learn's own
   compiled code: [`HistGradientBoosting*`][hgb], [`KMeans`][kmeans], nearest
   neighbors and pairwise distances, among others. These estimators have no
@@ -173,7 +174,10 @@ cores, for instance, on a 16-core machine, 16 outer workers that each start 16
 OpenMP threads: 256 threads for 16 cores. The threads then compete for the
 cores, and the time goes into switching between them. To prevent it, joblib
 limits the OpenMP and BLAS threads of its worker processes to
-`cpu_count() // n_jobs`.
+`cpu_count() // n_jobs`. Starting with the next joblib release, it will also
+limit the threads that joblib itself starts inside a worker, like those of a
+random forest fit
+([joblib#1825](https://github.com/joblib/joblib/pull/1825)).
 
 ## Benchmark results and takeaways
 
@@ -192,10 +196,10 @@ scikit-learn API. Among everything we
 benchmarked, it's the option that speeds up the most cases on CPU. Tree-based
 models and [`KMeans`][kmeans] gain the most: `KMeans` fits are ~3x faster and never
 slower than with scikit-learn 1.9. Linear models gain less. For `KMeans`, the
-speed-ups coming in scikit-learn 1.10 make the MKL build competitive with
-`sklearnex` (see [What's next](#whats-next)).
+speed-ups coming in scikit-learn 1.10 make scikit-learn competitive with
+`sklearnex` up to ~16 to 24 cores (see [What's next](#whats-next)).
 
-It also makes much better use of big machines. With scikit-learn, random
+It usually makes much better use of big machines. With scikit-learn, random
 forests and extra trees fit ~2x to 4x faster on the 172-core server than on the
 laptop. With `sklearnex`, they fit ~10x to 15x faster.
 
@@ -212,7 +216,10 @@ datasets, with missing values, categorical features and multiclass targets,
 surfaced a number of bugs. I reported 11 issues to
 [scikit-learn-intelex](https://github.com/uxlfoundation/scikit-learn-intelex)
 and oneDAL, and sent fixes for some
-of the tree ones. The most impactful:
+of the tree ones.
+
+<details markdown="1">
+<summary>The most impactful issues</summary>
 
 - [`ExtraTreesRegressor`][extratreesregressor] stopped splitting too early
   ([oneDAL#3648](https://github.com/uxlfoundation/oneDAL/issues/3648), fixed
@@ -240,6 +247,8 @@ of the tree ones. The most impactful:
   ([sklearnex#3377](https://github.com/uxlfoundation/scikit-learn-intelex/issues/3377),
   with a fix proposed in [oneDAL#3899](https://github.com/uxlfoundation/oneDAL/pull/3899)).
 
+</details>
+
 The Intel team has been quick to respond on all of them and fixes are either
 already merged or on the way for most of them.
 
@@ -264,16 +273,16 @@ threading, and the
 [builds dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/builds_comparison.html)
 compares both.
 
-The PyPI build had a much bigger problem with [`LogisticRegression`][logisticregression], now fixed
-upstream. On the
-laptop, every conda-forge build fits it much faster than the PyPI one, up to
-~10x on some datasets. With PyPI, it even gets slower as soon as it runs on
-more than one logical CPU. The cause is the OpenBLAS version bundled with
-scipy 1.18: it wakes all its threads for the tiny triangular solves inside
-L-BFGS-B, and synchronizing them costs much more than the work itself. This
-was fixed in a more recent OpenBLAS, which scipy now ships
+The PyPI build had a much bigger problem with
+[`LogisticRegression`][logisticregression], a typical case of the
+overhead described [above](#a-short-primer-on-parallelism-in-scikit-learn).
+On the laptop, it fitted up to ~10x slower than with the conda-forge builds,
+and got slower as soon as it ran on more than one logical CPU: the OpenBLAS
+bundled with scipy 1.18 wakes all its threads for the tiny triangular solves
+inside L-BFGS-B, and synchronizing them costs much more than the work itself.
+A more recent OpenBLAS fixes it. It ships with scipy 2.0, and should be
+backported to 1.18.2
 ([scipy#26193](https://github.com/scipy/scipy/pull/26193#issuecomment-5886021070)).
-The fix is in scipy 2.0, and should be backported to 1.18.2.
 
 A smaller one, but in scikit-learn itself: [`ExtraTrees`][et] fits were ~25% slower
 on conda-forge than with PyPI. conda-forge compiles against the headers of an
@@ -285,10 +294,6 @@ a real function call
 with `x != x` and will be in the next release. Other conda-forge packages with
 `isnan` in a hot loop are probably affected too, so I
 [reported it to conda-forge](https://github.com/conda-forge/ctng-compiler-activation-feedstock/issues/108).
-
-This shows why it is valuable to run benchmarks for the same code installed
-from alternative packaging options. The same scikit-learn version can be 10x
-slower or faster depending on how it was installed.
 
 ### Big servers are built for many fits at once, not for one
 
