@@ -390,15 +390,16 @@ full story will get its own blog post.
 
 ### Other issues found and fixed along the way
 
-[An OpenBLAS crash](https://github.com/OpenMathLib/OpenBLAS/issues/5958) with
-[`KMeans`][kmeans] on the 344-logical-CPU server (fixed recently by
-[OpenBLAS#6105](https://github.com/OpenMathLib/OpenBLAS/pull/6105), which
-will ship in the next OpenBLAS release),
-[wrong physical core counts in loky](https://github.com/joblib/loky/issues/639)
-under CPU affinity, and, in PyTorch's Intel GPU backend, a
-[50x to 80x slowdown in `matmul`](https://github.com/intel/torch-xpu-ops/issues/4805)
-and
-[bad precision for float64 matrix-vector products](https://github.com/pytorch/pytorch/issues/182282).
+- [An OpenBLAS crash](https://github.com/OpenMathLib/OpenBLAS/issues/5958)
+  with [`KMeans`][kmeans] on the 344-logical-CPU server, fixed recently by
+  [OpenBLAS#6105](https://github.com/OpenMathLib/OpenBLAS/pull/6105), which
+  will ship in the next OpenBLAS release.
+- [Wrong physical core counts in loky](https://github.com/joblib/loky/issues/639)
+  under CPU affinity.
+- In PyTorch's Intel GPU backend, a
+  [50x to 80x slowdown in `matmul`](https://github.com/intel/torch-xpu-ops/issues/4805)
+  and
+  [bad precision for float64 matrix-vector products](https://github.com/pytorch/pytorch/issues/182282).
 
 ## How the benchmarks work
 
@@ -425,7 +426,7 @@ The suite fits and predicts with a restricted set of important estimators:
 
 They run on synthetic datasets covering a matrix of shapes, and on around 15
 public
-[real datasets](https://github.com/probabl-ai/scikit-learn-benchmarks/blob/main/configs/_real_datasets.py)
+[real datasets](https://github.com/probabl-ai/scikit-learn-benchmarks/blob/ecbfe88a4da603aa3deb2a14df394376c27412ab/configs/_real_datasets.py)
 (covtype, SUSY, Ames housing, KDD Cup 2009...) with realistic preprocessing
 and tuned hyperparameters. Each case runs in several environments, all locked
 with [pixi](https://pixi.sh):
