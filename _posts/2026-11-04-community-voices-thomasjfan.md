@@ -50,7 +50,7 @@ This month, I’m delighted to speak with Thomas J. Fan ([`@thomasjpfan`](https:
 **Thomas:** I work at [`Modal`](https://modal.com/), an AI infrastructure company, and I am based in NYC. I studied physics and mathematics, and I got into software engineering by contributing to open source projects. In 2018, I started contributing to scikit-learn by working on pandas interoperability and the `ColumnTransformer`, which lets you apply different preprocessing steps to different columns of a DataFrame. Through these contributions, I learned a lot about software engineering from the maintainers and the community. I have been a scikit-learn core contributor since 2019.
 
 GitHub: [`@thomasjpfan`](https://github.com/@thomasjpfan)
-Wesbite: ['thomasjpfan.com'](thomasjpfan.com)
+Wesbite: ['thomasjpfan.com'](https://thomasjpfan.com)
 LinkedIn: [`@thomasjpfan`](https://www.linkedin.com/in/thomasjpfan/)
 
 **Cailean:** Tell us about a feature in scikit-learn that you developed and are proud of. What is it and why does it matter for data scientists?
