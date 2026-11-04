@@ -298,9 +298,10 @@ with `x != x` and will be in the next release. Other conda-forge packages with
 ### Big servers are built for many fits at once, not for one
 
 A many-core server is built to run many things at once. Hyperparameter
-searches are where it pays off: with many candidates fitted in parallel, it
-gets through fits ~10x to 15x faster than the laptop, even for linear models.
-That's close to the ratio of physical cores (172 vs 16).
+searches are where it pays off: with many fits in parallel, the server gets
+through tree-based model fits ~10x to 15x faster than the laptop, close to
+the ratio of physical cores (172 vs 16). Linear models gain less, from ~2x to
+~12x depending on the dataset.
 
 A single fit is a different story: the 172-core server is often no faster
 than the 16-core laptop. [`Ridge`][ridge],
@@ -330,13 +331,14 @@ threads yourself: joblib caps the OpenMP and BLAS threads of each worker to
 `cpu_count() // n_jobs`, so the fits don't oversubscribe the machine.
 
 The
-[hyperparameter search scalability dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/hptuning_scalability.html)
+[hyperparameter search scalability dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/hptuning_scalability.html)
 shows this on the Xeon server. With `n_jobs=1`, the search runs its fits one
 after the other, and each fit tries to use all 172 cores, with little
 success. With `n_jobs=172`, it runs 172 fits at once, one per core. For a
 [`LogisticRegression`][logisticregression] on a small dataset, the second way
-gets through the fits ~40x faster. A [`Ridge`][ridge] on 5 million rows gains
-less, ~8x, and little past ~40 workers.
+gets through the fits ~40x faster. A [`Ridge`][ridge] on the 5 million rows
+of SUSY gains less, ~8x, and little past ~40 workers: its fits likely compete
+for memory bandwidth.
 
 <figure class="half">
   <img src="/assets/images/posts_images/intel-benchmarks/hptuning_lr_amazon.png" alt="Hyperparameter search on the Xeon server: time per fit vs outer n_jobs for LogisticRegression on amazon_employee_access">
@@ -450,7 +452,7 @@ The results are split into dashboards that each vary one thing:
 [builds](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/builds_comparison.html),
 [hardware](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/hardware_comparisons.html),
 [core-count scalability](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/models_scalability.html),
-[hyperparameter search scalability](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/hptuning_scalability.html),
+[hyperparameter search scalability](https://probabl-ai.github.io/scikit-learn-benchmarks/hptuning_scalability.html),
 and a
 [breakdown of `HistGradientBoosting` fits](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/hgb_scaling.html)
 by phase. Every point can be hovered, and links to the exact timings, metrics
