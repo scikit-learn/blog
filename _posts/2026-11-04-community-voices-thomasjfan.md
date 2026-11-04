@@ -31,7 +31,7 @@ postauthors:
   {% include postauthor.html %}
 </div>
 
-*This post was originally published on the [Probabl blog](https://blog.probabl.ai/community-voices-lucy-liu).*
+*This post was originally published on the [Probabl blog](https://probabl.ai/blog/community-voices-thomas-fan/).*
 
 scikit-learn is one of the most widely used tools in data science, counting over 200 million downloads every month. It is often referred to as the Swiss Army knife of machine learning thanks to the versatility of its toolbox, including over 200 estimators and essential workflow tools like train_test_split and StandardScaler.
 
