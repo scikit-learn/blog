@@ -501,7 +501,7 @@ and the next big item is to add it to scikit-learn's [`RandomForest*`][rf] and
 splits: SIMD sort and radix sort. Radix sort gives very promising results.
 I'm also [experimenting](https://github.com/cakedev0/scikit-learn/pull/19)
 with free-threaded Python: with a lower-overhead thread pool, forest fits on
-the 172-core server get ~2.5x faster (median) than with the GIL.
+the 172-core Xeon server get ~2.5x faster (median) than with the GIL.
 
 **Encoders.** Profiling a typical tabular pipeline showed [`OneHotEncoder`][onehotencoder] and
 [`OrdinalEncoder`][ordinalencoder] could take a surprising share of the time in some settings.
