@@ -199,7 +199,7 @@ slower than with scikit-learn 1.9. Linear models gain less. For `KMeans`, the
 speed-ups coming in scikit-learn 1.10 make scikit-learn competitive with
 `sklearnex` up to ~16 to 24 cores (see [What's next](#whats-next)).
 
-It usually makes much better use of big machines. With scikit-learn, random
+It usually makes much better use of many-core machines. With scikit-learn, random
 forests and extra trees fit ~2x to 4x faster on the 172-core server than on the
 laptop. With `sklearnex`, they fit ~10x to 15x faster.
 
@@ -295,7 +295,7 @@ with `x != x` and will be in the next release. Other conda-forge packages with
 `isnan` in a hot loop are probably affected too, so I
 [reported it to conda-forge](https://github.com/conda-forge/ctng-compiler-activation-feedstock/issues/108).
 
-### Big servers are built for many fits at once, not for one
+### Many-core servers are built for many fits at once, not for one
 
 A many-core server is built to run many things at once. Hyperparameter
 searches are where it pays off: with many fits in parallel, the server gets
@@ -535,13 +535,13 @@ work on how scikit-learn and its dependencies manage threads, in particular
 for free-threaded Python:
 [threadpoolctl 3.7.0](https://github.com/joblib/threadpoolctl/blob/master/CHANGES.md#370-2026-09-15)
 can now set thread-local limits for MKL and OpenBLAS, loky detects physical
-cores better on big machines, and the next joblib release will be
+cores better on many-core machines, and the next joblib release will be
 [thread-safe](https://github.com/joblib/joblib/pull/1834) and
 [protect against nested oversubscription](https://github.com/joblib/joblib/pull/1825).
 Python array API support also keeps progressing, with an Intel GPU CI in
 [scikit-learn-intel-workflow](https://github.com/probabl-ai/scikit-learn-intel-workflow).
 
-If you run scikit-learn on big machines, or see a result that doesn't match
+If you run scikit-learn on many-core machines, or see a result that doesn't match
 your experience, please
 [open an issue](https://github.com/probabl-ai/scikit-learn-benchmarks/issues).
 I'm particularly curious about workloads where a single fit on many cores
