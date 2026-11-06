@@ -14,7 +14,7 @@ tags:
   - Machine Learning
   - Community
 
-#### Featured Image  featured-image: jml.png ####
+featured-image: community-voices/community-voices-lucyliu.png
 
 #### Author Info ####
 # Can accomodate multiple authors
