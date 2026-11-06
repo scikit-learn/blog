@@ -31,7 +31,7 @@ postauthors:
 
 - We care about the performance and resource use of scikit-learn, and we're
   glad that Probabl and Intel collaborate to improve them. The first
-  [benchmark results](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/)
+  [benchmark results](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v2/)
   are public.
 - The good news: the improvements they drive reach users through new
   releases, whether they land in scikit-learn (version 1.10 will have some of
@@ -67,7 +67,7 @@ single fit use more of them.
 The first goal was to set up benchmarks that tell us, reliably and
 repeatedly, where and how to improve performance. They live in a
 [public repository](https://github.com/probabl-ai/scikit-learn-benchmarks), with
-[dashboards](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/)
+[dashboards](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v2/)
 that compare implementations, builds and machines. They can also check the
 impact of scikit-learn PRs before they get merged.
 
@@ -257,7 +257,7 @@ already merged or on the way for most of them.
 This is the cheapest speed-up in this post. With conda-forge's MKL build of
 scikit-learn, BLAS-bound linear model fits are commonly 1.3x to 2x faster
 than with the PyPI wheel
-([Builds dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/builds_comparison.html#high_end_intel_xeon_server)). You don't need to change
+([Builds dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v2/cross_comparison.html#baseline=sklearn-pypi__534824&target=hardware-534824&variants=non-pypi)). You don't need to change
 any code, only how you install scikit-learn:
 
 ```bash
@@ -270,7 +270,7 @@ It's also possible to install an MKL build
 [with pip, from Intel's index](https://github.com/intel/optimization-zone/tree/main/software/scikit-learn#blas-and-lapack).
 If you stay on OpenBLAS, conda-forge ships it with either pthreads or OpenMP
 threading, and the
-[builds dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/builds_comparison.html)
+[builds dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v2/cross_comparison.html#variants=non-pypi)
 compares both.
 
 The PyPI build had a much bigger problem with
@@ -309,7 +309,7 @@ than the 16-core laptop. [`Ridge`][ridge],
 scaling after a few cores. With the same number of cores, both machines fit
 these models in about the same time. With all of them, which is the default,
 the server can even be slower: up to ~3x for a `Ridge` fit in our
-[core-count scalability dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/models_scalability.html).
+[core-count scalability dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v2/models_scalability.html).
 Only random forests and extra trees, whose trees are built independently,
 fit faster on the server. Some of this is inherent: many algorithms are hard
 to split across many cores, and past a few dozen cores, memory bandwidth and
@@ -331,7 +331,7 @@ threads yourself: joblib caps the OpenMP and BLAS threads of each worker to
 `cpu_count() // n_jobs`, so the fits don't oversubscribe the machine.
 
 The
-[hyperparameter search scalability dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/hptuning_scalability.html)
+[hyperparameter search scalability dashboard](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v2/hptuning_scalability.html)
 shows this on the Xeon server. With `n_jobs=1`, the search runs its fits one
 after the other, and each fit tries to use all 172 cores, with little
 success. With `n_jobs=172`, it runs 172 fits at once, one per core. For a
@@ -449,13 +449,13 @@ metrics, setup, hardware and software stack, and the dashboards flag every
 case where the setup or the metrics differ from the baseline.
 
 The results are split into dashboards that each vary one thing:
-[implementations](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/per_hardware.html),
-[builds](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/builds_comparison.html),
-[hardware](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/hardware_comparisons.html),
-[core-count scalability](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/models_scalability.html),
-[hyperparameter search scalability](https://probabl-ai.github.io/scikit-learn-benchmarks/hptuning_scalability.html),
+[implementations](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v2/cross_comparison.html),
+[builds](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v2/cross_comparison.html#variants=non-pypi),
+[hardware](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v2/cross_comparison.html#target=software-sklearn-pypi),
+[core-count scalability](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v2/models_scalability.html),
+[hyperparameter search scalability](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v2/hptuning_scalability.html),
 and a
-[breakdown of `HistGradientBoosting` fits](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v1.rc/hgb_scaling.html)
+[breakdown of `HistGradientBoosting` fits](https://probabl-ai.github.io/scikit-learn-benchmarks/snapshots/v2/hgb_scaling.html)
 by phase. Every point can be hovered, and links to the exact timings, metrics
 and warnings.
 
