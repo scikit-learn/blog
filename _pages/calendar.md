@@ -5,10 +5,6 @@ layout: single
 author_profile: true
 ---
 
-The scikit-learn schedule is generally as follows:  
-- Monthly meetings on the last Friday of the month
-- Bi-weekly (every two weeks) office hours on Mondays
-
 The project [Code of Conduct](https://www.python.org/psf/conduct/) applies to all spaces.
 
 The community calendar below can be manually added to your personal calendar by clicking on the “+” button in the bottom right corner.
