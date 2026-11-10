@@ -1,25 +1,33 @@
-// ---
-// # Only the main Sass file needs front matter (the dashes are enough)
-// ---
+---
+# Only the main Sass file needs front matter (the dashes are enough).
+# Without it, Jekyll copies this file as-is and none of the rules below apply.
+---
 
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+// Body text size, matching Substack: 17px on phones, 19px from tablets up.
+// The theme grows it up to 22px on wide screens, which reads too large.
 html {
-  font-size: 15px; // default font size
+  font-size: 17px; // default font size
 
   @include breakpoint($medium) {
-    font-size: 17px; // medium
+    font-size: 19px; // medium and up
   }
+}
 
+// Fixed 728px text column, matching Substack. On large screens the theme
+// keeps a right-hand column empty for a table of contents, even when the
+// post has none; give that space back to the text.
+.page {
   @include breakpoint($large) {
-    font-size: 19px; // large
+    padding-right: 0;
   }
 
-  @include breakpoint($x-large) {
-    font-size: 21px; // extra large
+  .page__inner-wrap {
+    max-width: 728px;
   }
 }
 
